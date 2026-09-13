@@ -26,6 +26,7 @@ vendor/Infinity/
 **/mpl-cache/
 **/.cache/
 reports/*
+!reports/README.md
 !reports/annotation_responses/
 !reports/t5_source.json
 !reports/infinity_scale_index.patch

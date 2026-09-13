@@ -120,6 +120,8 @@ Qwen3-VL-8B-Instruct 仅用文本进行分组，每批 8 条；共享规则在 [
 
 ## 文件结构
 
+各阶段结果、验证文件和本地运行记录的入口见 [reports 分类索引](reports/README.md)。目录保持原路径，以兼容已有脚本。
+
 ```text
 .
 ├── README.md
