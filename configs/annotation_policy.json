@@ -1,0 +1,13 @@
+{
+  "version": "csfm50_semantics_v2",
+  "scope": "Current controlled 300-prompt dataset; not a universal semantic ontology",
+  "labels": ["object", "color", "shape", "texture", "count", "spatial_relation"],
+  "explicit_words": {
+    "color": ["red", "orange", "yellow", "green", "blue", "purple", "pink", "black", "white", "brown", "gray", "grey", "silver", "golden", "gold", "beige", "navy", "turquoise", "cyan", "magenta"],
+    "shape": ["round", "oval", "square", "rectangular", "triangular", "circular", "spherical", "cylindrical"],
+    "texture": ["striped", "checkered", "polka-dotted", "rough", "smooth", "plain", "dotted"],
+    "count": ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "both"]
+  },
+  "always_other": ["wooden", "stone", "soft", "softly", "distant", "grassy", "quiet", "low", "tall", "narrow", "daylight", "light", "background", "scene", "surface", "outline", "objects", "object", "item", "container", "dark", "pale", "cloudy", "tiled"],
+  "other_phrases": ["under soft daylight", "in soft daylight", "under soft light", "from the front"]
+}

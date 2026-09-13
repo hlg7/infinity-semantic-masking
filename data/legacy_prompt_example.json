@@ -1,0 +1,28 @@
+[
+  {
+    "id": "object_001",
+    "prompt": "A dog is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+    "semantic": "object",
+    "spans": [
+      [
+        2,
+        5
+      ]
+    ],
+    "target_text": "dog",
+    "target_object": "dog",
+    "subtype": "identity",
+    "scene_family": "scene_00",
+    "expected": "A dog is present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001434",
+      "path": "n02099429/ILSVRC2012_val_00001434.JPEG"
+    },
+    "adaptation_notes": "\u4fdd\u7559\u6765\u6e90\u573a\u666f\uff0c\u4eba\u5de5\u66ff\u6362\u4e3b\u4f53\uff1b\u4e0d\u662f\u539f\u59cb\u56fe\u7247\u6807\u6ce8\u3002",
+    "word_count": 21,
+    "prompt_id": "prompt_001"
+  }
+]

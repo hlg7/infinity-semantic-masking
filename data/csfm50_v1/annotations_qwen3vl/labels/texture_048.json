@@ -1,0 +1,48 @@
+{
+  "id": "texture_048",
+  "labels": [
+    "other",
+    "texture",
+    "object",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "spatial_relation",
+    "other",
+    "other",
+    "object",
+    "other",
+    "other",
+    "other",
+    "other",
+    "object",
+    "other",
+    "other",
+    "other",
+    "object",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other"
+  ],
+  "origin": "batch_model_attempt1",
+  "corrections": [],
+  "index_repairs": [
+    {
+      "text": "wall",
+      "model_index": 17,
+      "resolved_index": 18
+    },
+    {
+      "text": "path",
+      "model_index": 21,
+      "resolved_index": 22
+    }
+  ],
+  "policy_version": "csfm50_semantics_v2"
+}

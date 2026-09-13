@@ -1,0 +1,92 @@
+[
+  {
+    "id": "scene01",
+    "prompt": "A red round smooth plate is to the left of a blue striped cup, with two spoons.",
+    "segments": [
+      {
+        "text": "A ",
+        "semantic": "other"
+      },
+      {
+        "text": "red",
+        "semantic": "color"
+      },
+      {
+        "text": " ",
+        "semantic": "other"
+      },
+      {
+        "text": "round",
+        "semantic": "shape"
+      },
+      {
+        "text": " ",
+        "semantic": "other"
+      },
+      {
+        "text": "smooth",
+        "semantic": "texture"
+      },
+      {
+        "text": " ",
+        "semantic": "other"
+      },
+      {
+        "text": "plate",
+        "semantic": "object"
+      },
+      {
+        "text": " is ",
+        "semantic": "other"
+      },
+      {
+        "text": "to the left of",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " a ",
+        "semantic": "other"
+      },
+      {
+        "text": "blue",
+        "semantic": "color"
+      },
+      {
+        "text": " ",
+        "semantic": "other"
+      },
+      {
+        "text": "striped",
+        "semantic": "texture"
+      },
+      {
+        "text": " ",
+        "semantic": "other"
+      },
+      {
+        "text": "cup",
+        "semantic": "object"
+      },
+      {
+        "text": ", with ",
+        "semantic": "other"
+      },
+      {
+        "text": "two",
+        "semantic": "count"
+      },
+      {
+        "text": " ",
+        "semantic": "other"
+      },
+      {
+        "text": "spoons",
+        "semantic": "object"
+      },
+      {
+        "text": ".",
+        "semantic": "other"
+      }
+    ]
+  }
+]

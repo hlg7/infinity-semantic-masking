@@ -1,0 +1,3 @@
+{
+  "text": "{\n  \"object\": [\n    [1, \"mug\"],\n    [8, \"coffee\"],\n    [9, \"pot\"],\n    [28, \"chairs\"],\n    [33, \"window\"],\n    [23, \"cafe\"],\n    [24, \"table\"]\n  ],\n  \"color\": [],\n  \"shape\": [],\n  \"texture\": [],\n  \"count\": [],\n  \"spatial_relation\": [\n    [3, \"to\"],\n    [4, \"the\"],\n    [5, \"left\"],\n    [6, \"of\"],\n    [20, \"on\"],\n    [35, \"in\"],\n    [36, \"the\"]\n  ]\n}"
+}

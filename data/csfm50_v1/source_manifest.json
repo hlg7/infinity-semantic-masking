@@ -1,0 +1,13 @@
+{
+  "source_path": "star_baseline/data/csfm50_v1/prompts.json (historical source; not a runtime dependency)",
+  "sha256": "127b7d8e6b34c1577c61e52513d4eaff4119d141359aba0b9f4140a388e8de9b",
+  "counts": {
+    "object": 50,
+    "color": 50,
+    "shape": 50,
+    "texture": 50,
+    "count": 50,
+    "spatial_relation": 50
+  },
+  "status": "completed: 300 semantic annotations, T5 validation, 40-image pilot and 7800-image full experiment"
+}

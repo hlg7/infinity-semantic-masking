@@ -1,0 +1,6 @@
+{
+  "infinity_repo": "FoundationVision/Infinity",
+  "revision": "e7108923249fb3c836ebfbc3f4b4d318d6131293",
+  "files": ["infinity_2b_reg.pth", "infinity_vae_d32reg.pth"],
+  "t5_revision": "7d6315df2c2fb742f0f5b556879d730926ca9001"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "{\n  \"object\": [\n    [1, \"notebook\"],\n    [5, \"pencil\"],\n    [6, \"case\"],\n    [10, \"objects\"],\n    [19, \"office\"],\n    [20, \"desk\"],\n    [25, \"computer\"],\n    [26, \"monitor\"],\n    [29, \"plain\"],\n    [30, \"wall\"]\n  ],\n  \"color\": [\n    [24, \"dark\"]\n  ],\n  \"shape\": [],\n  \"texture\": [\n    [29, \"plain\"]\n  ],\n  \"count\": [],\n  \"spatial_relation\": [\n    [3, \"behind\"],\n    [17, \"on\"],\n    [32, \"in\"]\n  ]\n}"
+}

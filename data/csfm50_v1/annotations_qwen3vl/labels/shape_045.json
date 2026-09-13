@@ -1,0 +1,46 @@
+{
+  "id": "shape_045",
+  "labels": [
+    "other",
+    "shape",
+    "object",
+    "object",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "spatial_relation",
+    "other",
+    "object",
+    "object",
+    "other",
+    "other",
+    "other",
+    "other",
+    "object",
+    "object",
+    "other",
+    "other",
+    "texture",
+    "object",
+    "other",
+    "spatial_relation",
+    "other",
+    "other",
+    "other"
+  ],
+  "origin": "batch_model_attempt2",
+  "corrections": [],
+  "index_repairs": [
+    {
+      "text": "wall",
+      "model_index": 24,
+      "resolved_index": 25
+    }
+  ],
+  "policy_version": "csfm50_semantics_v2"
+}

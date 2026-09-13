@@ -1,0 +1,50 @@
+{
+  "id": "color_008__s42__color__full_mask--color_008__check",
+  "input_digest": "d6cde85cb4cfdce908efb5b041fe756ffdad338b177e189924bb7751a3a2fa97",
+  "image_sha256": "c0a7b71ee526b48d75ccdd907fc2235cbde307e8d734298a756a62bbab344fa8",
+  "semantic": "color",
+  "subtype": "color",
+  "tool": "qwen_vlm",
+  "metadata": {
+    "backbone": "Infinity",
+    "prompt_id": "color_008",
+    "check_id": "color_008__check",
+    "seed": 42,
+    "condition": "full_mask",
+    "aliases": [
+      {
+        "direction": "prefix",
+        "boundary": 13
+      },
+      {
+        "direction": "suffix",
+        "boundary": 0
+      }
+    ],
+    "masked_scales": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  "baseline_id": "color_008__s42__baseline--color_008__check",
+  "status": "evaluation_error",
+  "success": null,
+  "absolute_error": null,
+  "error": "Invalid answer category",
+  "raw": "{\n  \"identity_status\": \"present\",\n  \"status\": \"ok\",\n  \"answer\": \"silver\",\n  \"evidence\": \"The coffee pot has a metallic, reflective surface that appears silver in color, ignoring small decorations, highlights, and shadows.\"\n}",
+  "attempts": [
+    "{\n  \"identity_status\": \"present\",\n  \"status\": \"ok\",\n  \"answer\": \"silver\",\n  \"evidence\": \"The coffee pot has a metallic, reflective surface that appears silver in color, ignoring small decorations, highlights, and shadows.\"\n}",
+    "{\n  \"identity_status\": \"present\",\n  \"status\": \"ok\",\n  \"answer\": \"silver\",\n  \"evidence\": \"The coffee pot has a metallic, reflective surface that appears silver in color, ignoring small decorations, highlights, and shadows.\"\n}"
+  ]
+}

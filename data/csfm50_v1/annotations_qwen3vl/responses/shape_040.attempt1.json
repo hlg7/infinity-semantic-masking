@@ -1,0 +1,3 @@
+{
+  "text": "{\n  \"object\": [\n    [2, \"floor\"],\n    [3, \"mat\"],\n    [14, \"tiled\"],\n    [15, \"floor\"],\n    [19, \"plain\"],\n    [20, \"wall\"],\n    [30, \"window\"]\n  ],\n  \"color\": [],\n  \"shape\": [\n    [1, \"oval\"]\n  ],\n  \"texture\": [\n    [19, \"plain\"]\n  ],\n  \"count\": [],\n  \"spatial_relation\": [\n    [12, \"on\"],\n    [21, \"behind\"],\n    [28, \"from\"]\n  ]\n}"
+}

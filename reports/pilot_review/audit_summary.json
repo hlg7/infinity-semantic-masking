@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "images_hash_verified": 40,
+  "layer_scale_records_verified": 16640,
+  "score_rows_verified": 40,
+  "curve_rows_recomputed": 96,
+  "diagnostics_passed": 20,
+  "score_status_counts": {
+    "correct": 27,
+    "incorrect": 13
+  },
+  "baseline_correct": 8,
+  "targets": {
+    "object_001": [
+      "dog",
+      "garden",
+      "wall",
+      "trees"
+    ],
+    "color_001": [
+      "red"
+    ],
+    "shape_001": [
+      "round"
+    ],
+    "texture_001": [
+      "striped"
+    ],
+    "texture_031": [
+      "rough"
+    ],
+    "count_001": [
+      "Two"
+    ],
+    "spatial_relation_001": [
+      "to the left of",
+      "on",
+      "in the"
+    ],
+    "spatial_relation_021": [
+      "above",
+      "in",
+      "along",
+      "through"
+    ],
+    "spatial_relation_031": [
+      "in front of",
+      "on",
+      "in the"
+    ],
+    "spatial_relation_041": [
+      "inside",
+      "beside",
+      "beneath"
+    ]
+  }
+}

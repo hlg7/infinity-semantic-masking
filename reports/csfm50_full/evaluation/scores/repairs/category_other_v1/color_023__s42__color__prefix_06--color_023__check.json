@@ -1,0 +1,39 @@
+{
+  "id": "color_023__s42__color__prefix_06--color_023__check",
+  "input_digest": "0d52e9e89a8caa5c407dfd9dc033203fb7911f18f0a119f4ca91d81e1a0d2ff4",
+  "image_sha256": "f5debaf5b57879c8933c3e42d3d555e787b18e6d0884e0909e62c6c1478863d2",
+  "semantic": "color",
+  "subtype": "color",
+  "tool": "qwen_vlm",
+  "metadata": {
+    "backbone": "Infinity",
+    "prompt_id": "color_023",
+    "check_id": "color_023__check",
+    "seed": 42,
+    "condition": "prefix_06",
+    "aliases": [
+      {
+        "direction": "prefix",
+        "boundary": 6
+      }
+    ],
+    "masked_scales": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "baseline_id": "color_023__s42__baseline--color_023__check",
+  "status": "evaluation_error",
+  "success": null,
+  "absolute_error": null,
+  "error": "Invalid answer category",
+  "raw": "{\n  \"identity_status\": \"present\",\n  \"status\": \"ok\",\n  \"answer\": \"gray\",\n  \"evidence\": \"The main surface of the shoe is a solid, neutral gray color, ignoring small decorations, highlights, and shadows.\"\n}",
+  "attempts": [
+    "{\n  \"identity_status\": \"present\",\n  \"status\": \"ok\",\n  \"answer\": \"gray\",\n  \"evidence\": \"The main surface of the shoe is a solid, neutral gray color, ignoring small decorations, highlights, and shadows.\"\n}",
+    "{\n  \"identity_status\": \"present\",\n  \"status\": \"ok\",\n  \"answer\": \"gray\",\n  \"evidence\": \"The main surface of the shoe is a solid, neutral gray color, ignoring small decorations, highlights, and shadows.\"\n}"
+  ]
+}

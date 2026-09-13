@@ -1,0 +1,3 @@
+{
+  "text": "{\n  \"object\": [\n    [2, \"road\"],\n    [3, \"sign\"],\n    [9, \"desert\"],\n    [10, \"road\"],\n    [14, \"shrubs\"],\n    [18, \"mountains\"],\n    [23, \"sky\"]\n  ],\n  \"color\": [\n    [1, \"white\"],\n    [21, \"pale\"]\n  ],\n  \"shape\": [],\n  \"texture\": [],\n  \"count\": [],\n  \"spatial_relation\": [\n    [7, \"beside\"],\n    [15, \"nearby\"],\n    [19, \"under\"]\n  ]\n}"
+}

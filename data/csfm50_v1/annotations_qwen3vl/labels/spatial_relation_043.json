@@ -1,0 +1,50 @@
+{
+  "id": "spatial_relation_043",
+  "labels": [
+    "other",
+    "other",
+    "object",
+    "other",
+    "spatial_relation",
+    "other",
+    "other",
+    "object",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "spatial_relation",
+    "other",
+    "object",
+    "object",
+    "other",
+    "other",
+    "other",
+    "other",
+    "object",
+    "object",
+    "other",
+    "other",
+    "other",
+    "object",
+    "other",
+    "spatial_relation",
+    "other",
+    "other",
+    "other"
+  ],
+  "origin": "batch_model_attempt2",
+  "corrections": [],
+  "index_repairs": [
+    {
+      "text": "wall",
+      "model_index": 28,
+      "resolved_index": 29
+    }
+  ],
+  "policy_version": "csfm50_semantics_v2"
+}

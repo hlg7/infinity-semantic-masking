@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "score_rows_verified": 7800,
+  "curve_rows_recomputed": 448,
+  "baseline_correct": {
+    "object": 48,
+    "color": 47,
+    "shape": 29,
+    "texture": 44,
+    "count": 28,
+    "spatial_relation": 23
+  },
+  "status_counts": {
+    "correct": 3842,
+    "incorrect": 3569,
+    "missing": 190,
+    "ambiguous": 199
+  },
+  "category_normalizations": 6
+}

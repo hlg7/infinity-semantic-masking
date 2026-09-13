@@ -1,0 +1,48 @@
+{
+  "id": "texture_001",
+  "labels": [
+    "other",
+    "texture",
+    "object",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "spatial_relation",
+    "other",
+    "other",
+    "object",
+    "other",
+    "spatial_relation",
+    "other",
+    "other",
+    "object",
+    "spatial_relation",
+    "other",
+    "other",
+    "other",
+    "other",
+    "spatial_relation",
+    "other",
+    "object",
+    "other"
+  ],
+  "origin": "/workspace/infinity_semantic_experiment/data/csfm50_v1/annotations_qwen3vl/responses/texture_001.attempt2.json",
+  "corrections": [],
+  "index_repairs": [
+    {
+      "text": "cloth",
+      "model_index": 17,
+      "resolved_index": 18
+    },
+    {
+      "text": "nearby",
+      "model_index": 20,
+      "resolved_index": 19
+    }
+  ],
+  "policy_version": "csfm50_semantics_v2"
+}

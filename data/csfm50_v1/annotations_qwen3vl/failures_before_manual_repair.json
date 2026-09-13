@@ -1,0 +1,58 @@
+[
+  {
+    "id": "object_015",
+    "error": "Known target word 'reading' must be object"
+  },
+  {
+    "id": "shape_015",
+    "error": "Duplicate index 24"
+  },
+  {
+    "id": "shape_035",
+    "error": "Duplicate index 24"
+  },
+  {
+    "id": "shape_039",
+    "error": "Duplicate index 1"
+  },
+  {
+    "id": "count_014",
+    "error": "Duplicate index 23"
+  },
+  {
+    "id": "spatial_relation_003",
+    "error": "Duplicate index 33"
+  },
+  {
+    "id": "spatial_relation_008",
+    "error": "Duplicate index 33"
+  },
+  {
+    "id": "spatial_relation_009",
+    "error": "Duplicate index 32"
+  },
+  {
+    "id": "spatial_relation_013",
+    "error": "Duplicate index 33"
+  },
+  {
+    "id": "spatial_relation_018",
+    "error": "Duplicate index 33"
+  },
+  {
+    "id": "spatial_relation_019",
+    "error": "Duplicate index 32"
+  },
+  {
+    "id": "spatial_relation_034",
+    "error": "Duplicate index 31"
+  },
+  {
+    "id": "spatial_relation_039",
+    "error": "Duplicate index 29"
+  },
+  {
+    "id": "spatial_relation_048",
+    "error": "Duplicate index 28"
+  }
+]

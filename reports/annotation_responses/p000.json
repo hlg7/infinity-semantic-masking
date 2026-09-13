@@ -1,0 +1,23 @@
+{
+  "delayTime": 56,
+  "executionTime": 920,
+  "id": "sync-04fbc6ad-3f6d-447a-a6f9-a910ea4c6e37-u2",
+  "output": [
+    {
+      "choices": [
+        {
+          "tokens": [
+            "<think>\n\n</think>\n\n{\"labels\":[\"other\",\"object\",\"other\",\"spatial_relation\",\"other\",\"color\",\"object\",\"other\"]}"
+          ]
+        }
+      ],
+      "cost": 0.0051,
+      "usage": {
+        "input": 484,
+        "output": 26
+      }
+    }
+  ],
+  "status": "COMPLETED",
+  "workerId": "26caj1tbyyahnc"
+}

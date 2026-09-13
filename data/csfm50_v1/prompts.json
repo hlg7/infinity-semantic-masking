@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "object_001",
+    "prompt": "A dog is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_002",
+    "prompt": "A cat is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_003",
+    "prompt": "A bicycle is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_004",
+    "prompt": "A bench is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_005",
+    "prompt": "A wheelbarrow is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_006",
+    "prompt": "A mug is clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_007",
+    "prompt": "A teapot is clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_008",
+    "prompt": "A coffee pot is clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_009",
+    "prompt": "A sugar bowl is clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_010",
+    "prompt": "A tray is clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_011",
+    "prompt": "A chair is clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_012",
+    "prompt": "A table is clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_013",
+    "prompt": "A bookcase is clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_014",
+    "prompt": "A ladder is clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_015",
+    "prompt": "A reading lamp is clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_016",
+    "prompt": "A water bottle is clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_017",
+    "prompt": "A backpack is clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_018",
+    "prompt": "An umbrella is clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_019",
+    "prompt": "A watering can is clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_020",
+    "prompt": "A basket is clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_021",
+    "prompt": "A remote control is clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_022",
+    "prompt": "A suitcase is clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_023",
+    "prompt": "A shoe is clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_024",
+    "prompt": "A helmet is clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_025",
+    "prompt": "A toy car is clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_026",
+    "prompt": "A hourglass is clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_027",
+    "prompt": "A notebook is clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_028",
+    "prompt": "A stapler is clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_029",
+    "prompt": "A pencil case is clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_030",
+    "prompt": "A calculator is clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_031",
+    "prompt": "A scarf is clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_032",
+    "prompt": "A hat is clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_033",
+    "prompt": "A shirt is clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_034",
+    "prompt": "A glove is clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_035",
+    "prompt": "A handbag is clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_036",
+    "prompt": "A plate is clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_037",
+    "prompt": "A bowl is clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_038",
+    "prompt": "A glass jar is clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_039",
+    "prompt": "A kettle is clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_040",
+    "prompt": "A bread loaf is clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_041",
+    "prompt": "A car is clearly visible beside a desert road, with dry shrubs nearby and distant mountains under a pale cloudy sky.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_042",
+    "prompt": "A truck is clearly visible beside a desert road, with dry shrubs nearby and distant mountains under a pale cloudy sky.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_043",
+    "prompt": "A motorcycle is clearly visible beside a desert road, with dry shrubs nearby and distant mountains under a pale cloudy sky.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_044",
+    "prompt": "A road sign is clearly visible beside a desert road, with dry shrubs nearby and distant mountains under a pale cloudy sky.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_045",
+    "prompt": "A barrel is clearly visible beside a desert road, with dry shrubs nearby and distant mountains under a pale cloudy sky.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_046",
+    "prompt": "A vase is clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_047",
+    "prompt": "A flowerpot is clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_048",
+    "prompt": "A statue is clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_049",
+    "prompt": "A fountain is clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "object_050",
+    "prompt": "A stool is clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "object"
+  },
+  {
+    "id": "color_001",
+    "prompt": "A red dog is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_002",
+    "prompt": "A green cat is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_003",
+    "prompt": "A purple bicycle is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_004",
+    "prompt": "A pink bench is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_005",
+    "prompt": "A black wheelbarrow is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_006",
+    "prompt": "A red mug is clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_007",
+    "prompt": "A green teapot is clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_008",
+    "prompt": "A purple coffee pot is clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_009",
+    "prompt": "A pink sugar bowl is clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_010",
+    "prompt": "A black tray is clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_011",
+    "prompt": "A red chair is clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_012",
+    "prompt": "A green table is clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_013",
+    "prompt": "A purple bookcase is clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_014",
+    "prompt": "A pink ladder is clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_015",
+    "prompt": "A black reading lamp is clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_016",
+    "prompt": "A red water bottle is clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_017",
+    "prompt": "A green backpack is clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_018",
+    "prompt": "A purple umbrella is clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_019",
+    "prompt": "A pink watering can is clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_020",
+    "prompt": "A black basket is clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_021",
+    "prompt": "A red remote control is clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_022",
+    "prompt": "A green suitcase is clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_023",
+    "prompt": "A purple shoe is clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_024",
+    "prompt": "A pink helmet is clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_025",
+    "prompt": "A black toy car is clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_026",
+    "prompt": "A blue hourglass is clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_027",
+    "prompt": "A yellow notebook is clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_028",
+    "prompt": "An orange stapler is clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_029",
+    "prompt": "A white pencil case is clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_030",
+    "prompt": "A brown calculator is clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_031",
+    "prompt": "A blue scarf is clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_032",
+    "prompt": "A yellow hat is clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_033",
+    "prompt": "An orange shirt is clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_034",
+    "prompt": "A white glove is clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_035",
+    "prompt": "A brown handbag is clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_036",
+    "prompt": "A blue plate is clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_037",
+    "prompt": "A yellow bowl is clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_038",
+    "prompt": "An orange glass jar is clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_039",
+    "prompt": "A white kettle is clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_040",
+    "prompt": "A brown bread loaf is clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_041",
+    "prompt": "A blue car is clearly visible beside a desert road, with dry shrubs nearby and distant mountains under a pale cloudy sky.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_042",
+    "prompt": "A yellow truck is clearly visible beside a desert road, with dry shrubs nearby and distant mountains under a pale cloudy sky.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_043",
+    "prompt": "An orange motorcycle is clearly visible beside a desert road, with dry shrubs nearby and distant mountains under a pale cloudy sky.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_044",
+    "prompt": "A white road sign is clearly visible beside a desert road, with dry shrubs nearby and distant mountains under a pale cloudy sky.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_045",
+    "prompt": "A brown barrel is clearly visible beside a desert road, with dry shrubs nearby and distant mountains under a pale cloudy sky.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_046",
+    "prompt": "A blue vase is clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_047",
+    "prompt": "A yellow flowerpot is clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_048",
+    "prompt": "An orange statue is clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_049",
+    "prompt": "A white fountain is clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "color_050",
+    "prompt": "A brown stool is clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "color"
+  },
+  {
+    "id": "shape_001",
+    "prompt": "A round plate is shown with its outer outline clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_002",
+    "prompt": "A round mirror is shown with its outer outline clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_003",
+    "prompt": "A round tray is shown with its outer outline clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_004",
+    "prompt": "A round rug is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_005",
+    "prompt": "A round picture frame is shown with its outer outline clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_006",
+    "prompt": "A round tabletop is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_007",
+    "prompt": "A round cushion is shown with its outer outline clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_008",
+    "prompt": "A round wall clock is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_009",
+    "prompt": "A round sign is shown with its outer outline clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_010",
+    "prompt": "A round floor mat is shown with its outer outline clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_011",
+    "prompt": "A square plate is shown with its outer outline clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_012",
+    "prompt": "A square mirror is shown with its outer outline clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_013",
+    "prompt": "A square tray is shown with its outer outline clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_014",
+    "prompt": "A square rug is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_015",
+    "prompt": "A square picture frame is shown with its outer outline clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_016",
+    "prompt": "A square tabletop is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_017",
+    "prompt": "A square cushion is shown with its outer outline clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_018",
+    "prompt": "A square wall clock is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_019",
+    "prompt": "A square sign is shown with its outer outline clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_020",
+    "prompt": "A square floor mat is shown with its outer outline clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_021",
+    "prompt": "A triangular plate is shown with its outer outline clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_022",
+    "prompt": "A triangular mirror is shown with its outer outline clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_023",
+    "prompt": "A triangular tray is shown with its outer outline clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_024",
+    "prompt": "A triangular rug is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_025",
+    "prompt": "A triangular picture frame is shown with its outer outline clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_026",
+    "prompt": "A triangular tabletop is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_027",
+    "prompt": "A triangular cushion is shown with its outer outline clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_028",
+    "prompt": "A triangular wall clock is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_029",
+    "prompt": "A triangular sign is shown with its outer outline clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_030",
+    "prompt": "A triangular floor mat is shown with its outer outline clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_031",
+    "prompt": "An oval plate is shown with its outer outline clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_032",
+    "prompt": "An oval mirror is shown with its outer outline clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_033",
+    "prompt": "An oval tray is shown with its outer outline clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_034",
+    "prompt": "An oval rug is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_035",
+    "prompt": "An oval picture frame is shown with its outer outline clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_036",
+    "prompt": "An oval tabletop is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_037",
+    "prompt": "An oval cushion is shown with its outer outline clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_038",
+    "prompt": "An oval wall clock is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_039",
+    "prompt": "An oval sign is shown with its outer outline clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_040",
+    "prompt": "An oval floor mat is shown with its outer outline clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_041",
+    "prompt": "A rectangular plate is shown with its outer outline clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_042",
+    "prompt": "A rectangular mirror is shown with its outer outline clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_043",
+    "prompt": "A rectangular tray is shown with its outer outline clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_044",
+    "prompt": "A rectangular rug is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_045",
+    "prompt": "A rectangular picture frame is shown with its outer outline clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_046",
+    "prompt": "A rectangular tabletop is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_047",
+    "prompt": "A rectangular cushion is shown with its outer outline clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_048",
+    "prompt": "A rectangular wall clock is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_049",
+    "prompt": "A rectangular sign is shown with its outer outline clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "shape_050",
+    "prompt": "A rectangular floor mat is shown with its outer outline clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "shape"
+  },
+  {
+    "id": "texture_001",
+    "prompt": "A striped shirt is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_002",
+    "prompt": "A striped scarf is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_003",
+    "prompt": "A striped hat is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_004",
+    "prompt": "A striped handbag is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_005",
+    "prompt": "A striped sock is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_006",
+    "prompt": "A striped blanket is shown with its surface clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_007",
+    "prompt": "A striped cushion is shown with its surface clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_008",
+    "prompt": "A striped curtain is shown with its surface clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_009",
+    "prompt": "A striped tablecloth is shown with its surface clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_010",
+    "prompt": "A striped umbrella is shown with its surface clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_011",
+    "prompt": "A checkered shirt is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_012",
+    "prompt": "A checkered scarf is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_013",
+    "prompt": "A checkered hat is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_014",
+    "prompt": "A checkered handbag is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_015",
+    "prompt": "A checkered sock is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_016",
+    "prompt": "A checkered blanket is shown with its surface clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_017",
+    "prompt": "A checkered cushion is shown with its surface clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_018",
+    "prompt": "A checkered curtain is shown with its surface clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_019",
+    "prompt": "A checkered tablecloth is shown with its surface clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_020",
+    "prompt": "A checkered umbrella is shown with its surface clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_021",
+    "prompt": "A polka-dotted shirt is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_022",
+    "prompt": "A polka-dotted scarf is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_023",
+    "prompt": "A polka-dotted hat is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_024",
+    "prompt": "A polka-dotted handbag is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_025",
+    "prompt": "A polka-dotted sock is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_026",
+    "prompt": "A polka-dotted blanket is shown with its surface clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_027",
+    "prompt": "A polka-dotted cushion is shown with its surface clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_028",
+    "prompt": "A polka-dotted curtain is shown with its surface clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_029",
+    "prompt": "A polka-dotted tablecloth is shown with its surface clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_030",
+    "prompt": "A polka-dotted umbrella is shown with its surface clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_031",
+    "prompt": "A rough vase is shown with its surface clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_032",
+    "prompt": "A rough bowl is shown with its surface clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_033",
+    "prompt": "A rough plate is shown with its surface clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_034",
+    "prompt": "A rough stone is shown with its surface clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_035",
+    "prompt": "A rough flowerpot is shown with its surface clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_036",
+    "prompt": "A rough wooden box is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_037",
+    "prompt": "A rough ceramic tile is shown with its surface clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_038",
+    "prompt": "A rough sculpture is shown with its surface clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_039",
+    "prompt": "A rough tray is shown with its surface clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_040",
+    "prompt": "A rough statue is shown with its surface clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_041",
+    "prompt": "A smooth vase is shown with its surface clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_042",
+    "prompt": "A smooth bowl is shown with its surface clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_043",
+    "prompt": "A smooth plate is shown with its surface clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_044",
+    "prompt": "A smooth stone is shown with its surface clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_045",
+    "prompt": "A smooth flowerpot is shown with its surface clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_046",
+    "prompt": "A smooth wooden box is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_047",
+    "prompt": "A smooth ceramic tile is shown with its surface clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_048",
+    "prompt": "A smooth sculpture is shown with its surface clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_049",
+    "prompt": "A smooth tray is shown with its surface clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "texture_050",
+    "prompt": "A smooth statue is shown with its surface clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "texture"
+  },
+  {
+    "id": "count_001",
+    "prompt": "Two mugs are arranged separately, with every item fully visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_002",
+    "prompt": "Two bottles are arranged separately, with every item fully visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_003",
+    "prompt": "Two books are arranged separately, with every item fully visible on a library reading table, with a plain wall and a closed storage cabinet visible in soft daylight.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_004",
+    "prompt": "Two hourglasses are arranged separately, with every item fully visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_005",
+    "prompt": "Two remote controls are arranged separately, with every item fully visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_006",
+    "prompt": "Two toy cars are arranged separately, with every item fully visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_007",
+    "prompt": "Two hats are arranged separately, with every item fully visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_008",
+    "prompt": "Two bowls are arranged separately, with every item fully visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_009",
+    "prompt": "Two flowerpots are arranged separately, with every item fully visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_010",
+    "prompt": "Two baskets are arranged separately, with every item fully visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_011",
+    "prompt": "Three mugs are arranged separately, with every item fully visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_012",
+    "prompt": "Three bottles are arranged separately, with every item fully visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_013",
+    "prompt": "Three books are arranged separately, with every item fully visible on a library reading table, with a plain wall and a closed storage cabinet visible in soft daylight.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_014",
+    "prompt": "Three hourglasses are arranged separately, with every item fully visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_015",
+    "prompt": "Three remote controls are arranged separately, with every item fully visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_016",
+    "prompt": "Three toy cars are arranged separately, with every item fully visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_017",
+    "prompt": "Three hats are arranged separately, with every item fully visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_018",
+    "prompt": "Three bowls are arranged separately, with every item fully visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_019",
+    "prompt": "Three flowerpots are arranged separately, with every item fully visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_020",
+    "prompt": "Three baskets are arranged separately, with every item fully visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_021",
+    "prompt": "Four mugs are arranged separately, with every item fully visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_022",
+    "prompt": "Four bottles are arranged separately, with every item fully visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_023",
+    "prompt": "Four books are arranged separately, with every item fully visible on a library reading table, with a plain wall and a closed storage cabinet visible in soft daylight.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_024",
+    "prompt": "Four hourglasses are arranged separately, with every item fully visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_025",
+    "prompt": "Four remote controls are arranged separately, with every item fully visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_026",
+    "prompt": "Four toy cars are arranged separately, with every item fully visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_027",
+    "prompt": "Four hats are arranged separately, with every item fully visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_028",
+    "prompt": "Four bowls are arranged separately, with every item fully visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_029",
+    "prompt": "Four flowerpots are arranged separately, with every item fully visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_030",
+    "prompt": "Four baskets are arranged separately, with every item fully visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_031",
+    "prompt": "Five mugs are arranged separately, with every item fully visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_032",
+    "prompt": "Five bottles are arranged separately, with every item fully visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_033",
+    "prompt": "Five books are arranged separately, with every item fully visible on a library reading table, with a plain wall and a closed storage cabinet visible in soft daylight.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_034",
+    "prompt": "Five hourglasses are arranged separately, with every item fully visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_035",
+    "prompt": "Five remote controls are arranged separately, with every item fully visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_036",
+    "prompt": "Five toy cars are arranged separately, with every item fully visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_037",
+    "prompt": "Five hats are arranged separately, with every item fully visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_038",
+    "prompt": "Five bowls are arranged separately, with every item fully visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_039",
+    "prompt": "Five flowerpots are arranged separately, with every item fully visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_040",
+    "prompt": "Five baskets are arranged separately, with every item fully visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_041",
+    "prompt": "Six mugs are arranged separately, with every item fully visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_042",
+    "prompt": "Six bottles are arranged separately, with every item fully visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_043",
+    "prompt": "Six books are arranged separately, with every item fully visible on a library reading table, with a plain wall and a closed storage cabinet visible in soft daylight.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_044",
+    "prompt": "Six hourglasses are arranged separately, with every item fully visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_045",
+    "prompt": "Six remote controls are arranged separately, with every item fully visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_046",
+    "prompt": "Six toy cars are arranged separately, with every item fully visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_047",
+    "prompt": "Six hats are arranged separately, with every item fully visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_048",
+    "prompt": "Six bowls are arranged separately, with every item fully visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_049",
+    "prompt": "Six flowerpots are arranged separately, with every item fully visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "count_050",
+    "prompt": "Six baskets are arranged separately, with every item fully visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "target_semantic": "count"
+  },
+  {
+    "id": "spatial_relation_001",
+    "prompt": "A mug is to the left of a coffee pot, with both objects separated and visible from the front on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_002",
+    "prompt": "A vase is to the left of a bowl, with both objects separated and visible from the front in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_003",
+    "prompt": "A toy car is to the left of a wooden box, with both objects separated and visible from the front on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_004",
+    "prompt": "A notebook is to the left of a pencil case, with both objects separated and visible from the front on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_005",
+    "prompt": "A hat is to the left of a handbag, with both objects separated and visible from the front on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_006",
+    "prompt": "A coffee pot is to the left of a mug, with both objects separated and visible from the front on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_007",
+    "prompt": "A bowl is to the left of a vase, with both objects separated and visible from the front in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_008",
+    "prompt": "A wooden box is to the left of a toy car, with both objects separated and visible from the front on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_009",
+    "prompt": "A pencil case is to the left of a notebook, with both objects separated and visible from the front on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_010",
+    "prompt": "A handbag is to the left of a hat, with both objects separated and visible from the front on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_011",
+    "prompt": "A mug is to the right of a coffee pot, with both objects separated and visible from the front on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_012",
+    "prompt": "A vase is to the right of a bowl, with both objects separated and visible from the front in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_013",
+    "prompt": "A toy car is to the right of a wooden box, with both objects separated and visible from the front on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_014",
+    "prompt": "A notebook is to the right of a pencil case, with both objects separated and visible from the front on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_015",
+    "prompt": "A hat is to the right of a handbag, with both objects separated and visible from the front on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_016",
+    "prompt": "A coffee pot is to the right of a mug, with both objects separated and visible from the front on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_017",
+    "prompt": "A bowl is to the right of a vase, with both objects separated and visible from the front in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_018",
+    "prompt": "A wooden box is to the right of a toy car, with both objects separated and visible from the front on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_019",
+    "prompt": "A pencil case is to the right of a notebook, with both objects separated and visible from the front on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_020",
+    "prompt": "A handbag is to the right of a hat, with both objects separated and visible from the front on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_021",
+    "prompt": "A picture frame is mounted above a wall clock, with both objects fully visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_022",
+    "prompt": "A shelf is mounted above a mirror, with both objects fully visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_023",
+    "prompt": "A sign is mounted above a picture frame, with both objects fully visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_024",
+    "prompt": "A wall lamp is mounted above a shelf, with both objects fully visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_025",
+    "prompt": "A wall clock is mounted above a sign, with both objects fully visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_026",
+    "prompt": "A picture frame is mounted below a wall clock, with both objects fully visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_027",
+    "prompt": "A shelf is mounted below a mirror, with both objects fully visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_028",
+    "prompt": "A sign is mounted below a picture frame, with both objects fully visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_029",
+    "prompt": "A wall lamp is mounted below a shelf, with both objects fully visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_030",
+    "prompt": "A wall clock is mounted below a sign, with both objects fully visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_031",
+    "prompt": "A mug is in front of a coffee pot, with both objects visible from an oblique viewing angle on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_032",
+    "prompt": "A vase is in front of a bowl, with both objects visible from an oblique viewing angle in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_033",
+    "prompt": "A toy car is in front of a wooden box, with both objects visible from an oblique viewing angle on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_034",
+    "prompt": "A notebook is in front of a pencil case, with both objects visible from an oblique viewing angle on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_035",
+    "prompt": "A hat is in front of a handbag, with both objects visible from an oblique viewing angle on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_036",
+    "prompt": "A mug is behind a coffee pot, with both objects visible from an oblique viewing angle on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_037",
+    "prompt": "A vase is behind a bowl, with both objects visible from an oblique viewing angle in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_038",
+    "prompt": "A toy car is behind a wooden box, with both objects visible from an oblique viewing angle on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_039",
+    "prompt": "A notebook is behind a pencil case, with both objects visible from an oblique viewing angle on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_040",
+    "prompt": "A hat is behind a handbag, with both objects visible from an oblique viewing angle on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_041",
+    "prompt": "A ball is inside a basket, with the object and container clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_042",
+    "prompt": "An apple is inside a bowl, with the object and container clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_043",
+    "prompt": "A toy car is inside a open box, with the object and container clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_044",
+    "prompt": "A spoon is inside a mug, with the object and container clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_045",
+    "prompt": "A hat is inside a basket, with the object and container clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_046",
+    "prompt": "A ball is outside a basket, with the object and container clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_047",
+    "prompt": "An apple is outside a bowl, with the object and container clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_048",
+    "prompt": "A toy car is outside a open box, with the object and container clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_049",
+    "prompt": "A spoon is outside a mug, with the object and container clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "spatial_relation"
+  },
+  {
+    "id": "spatial_relation_050",
+    "prompt": "A hat is outside a basket, with the object and container clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "spatial_relation"
+  }
+]

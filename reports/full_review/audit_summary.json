@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "images_hash_verified": 151,
+  "layer_scale_records_verified": 62816,
+  "score_rows_verified": 260,
+  "curve_rows": 364,
+  "semantic_all_curve_points_recomputed": 168,
+  "semantic_targets": {
+    "object": [
+      "plate",
+      "cup",
+      "spoons"
+    ],
+    "color": [
+      "red",
+      "blue"
+    ],
+    "shape": [
+      "round"
+    ],
+    "texture": [
+      "smooth",
+      "striped"
+    ],
+    "count": [
+      "two"
+    ],
+    "spatial_relation": [
+      "to the left of"
+    ]
+  },
+  "score_status_counts": {
+    "correct": 179,
+    "incorrect": 68,
+    "missing": 13
+  },
+  "baseline_scores": {
+    "object_plate": {
+      "status": "correct",
+      "answer": true
+    },
+    "object_cup": {
+      "status": "correct",
+      "answer": true
+    },
+    "object_spoon": {
+      "status": "correct",
+      "answer": true
+    },
+    "color_plate": {
+      "status": "correct",
+      "answer": "red"
+    },
+    "color_cup": {
+      "status": "correct",
+      "answer": "blue"
+    },
+    "shape_plate": {
+      "status": "correct",
+      "answer": "round"
+    },
+    "surface_plate": {
+      "status": "correct",
+      "answer": "smooth"
+    },
+    "pattern_cup": {
+      "status": "correct",
+      "answer": "striped"
+    },
+    "count_spoon": {
+      "status": "incorrect",
+      "answer": 3
+    },
+    "relation_plate_cup": {
+      "status": "correct",
+      "answer": "left"
+    }
+  }
+}

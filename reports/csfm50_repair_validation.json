@@ -1,0 +1,12 @@
+{
+  "status": "validated",
+  "unchanged_prior_successful_labels": 286,
+  "manually_repaired": 14,
+  "total_annotations": 300,
+  "t5_validated": 300,
+  "max_t5_length": 47,
+  "pilot_prompts": 10,
+  "pilot_images": 40,
+  "full_dataset_generation_started": false,
+  "repair_record": "data/csfm50_v1/manual_corrections_v1.json"
+}

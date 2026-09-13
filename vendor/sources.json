@@ -1,0 +1,11 @@
+{
+  "Infinity": {
+    "url": "https://github.com/FoundationVision/Infinity",
+    "revision": "9f9fcd1de7ead377ddf1106db1249a35f3a59143"
+  },
+  "semantic-evaluators": {
+    "url": "https://github.com/hlg7/semantic-evaluators",
+    "revision": "55dd2cd614748b5962b5bc4c186d7865efef6285",
+    "source": "local package copied unchanged; no runtime dependency on sibling folders"
+  }
+}

@@ -1,0 +1,6 @@
+torch==2.5.1
+numpy==1.26.4
+transformers==4.57.1
+sentencepiece==0.2.2
+protobuf==6.33.6
+Pillow==11.3.0

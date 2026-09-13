@@ -1,0 +1,33 @@
+{
+  "id": "color_011",
+  "labels": [
+    "other",
+    "color",
+    "object",
+    "other",
+    "other",
+    "other",
+    "spatial_relation",
+    "other",
+    "other",
+    "object",
+    "other",
+    "other",
+    "object",
+    "spatial_relation",
+    "other",
+    "object",
+    "other",
+    "other",
+    "other",
+    "spatial_relation",
+    "other",
+    "other",
+    "object",
+    "other"
+  ],
+  "origin": "/workspace/infinity_semantic_experiment/data/csfm50_v1/annotations_qwen3vl_serial_v3/labels/color_011.json",
+  "corrections": [],
+  "index_repairs": [],
+  "policy_version": "csfm50_semantics_v2"
+}

@@ -1,0 +1,115 @@
+[
+  {
+    "id": "all_six",
+    "prompt": "Two red round smooth plates are to the left of three blue oval rough bowls.",
+    "notes": "All six classes, with two disjoint mentions in each attribute/count class. Structural fixture only: plural attribute referents are ambiguous under the frozen evaluator.",
+    "segments": [
+      {"text": "Two", "semantic": "count"}, {"text": " ", "semantic": "other"},
+      {"text": "red", "semantic": "color"}, {"text": " ", "semantic": "other"},
+      {"text": "round", "semantic": "shape"}, {"text": " ", "semantic": "other"},
+      {"text": "smooth", "semantic": "texture"}, {"text": " ", "semantic": "other"},
+      {"text": "plates", "semantic": "object"}, {"text": " are ", "semantic": "other"},
+      {"text": "to the left of", "semantic": "spatial_relation"}, {"text": " ", "semantic": "other"},
+      {"text": "three", "semantic": "count"}, {"text": " ", "semantic": "other"},
+      {"text": "blue", "semantic": "color"}, {"text": " ", "semantic": "other"},
+      {"text": "oval", "semantic": "shape"}, {"text": " ", "semantic": "other"},
+      {"text": "rough", "semantic": "texture"}, {"text": " ", "semantic": "other"},
+      {"text": "bowls", "semantic": "object"}, {"text": ".", "semantic": "other"}
+    ]
+  },
+  {
+    "id": "repeated_color",
+    "prompt": "A red car is behind a red truck, and a red bicycle is in front of the truck.",
+    "notes": "All three red occurrences and both truck occurrences must be included. The repeated truck noun can refer to the same entity; masking is by mention, not deduplicated entity.",
+    "segments": [
+      {"text": "A ", "semantic": "other"}, {"text": "red", "semantic": "color"},
+      {"text": " ", "semantic": "other"}, {"text": "car", "semantic": "object"},
+      {"text": " is ", "semantic": "other"}, {"text": "behind", "semantic": "spatial_relation"},
+      {"text": " a ", "semantic": "other"}, {"text": "red", "semantic": "color"},
+      {"text": " ", "semantic": "other"}, {"text": "truck", "semantic": "object"},
+      {"text": ", and a ", "semantic": "other"}, {"text": "red", "semantic": "color"},
+      {"text": " ", "semantic": "other"}, {"text": "bicycle", "semantic": "object"},
+      {"text": " is ", "semantic": "other"}, {"text": "in front of", "semantic": "spatial_relation"},
+      {"text": " the ", "semantic": "other"}, {"text": "truck", "semantic": "object"},
+      {"text": ".", "semantic": "other"}
+    ]
+  },
+  {
+    "id": "compound_nouns",
+    "prompt": "A black remote control is below a rectangular picture frame and above a blue pencil case.",
+    "notes": "Lexicalized multiword object names stay whole; attributes remain separate.",
+    "segments": [
+      {"text": "A ", "semantic": "other"}, {"text": "black", "semantic": "color"},
+      {"text": " ", "semantic": "other"}, {"text": "remote control", "semantic": "object"},
+      {"text": " is ", "semantic": "other"}, {"text": "below", "semantic": "spatial_relation"},
+      {"text": " a ", "semantic": "other"}, {"text": "rectangular", "semantic": "shape"},
+      {"text": " ", "semantic": "other"}, {"text": "picture frame", "semantic": "object"},
+      {"text": " and ", "semantic": "other"}, {"text": "above", "semantic": "spatial_relation"},
+      {"text": " a ", "semantic": "other"}, {"text": "blue", "semantic": "color"},
+      {"text": " ", "semantic": "other"}, {"text": "pencil case", "semantic": "object"},
+      {"text": ".", "semantic": "other"}
+    ]
+  },
+  {
+    "id": "contextual_orange",
+    "prompt": "An orange is above an orange cup.",
+    "notes": "The first orange is an object, the second a color. Global string replacement would mask the wrong occurrence.",
+    "segments": [
+      {"text": "An ", "semantic": "other"}, {"text": "orange", "semantic": "object"},
+      {"text": " is ", "semantic": "other"}, {"text": "above", "semantic": "spatial_relation"},
+      {"text": " an ", "semantic": "other"}, {"text": "orange", "semantic": "color"},
+      {"text": " ", "semantic": "other"}, {"text": "cup", "semantic": "object"},
+      {"text": ".", "semantic": "other"}
+    ]
+  },
+  {
+    "id": "texture_and_material",
+    "prompt": "A smooth wooden table is behind a striped fabric chair and a polka-dotted cushion.",
+    "notes": "Texture includes surface and pattern. Material-only words wooden/fabric remain other under the existing six-semantic scope.",
+    "segments": [
+      {"text": "A ", "semantic": "other"}, {"text": "smooth", "semantic": "texture"},
+      {"text": " wooden ", "semantic": "other"}, {"text": "table", "semantic": "object"},
+      {"text": " is ", "semantic": "other"}, {"text": "behind", "semantic": "spatial_relation"},
+      {"text": " a ", "semantic": "other"}, {"text": "striped", "semantic": "texture"},
+      {"text": " fabric ", "semantic": "other"}, {"text": "chair", "semantic": "object"},
+      {"text": " and a ", "semantic": "other"}, {"text": "polka-dotted", "semantic": "texture"},
+      {"text": " ", "semantic": "other"}, {"text": "cushion", "semantic": "object"},
+      {"text": ".", "semantic": "other"}
+    ]
+  },
+  {
+    "id": "counts_and_containment",
+    "prompt": "2 marbles are inside one bowl, and three coins are outside the bowl.",
+    "notes": "Numeric and written explicit counts; repeated bowl; no inferred count from articles or plural endings.",
+    "segments": [
+      {"text": "2", "semantic": "count"}, {"text": " ", "semantic": "other"},
+      {"text": "marbles", "semantic": "object"}, {"text": " are ", "semantic": "other"},
+      {"text": "inside", "semantic": "spatial_relation"}, {"text": " ", "semantic": "other"},
+      {"text": "one", "semantic": "count"}, {"text": " ", "semantic": "other"},
+      {"text": "bowl", "semantic": "object"}, {"text": ", and ", "semantic": "other"},
+      {"text": "three", "semantic": "count"}, {"text": " ", "semantic": "other"},
+      {"text": "coins", "semantic": "object"}, {"text": " are ", "semantic": "other"},
+      {"text": "outside", "semantic": "spatial_relation"}, {"text": " the ", "semantic": "other"},
+      {"text": "bowl", "semantic": "object"}, {"text": ".", "semantic": "other"}
+    ]
+  },
+  {
+    "id": "legacy_scene_expanded",
+    "prompt": "A dog is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+    "notes": "Original object_001 prompt. Whole-object mask now includes background entities garden, wall and trees as well as dog. Grassy/stone describe covering/material; low is size, distant is qualitative distance, and under soft daylight is illumination. These stay other in this provisional rule set.",
+    "segments": [
+      {"text": "A ", "semantic": "other"}, {"text": "dog", "semantic": "object"},
+      {"text": " is clearly visible ", "semantic": "other"}, {"text": "in", "semantic": "spatial_relation"},
+      {"text": " a grassy ", "semantic": "other"}, {"text": "garden", "semantic": "object"},
+      {"text": ", with a low stone ", "semantic": "other"}, {"text": "wall", "semantic": "object"},
+      {"text": " and distant ", "semantic": "other"}, {"text": "trees", "semantic": "object"},
+      {"text": " visible under soft daylight.", "semantic": "other"}
+    ]
+  },
+  {
+    "id": "only_other",
+    "prompt": "Soft daylight, cinematic lighting.",
+    "notes": "No intervention targets; preserve prompt for baseline handling by a future generator.",
+    "segments": [{"text": "Soft daylight, cinematic lighting.", "semantic": "other"}]
+  }
+]

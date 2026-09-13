@@ -1,0 +1,3 @@
+{
+  "text": "{\n  \"object\": [\n    [3, \"box\"],\n    [14, \"worktable\"],\n    [18, \"cloth\"],\n    [27, \"window\"]\n  ],\n  \"color\": [],\n  \"shape\": [],\n  \"texture\": [\n    [1, \"smooth\"]\n  ],\n  \"count\": [],\n  \"spatial_relation\": [\n    [11, \"on\"],\n    [16, \"with\"],\n    [22, \"and\"],\n    [25, \"through\"]\n  ]\n}"
+}

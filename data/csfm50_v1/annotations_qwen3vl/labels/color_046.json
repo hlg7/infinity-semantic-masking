@@ -1,0 +1,44 @@
+{
+  "id": "color_046",
+  "labels": [
+    "other",
+    "color",
+    "object",
+    "other",
+    "other",
+    "other",
+    "spatial_relation",
+    "other",
+    "other",
+    "object",
+    "other",
+    "other",
+    "other",
+    "other",
+    "object",
+    "other",
+    "other",
+    "other",
+    "object",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other"
+  ],
+  "origin": "batch_model_attempt1",
+  "corrections": [],
+  "index_repairs": [
+    {
+      "text": "wall",
+      "model_index": 13,
+      "resolved_index": 14
+    },
+    {
+      "text": "path",
+      "model_index": 17,
+      "resolved_index": 18
+    }
+  ],
+  "policy_version": "csfm50_semantics_v2"
+}

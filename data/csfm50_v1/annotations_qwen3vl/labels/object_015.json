@@ -1,0 +1,33 @@
+{
+  "id": "object_015",
+  "labels": [
+    "other",
+    "object",
+    "object",
+    "other",
+    "other",
+    "other",
+    "spatial_relation",
+    "other",
+    "other",
+    "object",
+    "other",
+    "other",
+    "object",
+    "spatial_relation",
+    "other",
+    "object",
+    "other",
+    "other",
+    "other",
+    "spatial_relation",
+    "other",
+    "other",
+    "object",
+    "other"
+  ],
+  "origin": "manual_review_v1",
+  "corrections": [],
+  "index_repairs": [],
+  "policy_version": "csfm50_semantics_v2"
+}

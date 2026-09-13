@@ -1,0 +1,3 @@
+{
+  "text": "{\n  \"object\": [\n    [1, \"vase\"],\n    [8, \"bowl\"],\n    [22, \"courtyard\"],\n    [27, \"wall\"],\n    [30, \"path\"]\n  ],\n  \"color\": [],\n  \"shape\": [],\n  \"texture\": [],\n  \"count\": [],\n  \"spatial_relation\": [\n    [3, \"to\"],\n    [4, \"the\"],\n    [5, \"right\"],\n    [6, \"of\"],\n    [19, \"in\"],\n    [33, \"in\"]\n  ]\n}"
+}

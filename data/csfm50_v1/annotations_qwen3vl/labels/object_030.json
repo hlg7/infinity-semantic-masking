@@ -1,0 +1,33 @@
+{
+  "id": "object_030",
+  "labels": [
+    "other",
+    "object",
+    "other",
+    "other",
+    "other",
+    "spatial_relation",
+    "other",
+    "object",
+    "object",
+    "other",
+    "other",
+    "other",
+    "other",
+    "object",
+    "object",
+    "other",
+    "other",
+    "other",
+    "object",
+    "other",
+    "spatial_relation",
+    "other",
+    "other",
+    "other"
+  ],
+  "origin": "/workspace/infinity_semantic_experiment/data/csfm50_v1/annotations_qwen3vl_serial_v3/responses/object_030.attempt3.json",
+  "corrections": [],
+  "index_repairs": [],
+  "policy_version": "csfm50_semantics_v2"
+}

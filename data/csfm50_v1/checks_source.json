@@ -1,0 +1,6 @@
+{
+  "source_path": "star_baseline/data/semantic_eval_v3/checks.json (historical source; frozen copy included)",
+  "sha256": "2e2e39d44705bec3ef20ae15d3fbfc5a66bc21389839495b25264b2921d9e6ce",
+  "count": 300,
+  "policy": "Compiled checks copied verbatim; evaluator_input and scoring_only unchanged"
+}

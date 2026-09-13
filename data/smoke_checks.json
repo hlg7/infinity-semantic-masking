@@ -1,0 +1,96 @@
+[
+  {
+    "id": "object_plate",
+    "prompt_id": "scene01",
+    "semantic": "object",
+    "objects": [
+      "plate"
+    ],
+    "expected": true
+  },
+  {
+    "id": "object_cup",
+    "prompt_id": "scene01",
+    "semantic": "object",
+    "objects": [
+      "cup"
+    ],
+    "expected": true
+  },
+  {
+    "id": "object_spoon",
+    "prompt_id": "scene01",
+    "semantic": "object",
+    "objects": [
+      "spoon"
+    ],
+    "expected": true
+  },
+  {
+    "id": "color_plate",
+    "prompt_id": "scene01",
+    "semantic": "color",
+    "objects": [
+      "plate"
+    ],
+    "expected": "red"
+  },
+  {
+    "id": "color_cup",
+    "prompt_id": "scene01",
+    "semantic": "color",
+    "objects": [
+      "cup"
+    ],
+    "expected": "blue"
+  },
+  {
+    "id": "shape_plate",
+    "prompt_id": "scene01",
+    "semantic": "shape",
+    "objects": [
+      "plate"
+    ],
+    "expected": "round"
+  },
+  {
+    "id": "surface_plate",
+    "prompt_id": "scene01",
+    "semantic": "texture",
+    "subtype": "surface",
+    "objects": [
+      "plate"
+    ],
+    "expected": "smooth"
+  },
+  {
+    "id": "pattern_cup",
+    "prompt_id": "scene01",
+    "semantic": "texture",
+    "subtype": "pattern",
+    "objects": [
+      "cup"
+    ],
+    "expected": "striped"
+  },
+  {
+    "id": "count_spoon",
+    "prompt_id": "scene01",
+    "semantic": "count",
+    "objects": [
+      "spoon"
+    ],
+    "expected": 2
+  },
+  {
+    "id": "relation_plate_cup",
+    "prompt_id": "scene01",
+    "semantic": "spatial_relation",
+    "subtype": "left_right",
+    "objects": [
+      "plate",
+      "cup"
+    ],
+    "expected": "left"
+  }
+]

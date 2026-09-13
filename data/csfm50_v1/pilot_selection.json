@@ -1,0 +1,17 @@
+{
+  "selection": "First prompt of each semantic/subtype in source order; no generated-image filtering",
+  "ids": [
+    "object_001",
+    "color_001",
+    "shape_001",
+    "texture_001",
+    "texture_031",
+    "count_001",
+    "spatial_relation_001",
+    "spatial_relation_021",
+    "spatial_relation_031",
+    "spatial_relation_041"
+  ],
+  "prompt_count": 10,
+  "planned_images": 40
+}

@@ -1,0 +1,5 @@
+{
+  "repo": "google/flan-t5-xl",
+  "revision": "7d6315df2c2fb742f0f5b556879d730926ca9001",
+  "download": "tokenizer and config only; no model weights"
+}

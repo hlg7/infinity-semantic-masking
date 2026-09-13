@@ -1,0 +1,11 @@
+{
+  "phase": "failed",
+  "pid": 4685,
+  "updated_utc": "2026-09-13T19:07:25.664114+00:00",
+  "output": "/workspace/infinity_semantic_experiment/outputs/csfm50_full",
+  "planned_images": 7800,
+  "seed": 42,
+  "failed_phase": "evaluating",
+  "exit_code": 1,
+  "log": "reports/runpod_dataset_full.log"
+}

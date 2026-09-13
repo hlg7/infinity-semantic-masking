@@ -1,0 +1,11 @@
+prompt_id,semantic,subtype,baseline,prefix_06,full_mask,suffix_06
+object_001,object,identity,correct,incorrect,incorrect,correct
+color_001,color,color,incorrect,incorrect,incorrect,incorrect
+shape_001,shape,outline,correct,correct,correct,correct
+texture_001,texture,pattern,correct,incorrect,incorrect,correct
+texture_031,texture,surface,correct,correct,incorrect,correct
+count_001,count,single_category,correct,correct,correct,correct
+spatial_relation_001,spatial_relation,left_right,correct,correct,correct,correct
+spatial_relation_021,spatial_relation,above_below,incorrect,incorrect,incorrect,incorrect
+spatial_relation_031,spatial_relation,front_behind,correct,correct,correct,correct
+spatial_relation_041,spatial_relation,containment,correct,correct,correct,correct

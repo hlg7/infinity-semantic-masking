@@ -1,0 +1,1933 @@
+{
+  "reviewer": "assistant",
+  "policy_version": "csfm50_semantics_v2",
+  "records": [
+    {
+      "id": "object_015",
+      "prompt_sha256": "795a0053d5e871935ea9951564e2f266182e547ce51e7b0ea01065855b3a95ae",
+      "groups": {
+        "object": [
+          "reading lamp",
+          "library",
+          "bookshelves",
+          "walls",
+          "window"
+        ],
+        "spatial_relation": [
+          [
+            "in a quiet library",
+            "in"
+          ],
+          "along",
+          "through"
+        ]
+      },
+      "annotation": {
+        "id": "object_015",
+        "prompt": "A reading lamp is clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+        "target_semantic": "object",
+        "segments": [
+          {
+            "text": "A ",
+            "semantic": "other"
+          },
+          {
+            "text": "reading lamp",
+            "semantic": "object"
+          },
+          {
+            "text": " is clearly visible ",
+            "semantic": "other"
+          },
+          {
+            "text": "in",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " a quiet ",
+            "semantic": "other"
+          },
+          {
+            "text": "library",
+            "semantic": "object"
+          },
+          {
+            "text": ", with ",
+            "semantic": "other"
+          },
+          {
+            "text": "bookshelves",
+            "semantic": "object"
+          },
+          {
+            "text": " ",
+            "semantic": "other"
+          },
+          {
+            "text": "along",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " the ",
+            "semantic": "other"
+          },
+          {
+            "text": "walls",
+            "semantic": "object"
+          },
+          {
+            "text": " and daylight entering ",
+            "semantic": "other"
+          },
+          {
+            "text": "through",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " a large ",
+            "semantic": "other"
+          },
+          {
+            "text": "window",
+            "semantic": "object"
+          },
+          {
+            "text": ".",
+            "semantic": "other"
+          }
+        ],
+        "notes": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+      },
+      "labels": [
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "other",
+        "spatial_relation",
+        "other",
+        "other",
+        "object",
+        "other",
+        "other",
+        "object",
+        "spatial_relation",
+        "other",
+        "object",
+        "other",
+        "other",
+        "other",
+        "spatial_relation",
+        "other",
+        "other",
+        "object",
+        "other"
+      ],
+      "review_note": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+    },
+    {
+      "id": "shape_015",
+      "prompt_sha256": "0ecde023146b7ee5521d0e22cf90cb7b41465901c0d273f184ac425158ab47e9",
+      "groups": {
+        "object": [
+          "picture frame",
+          "office desk",
+          "computer monitor",
+          "wall"
+        ],
+        "shape": [
+          "square"
+        ],
+        "texture": [
+          "plain"
+        ],
+        "spatial_relation": [
+          "on"
+        ]
+      },
+      "annotation": {
+        "id": "shape_015",
+        "prompt": "A square picture frame is shown with its outer outline clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+        "target_semantic": "shape",
+        "segments": [
+          {
+            "text": "A ",
+            "semantic": "other"
+          },
+          {
+            "text": "square",
+            "semantic": "shape"
+          },
+          {
+            "text": " ",
+            "semantic": "other"
+          },
+          {
+            "text": "picture frame",
+            "semantic": "object"
+          },
+          {
+            "text": " is shown with its outer outline clearly visible ",
+            "semantic": "other"
+          },
+          {
+            "text": "on",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " an ",
+            "semantic": "other"
+          },
+          {
+            "text": "office desk",
+            "semantic": "object"
+          },
+          {
+            "text": ", with a dark ",
+            "semantic": "other"
+          },
+          {
+            "text": "computer monitor",
+            "semantic": "object"
+          },
+          {
+            "text": " and a ",
+            "semantic": "other"
+          },
+          {
+            "text": "plain",
+            "semantic": "texture"
+          },
+          {
+            "text": " ",
+            "semantic": "other"
+          },
+          {
+            "text": "wall",
+            "semantic": "object"
+          },
+          {
+            "text": " visible in the background.",
+            "semantic": "other"
+          }
+        ],
+        "notes": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+      },
+      "labels": [
+        "other",
+        "shape",
+        "object",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "spatial_relation",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "texture",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "review_note": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+    },
+    {
+      "id": "shape_035",
+      "prompt_sha256": "98439ac1573848d7d656b3de3c0dfc959fd3600fd676ad0f20a2ea98c1f4f77b",
+      "groups": {
+        "object": [
+          "picture frame",
+          "office desk",
+          "computer monitor",
+          "wall"
+        ],
+        "shape": [
+          "oval"
+        ],
+        "texture": [
+          "plain"
+        ],
+        "spatial_relation": [
+          "on"
+        ]
+      },
+      "annotation": {
+        "id": "shape_035",
+        "prompt": "An oval picture frame is shown with its outer outline clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+        "target_semantic": "shape",
+        "segments": [
+          {
+            "text": "An ",
+            "semantic": "other"
+          },
+          {
+            "text": "oval",
+            "semantic": "shape"
+          },
+          {
+            "text": " ",
+            "semantic": "other"
+          },
+          {
+            "text": "picture frame",
+            "semantic": "object"
+          },
+          {
+            "text": " is shown with its outer outline clearly visible ",
+            "semantic": "other"
+          },
+          {
+            "text": "on",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " an ",
+            "semantic": "other"
+          },
+          {
+            "text": "office desk",
+            "semantic": "object"
+          },
+          {
+            "text": ", with a dark ",
+            "semantic": "other"
+          },
+          {
+            "text": "computer monitor",
+            "semantic": "object"
+          },
+          {
+            "text": " and a ",
+            "semantic": "other"
+          },
+          {
+            "text": "plain",
+            "semantic": "texture"
+          },
+          {
+            "text": " ",
+            "semantic": "other"
+          },
+          {
+            "text": "wall",
+            "semantic": "object"
+          },
+          {
+            "text": " visible in the background.",
+            "semantic": "other"
+          }
+        ],
+        "notes": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+      },
+      "labels": [
+        "other",
+        "shape",
+        "object",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "spatial_relation",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "texture",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "review_note": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+    },
+    {
+      "id": "shape_039",
+      "prompt_sha256": "68fba37ff9656dbeea6ba963554c12e2f96c689c481bef8165d54aa297409fde",
+      "groups": {
+        "object": [
+          "sign",
+          "courtyard",
+          "wall",
+          "path"
+        ],
+        "shape": [
+          "oval"
+        ],
+        "spatial_relation": [
+          [
+            "in a quiet courtyard",
+            "in"
+          ]
+        ]
+      },
+      "annotation": {
+        "id": "shape_039",
+        "prompt": "An oval sign is shown with its outer outline clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+        "target_semantic": "shape",
+        "segments": [
+          {
+            "text": "An ",
+            "semantic": "other"
+          },
+          {
+            "text": "oval",
+            "semantic": "shape"
+          },
+          {
+            "text": " ",
+            "semantic": "other"
+          },
+          {
+            "text": "sign",
+            "semantic": "object"
+          },
+          {
+            "text": " is shown with its outer outline clearly visible ",
+            "semantic": "other"
+          },
+          {
+            "text": "in",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " a quiet ",
+            "semantic": "other"
+          },
+          {
+            "text": "courtyard",
+            "semantic": "object"
+          },
+          {
+            "text": ", with a stone ",
+            "semantic": "other"
+          },
+          {
+            "text": "wall",
+            "semantic": "object"
+          },
+          {
+            "text": " and a narrow ",
+            "semantic": "other"
+          },
+          {
+            "text": "path",
+            "semantic": "object"
+          },
+          {
+            "text": " visible in soft daylight.",
+            "semantic": "other"
+          }
+        ],
+        "notes": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+      },
+      "labels": [
+        "other",
+        "shape",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "spatial_relation",
+        "other",
+        "other",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "object",
+        "other",
+        "other",
+        "other",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "review_note": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+    },
+    {
+      "id": "count_014",
+      "prompt_sha256": "e7b70e9712c30d2aae1c6f380dbc7cbe0fcb6fdde08b4a960faf708cbd394d22",
+      "groups": {
+        "object": [
+          "hourglasses",
+          "office desk",
+          "computer monitor",
+          "wall"
+        ],
+        "count": [
+          "Three"
+        ],
+        "texture": [
+          "plain"
+        ],
+        "spatial_relation": [
+          "on"
+        ]
+      },
+      "annotation": {
+        "id": "count_014",
+        "prompt": "Three hourglasses are arranged separately, with every item fully visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+        "target_semantic": "count",
+        "segments": [
+          {
+            "text": "Three",
+            "semantic": "count"
+          },
+          {
+            "text": " ",
+            "semantic": "other"
+          },
+          {
+            "text": "hourglasses",
+            "semantic": "object"
+          },
+          {
+            "text": " are arranged separately, with every item fully visible ",
+            "semantic": "other"
+          },
+          {
+            "text": "on",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " an ",
+            "semantic": "other"
+          },
+          {
+            "text": "office desk",
+            "semantic": "object"
+          },
+          {
+            "text": ", with a dark ",
+            "semantic": "other"
+          },
+          {
+            "text": "computer monitor",
+            "semantic": "object"
+          },
+          {
+            "text": " and a ",
+            "semantic": "other"
+          },
+          {
+            "text": "plain",
+            "semantic": "texture"
+          },
+          {
+            "text": " ",
+            "semantic": "other"
+          },
+          {
+            "text": "wall",
+            "semantic": "object"
+          },
+          {
+            "text": " visible in the background.",
+            "semantic": "other"
+          }
+        ],
+        "notes": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+      },
+      "labels": [
+        "count",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "spatial_relation",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "texture",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "review_note": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+    },
+    {
+      "id": "spatial_relation_003",
+      "prompt_sha256": "3244a0cdfa5a7a3c4323fd244de4ccec5be676c9cd58aafcbcb88b9bc4070d9a",
+      "groups": {
+        "object": [
+          "toy car",
+          "box",
+          "office desk",
+          "computer monitor",
+          "wall"
+        ],
+        "texture": [
+          "plain"
+        ],
+        "spatial_relation": [
+          "to the left of",
+          "on"
+        ],
+        "count": [
+          "both"
+        ]
+      },
+      "annotation": {
+        "id": "spatial_relation_003",
+        "prompt": "A toy car is to the left of a wooden box, with both objects separated and visible from the front on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+        "target_semantic": "spatial_relation",
+        "segments": [
+          {
+            "text": "A ",
+            "semantic": "other"
+          },
+          {
+            "text": "toy car",
+            "semantic": "object"
+          },
+          {
+            "text": " is ",
+            "semantic": "other"
+          },
+          {
+            "text": "to the left of",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " a wooden ",
+            "semantic": "other"
+          },
+          {
+            "text": "box",
+            "semantic": "object"
+          },
+          {
+            "text": ", with ",
+            "semantic": "other"
+          },
+          {
+            "text": "both",
+            "semantic": "count"
+          },
+          {
+            "text": " objects separated and visible from the front ",
+            "semantic": "other"
+          },
+          {
+            "text": "on",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " an ",
+            "semantic": "other"
+          },
+          {
+            "text": "office desk",
+            "semantic": "object"
+          },
+          {
+            "text": ", with a dark ",
+            "semantic": "other"
+          },
+          {
+            "text": "computer monitor",
+            "semantic": "object"
+          },
+          {
+            "text": " and a ",
+            "semantic": "other"
+          },
+          {
+            "text": "plain",
+            "semantic": "texture"
+          },
+          {
+            "text": " ",
+            "semantic": "other"
+          },
+          {
+            "text": "wall",
+            "semantic": "object"
+          },
+          {
+            "text": " visible in the background.",
+            "semantic": "other"
+          }
+        ],
+        "notes": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+      },
+      "labels": [
+        "other",
+        "object",
+        "object",
+        "other",
+        "spatial_relation",
+        "spatial_relation",
+        "spatial_relation",
+        "spatial_relation",
+        "other",
+        "other",
+        "object",
+        "other",
+        "other",
+        "count",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "spatial_relation",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "texture",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "review_note": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+    },
+    {
+      "id": "spatial_relation_008",
+      "prompt_sha256": "1dc86f13d5e0d242cb57de25f9cd4d9f1ce96e6091a33c3c8af7c5bcaeeb4073",
+      "groups": {
+        "object": [
+          "box",
+          "toy car",
+          "office desk",
+          "computer monitor",
+          "wall"
+        ],
+        "texture": [
+          "plain"
+        ],
+        "spatial_relation": [
+          "to the left of",
+          "on"
+        ],
+        "count": [
+          "both"
+        ]
+      },
+      "annotation": {
+        "id": "spatial_relation_008",
+        "prompt": "A wooden box is to the left of a toy car, with both objects separated and visible from the front on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+        "target_semantic": "spatial_relation",
+        "segments": [
+          {
+            "text": "A wooden ",
+            "semantic": "other"
+          },
+          {
+            "text": "box",
+            "semantic": "object"
+          },
+          {
+            "text": " is ",
+            "semantic": "other"
+          },
+          {
+            "text": "to the left of",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " a ",
+            "semantic": "other"
+          },
+          {
+            "text": "toy car",
+            "semantic": "object"
+          },
+          {
+            "text": ", with ",
+            "semantic": "other"
+          },
+          {
+            "text": "both",
+            "semantic": "count"
+          },
+          {
+            "text": " objects separated and visible from the front ",
+            "semantic": "other"
+          },
+          {
+            "text": "on",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " an ",
+            "semantic": "other"
+          },
+          {
+            "text": "office desk",
+            "semantic": "object"
+          },
+          {
+            "text": ", with a dark ",
+            "semantic": "other"
+          },
+          {
+            "text": "computer monitor",
+            "semantic": "object"
+          },
+          {
+            "text": " and a ",
+            "semantic": "other"
+          },
+          {
+            "text": "plain",
+            "semantic": "texture"
+          },
+          {
+            "text": " ",
+            "semantic": "other"
+          },
+          {
+            "text": "wall",
+            "semantic": "object"
+          },
+          {
+            "text": " visible in the background.",
+            "semantic": "other"
+          }
+        ],
+        "notes": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+      },
+      "labels": [
+        "other",
+        "other",
+        "object",
+        "other",
+        "spatial_relation",
+        "spatial_relation",
+        "spatial_relation",
+        "spatial_relation",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "count",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "spatial_relation",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "texture",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "review_note": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+    },
+    {
+      "id": "spatial_relation_009",
+      "prompt_sha256": "69cdbd545a53ca0d91f77179f56c771f48ef9f546c4c5e040ad791d93aef4771",
+      "groups": {
+        "object": [
+          "pencil case",
+          "notebook",
+          "office desk",
+          "computer monitor",
+          "wall"
+        ],
+        "texture": [
+          "plain"
+        ],
+        "spatial_relation": [
+          "to the left of",
+          "on"
+        ],
+        "count": [
+          "both"
+        ]
+      },
+      "annotation": {
+        "id": "spatial_relation_009",
+        "prompt": "A pencil case is to the left of a notebook, with both objects separated and visible from the front on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+        "target_semantic": "spatial_relation",
+        "segments": [
+          {
+            "text": "A ",
+            "semantic": "other"
+          },
+          {
+            "text": "pencil case",
+            "semantic": "object"
+          },
+          {
+            "text": " is ",
+            "semantic": "other"
+          },
+          {
+            "text": "to the left of",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " a ",
+            "semantic": "other"
+          },
+          {
+            "text": "notebook",
+            "semantic": "object"
+          },
+          {
+            "text": ", with ",
+            "semantic": "other"
+          },
+          {
+            "text": "both",
+            "semantic": "count"
+          },
+          {
+            "text": " objects separated and visible from the front ",
+            "semantic": "other"
+          },
+          {
+            "text": "on",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " an ",
+            "semantic": "other"
+          },
+          {
+            "text": "office desk",
+            "semantic": "object"
+          },
+          {
+            "text": ", with a dark ",
+            "semantic": "other"
+          },
+          {
+            "text": "computer monitor",
+            "semantic": "object"
+          },
+          {
+            "text": " and a ",
+            "semantic": "other"
+          },
+          {
+            "text": "plain",
+            "semantic": "texture"
+          },
+          {
+            "text": " ",
+            "semantic": "other"
+          },
+          {
+            "text": "wall",
+            "semantic": "object"
+          },
+          {
+            "text": " visible in the background.",
+            "semantic": "other"
+          }
+        ],
+        "notes": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+      },
+      "labels": [
+        "other",
+        "object",
+        "object",
+        "other",
+        "spatial_relation",
+        "spatial_relation",
+        "spatial_relation",
+        "spatial_relation",
+        "other",
+        "object",
+        "other",
+        "other",
+        "count",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "spatial_relation",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "texture",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "review_note": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+    },
+    {
+      "id": "spatial_relation_013",
+      "prompt_sha256": "90d46dcbf96e73eff73020b7ed6d960f830a00d02a454f29b8e2645737e30adf",
+      "groups": {
+        "object": [
+          "toy car",
+          "box",
+          "office desk",
+          "computer monitor",
+          "wall"
+        ],
+        "texture": [
+          "plain"
+        ],
+        "spatial_relation": [
+          "to the right of",
+          "on"
+        ],
+        "count": [
+          "both"
+        ]
+      },
+      "annotation": {
+        "id": "spatial_relation_013",
+        "prompt": "A toy car is to the right of a wooden box, with both objects separated and visible from the front on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+        "target_semantic": "spatial_relation",
+        "segments": [
+          {
+            "text": "A ",
+            "semantic": "other"
+          },
+          {
+            "text": "toy car",
+            "semantic": "object"
+          },
+          {
+            "text": " is ",
+            "semantic": "other"
+          },
+          {
+            "text": "to the right of",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " a wooden ",
+            "semantic": "other"
+          },
+          {
+            "text": "box",
+            "semantic": "object"
+          },
+          {
+            "text": ", with ",
+            "semantic": "other"
+          },
+          {
+            "text": "both",
+            "semantic": "count"
+          },
+          {
+            "text": " objects separated and visible from the front ",
+            "semantic": "other"
+          },
+          {
+            "text": "on",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " an ",
+            "semantic": "other"
+          },
+          {
+            "text": "office desk",
+            "semantic": "object"
+          },
+          {
+            "text": ", with a dark ",
+            "semantic": "other"
+          },
+          {
+            "text": "computer monitor",
+            "semantic": "object"
+          },
+          {
+            "text": " and a ",
+            "semantic": "other"
+          },
+          {
+            "text": "plain",
+            "semantic": "texture"
+          },
+          {
+            "text": " ",
+            "semantic": "other"
+          },
+          {
+            "text": "wall",
+            "semantic": "object"
+          },
+          {
+            "text": " visible in the background.",
+            "semantic": "other"
+          }
+        ],
+        "notes": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+      },
+      "labels": [
+        "other",
+        "object",
+        "object",
+        "other",
+        "spatial_relation",
+        "spatial_relation",
+        "spatial_relation",
+        "spatial_relation",
+        "other",
+        "other",
+        "object",
+        "other",
+        "other",
+        "count",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "spatial_relation",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "texture",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "review_note": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+    },
+    {
+      "id": "spatial_relation_018",
+      "prompt_sha256": "6fa328024193671d9fd5c6f275c13f426ae8dd5e282631286c3d8170a7829cfc",
+      "groups": {
+        "object": [
+          "box",
+          "toy car",
+          "office desk",
+          "computer monitor",
+          "wall"
+        ],
+        "texture": [
+          "plain"
+        ],
+        "spatial_relation": [
+          "to the right of",
+          "on"
+        ],
+        "count": [
+          "both"
+        ]
+      },
+      "annotation": {
+        "id": "spatial_relation_018",
+        "prompt": "A wooden box is to the right of a toy car, with both objects separated and visible from the front on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+        "target_semantic": "spatial_relation",
+        "segments": [
+          {
+            "text": "A wooden ",
+            "semantic": "other"
+          },
+          {
+            "text": "box",
+            "semantic": "object"
+          },
+          {
+            "text": " is ",
+            "semantic": "other"
+          },
+          {
+            "text": "to the right of",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " a ",
+            "semantic": "other"
+          },
+          {
+            "text": "toy car",
+            "semantic": "object"
+          },
+          {
+            "text": ", with ",
+            "semantic": "other"
+          },
+          {
+            "text": "both",
+            "semantic": "count"
+          },
+          {
+            "text": " objects separated and visible from the front ",
+            "semantic": "other"
+          },
+          {
+            "text": "on",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " an ",
+            "semantic": "other"
+          },
+          {
+            "text": "office desk",
+            "semantic": "object"
+          },
+          {
+            "text": ", with a dark ",
+            "semantic": "other"
+          },
+          {
+            "text": "computer monitor",
+            "semantic": "object"
+          },
+          {
+            "text": " and a ",
+            "semantic": "other"
+          },
+          {
+            "text": "plain",
+            "semantic": "texture"
+          },
+          {
+            "text": " ",
+            "semantic": "other"
+          },
+          {
+            "text": "wall",
+            "semantic": "object"
+          },
+          {
+            "text": " visible in the background.",
+            "semantic": "other"
+          }
+        ],
+        "notes": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+      },
+      "labels": [
+        "other",
+        "other",
+        "object",
+        "other",
+        "spatial_relation",
+        "spatial_relation",
+        "spatial_relation",
+        "spatial_relation",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "count",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "spatial_relation",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "texture",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "review_note": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+    },
+    {
+      "id": "spatial_relation_019",
+      "prompt_sha256": "f36e3e03c77770ef36c24cbd2bab79e558f17ce2f18a5d877eca6fe8d44ac68b",
+      "groups": {
+        "object": [
+          "pencil case",
+          "notebook",
+          "office desk",
+          "computer monitor",
+          "wall"
+        ],
+        "texture": [
+          "plain"
+        ],
+        "spatial_relation": [
+          "to the right of",
+          "on"
+        ],
+        "count": [
+          "both"
+        ]
+      },
+      "annotation": {
+        "id": "spatial_relation_019",
+        "prompt": "A pencil case is to the right of a notebook, with both objects separated and visible from the front on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+        "target_semantic": "spatial_relation",
+        "segments": [
+          {
+            "text": "A ",
+            "semantic": "other"
+          },
+          {
+            "text": "pencil case",
+            "semantic": "object"
+          },
+          {
+            "text": " is ",
+            "semantic": "other"
+          },
+          {
+            "text": "to the right of",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " a ",
+            "semantic": "other"
+          },
+          {
+            "text": "notebook",
+            "semantic": "object"
+          },
+          {
+            "text": ", with ",
+            "semantic": "other"
+          },
+          {
+            "text": "both",
+            "semantic": "count"
+          },
+          {
+            "text": " objects separated and visible from the front ",
+            "semantic": "other"
+          },
+          {
+            "text": "on",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " an ",
+            "semantic": "other"
+          },
+          {
+            "text": "office desk",
+            "semantic": "object"
+          },
+          {
+            "text": ", with a dark ",
+            "semantic": "other"
+          },
+          {
+            "text": "computer monitor",
+            "semantic": "object"
+          },
+          {
+            "text": " and a ",
+            "semantic": "other"
+          },
+          {
+            "text": "plain",
+            "semantic": "texture"
+          },
+          {
+            "text": " ",
+            "semantic": "other"
+          },
+          {
+            "text": "wall",
+            "semantic": "object"
+          },
+          {
+            "text": " visible in the background.",
+            "semantic": "other"
+          }
+        ],
+        "notes": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+      },
+      "labels": [
+        "other",
+        "object",
+        "object",
+        "other",
+        "spatial_relation",
+        "spatial_relation",
+        "spatial_relation",
+        "spatial_relation",
+        "other",
+        "object",
+        "other",
+        "other",
+        "count",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "spatial_relation",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "texture",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "review_note": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+    },
+    {
+      "id": "spatial_relation_034",
+      "prompt_sha256": "6c204afa108ffc490e1dfd52c4cd2485b94a620d6aa5c05d30ba37ae78fb1c00",
+      "groups": {
+        "object": [
+          "notebook",
+          "pencil case",
+          "office desk",
+          "computer monitor",
+          "wall"
+        ],
+        "texture": [
+          "plain"
+        ],
+        "spatial_relation": [
+          "in front of",
+          "on"
+        ],
+        "count": [
+          "both"
+        ]
+      },
+      "annotation": {
+        "id": "spatial_relation_034",
+        "prompt": "A notebook is in front of a pencil case, with both objects visible from an oblique viewing angle on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+        "target_semantic": "spatial_relation",
+        "segments": [
+          {
+            "text": "A ",
+            "semantic": "other"
+          },
+          {
+            "text": "notebook",
+            "semantic": "object"
+          },
+          {
+            "text": " is ",
+            "semantic": "other"
+          },
+          {
+            "text": "in front of",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " a ",
+            "semantic": "other"
+          },
+          {
+            "text": "pencil case",
+            "semantic": "object"
+          },
+          {
+            "text": ", with ",
+            "semantic": "other"
+          },
+          {
+            "text": "both",
+            "semantic": "count"
+          },
+          {
+            "text": " objects visible from an oblique viewing angle ",
+            "semantic": "other"
+          },
+          {
+            "text": "on",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " an ",
+            "semantic": "other"
+          },
+          {
+            "text": "office desk",
+            "semantic": "object"
+          },
+          {
+            "text": ", with a dark ",
+            "semantic": "other"
+          },
+          {
+            "text": "computer monitor",
+            "semantic": "object"
+          },
+          {
+            "text": " and a ",
+            "semantic": "other"
+          },
+          {
+            "text": "plain",
+            "semantic": "texture"
+          },
+          {
+            "text": " ",
+            "semantic": "other"
+          },
+          {
+            "text": "wall",
+            "semantic": "object"
+          },
+          {
+            "text": " visible in the background.",
+            "semantic": "other"
+          }
+        ],
+        "notes": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+      },
+      "labels": [
+        "other",
+        "object",
+        "other",
+        "spatial_relation",
+        "spatial_relation",
+        "spatial_relation",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "count",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "spatial_relation",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "texture",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "review_note": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+    },
+    {
+      "id": "spatial_relation_039",
+      "prompt_sha256": "9bd896ca4f536d9cf746b289215a05015b54c331201bc4c1b0147abee7d6e2c6",
+      "groups": {
+        "object": [
+          "notebook",
+          "pencil case",
+          "office desk",
+          "computer monitor",
+          "wall"
+        ],
+        "texture": [
+          "plain"
+        ],
+        "spatial_relation": [
+          "behind",
+          "on"
+        ],
+        "count": [
+          "both"
+        ]
+      },
+      "annotation": {
+        "id": "spatial_relation_039",
+        "prompt": "A notebook is behind a pencil case, with both objects visible from an oblique viewing angle on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+        "target_semantic": "spatial_relation",
+        "segments": [
+          {
+            "text": "A ",
+            "semantic": "other"
+          },
+          {
+            "text": "notebook",
+            "semantic": "object"
+          },
+          {
+            "text": " is ",
+            "semantic": "other"
+          },
+          {
+            "text": "behind",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " a ",
+            "semantic": "other"
+          },
+          {
+            "text": "pencil case",
+            "semantic": "object"
+          },
+          {
+            "text": ", with ",
+            "semantic": "other"
+          },
+          {
+            "text": "both",
+            "semantic": "count"
+          },
+          {
+            "text": " objects visible from an oblique viewing angle ",
+            "semantic": "other"
+          },
+          {
+            "text": "on",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " an ",
+            "semantic": "other"
+          },
+          {
+            "text": "office desk",
+            "semantic": "object"
+          },
+          {
+            "text": ", with a dark ",
+            "semantic": "other"
+          },
+          {
+            "text": "computer monitor",
+            "semantic": "object"
+          },
+          {
+            "text": " and a ",
+            "semantic": "other"
+          },
+          {
+            "text": "plain",
+            "semantic": "texture"
+          },
+          {
+            "text": " ",
+            "semantic": "other"
+          },
+          {
+            "text": "wall",
+            "semantic": "object"
+          },
+          {
+            "text": " visible in the background.",
+            "semantic": "other"
+          }
+        ],
+        "notes": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+      },
+      "labels": [
+        "other",
+        "object",
+        "other",
+        "spatial_relation",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "count",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "spatial_relation",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "texture",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "review_note": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+    },
+    {
+      "id": "spatial_relation_048",
+      "prompt_sha256": "d64a51a68ef51963fc1cff4f0c5c3d6f21998c1fe6555323d3117c909c5d4e08",
+      "groups": {
+        "object": [
+          "toy car",
+          "box",
+          "office desk",
+          "computer monitor",
+          "wall"
+        ],
+        "texture": [
+          "plain"
+        ],
+        "spatial_relation": [
+          "outside",
+          "on"
+        ]
+      },
+      "annotation": {
+        "id": "spatial_relation_048",
+        "prompt": "A toy car is outside a open box, with the object and container clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+        "target_semantic": "spatial_relation",
+        "segments": [
+          {
+            "text": "A ",
+            "semantic": "other"
+          },
+          {
+            "text": "toy car",
+            "semantic": "object"
+          },
+          {
+            "text": " is ",
+            "semantic": "other"
+          },
+          {
+            "text": "outside",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " a open ",
+            "semantic": "other"
+          },
+          {
+            "text": "box",
+            "semantic": "object"
+          },
+          {
+            "text": ", with the object and container clearly visible ",
+            "semantic": "other"
+          },
+          {
+            "text": "on",
+            "semantic": "spatial_relation"
+          },
+          {
+            "text": " an ",
+            "semantic": "other"
+          },
+          {
+            "text": "office desk",
+            "semantic": "object"
+          },
+          {
+            "text": ", with a dark ",
+            "semantic": "other"
+          },
+          {
+            "text": "computer monitor",
+            "semantic": "object"
+          },
+          {
+            "text": " and a ",
+            "semantic": "other"
+          },
+          {
+            "text": "plain",
+            "semantic": "texture"
+          },
+          {
+            "text": " ",
+            "semantic": "other"
+          },
+          {
+            "text": "wall",
+            "semantic": "object"
+          },
+          {
+            "text": " visible in the background.",
+            "semantic": "other"
+          }
+        ],
+        "notes": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+      },
+      "labels": [
+        "other",
+        "object",
+        "object",
+        "other",
+        "spatial_relation",
+        "other",
+        "other",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "spatial_relation",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "object",
+        "object",
+        "other",
+        "other",
+        "texture",
+        "object",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "review_note": "Assistant-reviewed correction of failed model annotation; original response retained. Full compound nouns included; plain is texture, not object; brightness, abstract background and viewpoint descriptions are other."
+    }
+  ]
+}

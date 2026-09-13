@@ -1,0 +1,49 @@
+{
+  "id": "count_029",
+  "labels": [
+    "count",
+    "object",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "spatial_relation",
+    "other",
+    "other",
+    "object",
+    "other",
+    "other",
+    "other",
+    "other",
+    "object",
+    "other",
+    "other",
+    "other",
+    "object",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other"
+  ],
+  "origin": "batch_model_attempt1",
+  "corrections": [],
+  "index_repairs": [
+    {
+      "text": "wall",
+      "model_index": 18,
+      "resolved_index": 19
+    },
+    {
+      "text": "path",
+      "model_index": 22,
+      "resolved_index": 23
+    }
+  ],
+  "policy_version": "csfm50_semantics_v2"
+}

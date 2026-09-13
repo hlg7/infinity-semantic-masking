@@ -1,0 +1,39 @@
+{
+  "id": "object_026",
+  "labels": [
+    "other",
+    "object",
+    "other",
+    "other",
+    "other",
+    "spatial_relation",
+    "other",
+    "other",
+    "object",
+    "other",
+    "other",
+    "other",
+    "other",
+    "object",
+    "object",
+    "other",
+    "other",
+    "texture",
+    "object",
+    "other",
+    "spatial_relation",
+    "other",
+    "other",
+    "other"
+  ],
+  "origin": "/workspace/infinity_semantic_experiment/data/csfm50_v1/annotations_qwen3vl/responses/object_026.attempt2.json",
+  "corrections": [],
+  "index_repairs": [
+    {
+      "text": "wall",
+      "model_index": 17,
+      "resolved_index": 18
+    }
+  ],
+  "policy_version": "csfm50_semantics_v2"
+}

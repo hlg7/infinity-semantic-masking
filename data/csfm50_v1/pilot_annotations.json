@@ -1,0 +1,710 @@
+[
+  {
+    "id": "object_001",
+    "prompt": "A dog is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+    "target_semantic": "object",
+    "segments": [
+      {
+        "text": "A ",
+        "semantic": "other"
+      },
+      {
+        "text": "dog",
+        "semantic": "object"
+      },
+      {
+        "text": " is clearly visible ",
+        "semantic": "other"
+      },
+      {
+        "text": "in",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " a grassy ",
+        "semantic": "other"
+      },
+      {
+        "text": "garden",
+        "semantic": "object"
+      },
+      {
+        "text": ", with a low stone ",
+        "semantic": "other"
+      },
+      {
+        "text": "wall",
+        "semantic": "object"
+      },
+      {
+        "text": " and distant ",
+        "semantic": "other"
+      },
+      {
+        "text": "trees",
+        "semantic": "object"
+      },
+      {
+        "text": " visible under soft daylight.",
+        "semantic": "other"
+      }
+    ]
+  },
+  {
+    "id": "color_001",
+    "prompt": "A red dog is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+    "target_semantic": "color",
+    "segments": [
+      {
+        "text": "A ",
+        "semantic": "other"
+      },
+      {
+        "text": "red",
+        "semantic": "color"
+      },
+      {
+        "text": " ",
+        "semantic": "other"
+      },
+      {
+        "text": "dog",
+        "semantic": "object"
+      },
+      {
+        "text": " is clearly visible ",
+        "semantic": "other"
+      },
+      {
+        "text": "in",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " a grassy ",
+        "semantic": "other"
+      },
+      {
+        "text": "garden",
+        "semantic": "object"
+      },
+      {
+        "text": ", with a low stone ",
+        "semantic": "other"
+      },
+      {
+        "text": "wall",
+        "semantic": "object"
+      },
+      {
+        "text": " and distant ",
+        "semantic": "other"
+      },
+      {
+        "text": "trees",
+        "semantic": "object"
+      },
+      {
+        "text": " visible under soft daylight.",
+        "semantic": "other"
+      }
+    ]
+  },
+  {
+    "id": "shape_001",
+    "prompt": "A round plate is shown with its outer outline clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "target_semantic": "shape",
+    "segments": [
+      {
+        "text": "A ",
+        "semantic": "other"
+      },
+      {
+        "text": "round",
+        "semantic": "shape"
+      },
+      {
+        "text": " ",
+        "semantic": "other"
+      },
+      {
+        "text": "plate",
+        "semantic": "object"
+      },
+      {
+        "text": " is shown with its outer outline clearly visible ",
+        "semantic": "other"
+      },
+      {
+        "text": "on",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " a ",
+        "semantic": "other"
+      },
+      {
+        "text": "kitchen counter",
+        "semantic": "object"
+      },
+      {
+        "text": ", with a ",
+        "semantic": "other"
+      },
+      {
+        "text": "plain",
+        "semantic": "texture"
+      },
+      {
+        "text": " tiled ",
+        "semantic": "other"
+      },
+      {
+        "text": "wall",
+        "semantic": "object"
+      },
+      {
+        "text": " and a closed ",
+        "semantic": "other"
+      },
+      {
+        "text": "cabinet",
+        "semantic": "object"
+      },
+      {
+        "text": " visible ",
+        "semantic": "other"
+      },
+      {
+        "text": "in",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " the background.",
+        "semantic": "other"
+      }
+    ]
+  },
+  {
+    "id": "texture_001",
+    "prompt": "A striped shirt is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "target_semantic": "texture",
+    "segments": [
+      {
+        "text": "A ",
+        "semantic": "other"
+      },
+      {
+        "text": "striped",
+        "semantic": "texture"
+      },
+      {
+        "text": " ",
+        "semantic": "other"
+      },
+      {
+        "text": "shirt",
+        "semantic": "object"
+      },
+      {
+        "text": " is shown with its surface clearly visible ",
+        "semantic": "other"
+      },
+      {
+        "text": "on",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " a wooden ",
+        "semantic": "other"
+      },
+      {
+        "text": "worktable",
+        "semantic": "object"
+      },
+      {
+        "text": ", ",
+        "semantic": "other"
+      },
+      {
+        "text": "with",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " a folded ",
+        "semantic": "other"
+      },
+      {
+        "text": "cloth",
+        "semantic": "object"
+      },
+      {
+        "text": " ",
+        "semantic": "other"
+      },
+      {
+        "text": "nearby",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " and soft daylight coming ",
+        "semantic": "other"
+      },
+      {
+        "text": "through",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " a ",
+        "semantic": "other"
+      },
+      {
+        "text": "window",
+        "semantic": "object"
+      },
+      {
+        "text": ".",
+        "semantic": "other"
+      }
+    ],
+    "notes": " Unique exact-word index repairs: [{\"text\": \"cloth\", \"model_index\": 17, \"resolved_index\": 18}, {\"text\": \"nearby\", \"model_index\": 20, \"resolved_index\": 19}]"
+  },
+  {
+    "id": "texture_031",
+    "prompt": "A rough vase is shown with its surface clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "target_semantic": "texture",
+    "segments": [
+      {
+        "text": "A ",
+        "semantic": "other"
+      },
+      {
+        "text": "rough",
+        "semantic": "texture"
+      },
+      {
+        "text": " ",
+        "semantic": "other"
+      },
+      {
+        "text": "vase",
+        "semantic": "object"
+      },
+      {
+        "text": " is shown with its surface clearly visible ",
+        "semantic": "other"
+      },
+      {
+        "text": "in",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " a quiet ",
+        "semantic": "other"
+      },
+      {
+        "text": "courtyard",
+        "semantic": "object"
+      },
+      {
+        "text": ", with a stone ",
+        "semantic": "other"
+      },
+      {
+        "text": "wall",
+        "semantic": "object"
+      },
+      {
+        "text": " and a narrow ",
+        "semantic": "other"
+      },
+      {
+        "text": "path",
+        "semantic": "object"
+      },
+      {
+        "text": " visible in soft daylight.",
+        "semantic": "other"
+      }
+    ],
+    "notes": " Unique exact-word index repairs: [{\"text\": \"wall\", \"model_index\": 17, \"resolved_index\": 18}, {\"text\": \"path\", \"model_index\": 21, \"resolved_index\": 22}]"
+  },
+  {
+    "id": "count_001",
+    "prompt": "Two mugs are arranged separately, with every item fully visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "count",
+    "segments": [
+      {
+        "text": "Two",
+        "semantic": "count"
+      },
+      {
+        "text": " ",
+        "semantic": "other"
+      },
+      {
+        "text": "mugs",
+        "semantic": "object"
+      },
+      {
+        "text": " are arranged separately, with every item fully visible ",
+        "semantic": "other"
+      },
+      {
+        "text": "on",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " a wooden cafe ",
+        "semantic": "other"
+      },
+      {
+        "text": "table",
+        "semantic": "object"
+      },
+      {
+        "text": ", with empty ",
+        "semantic": "other"
+      },
+      {
+        "text": "chairs",
+        "semantic": "object"
+      },
+      {
+        "text": " and a softly lit ",
+        "semantic": "other"
+      },
+      {
+        "text": "window",
+        "semantic": "object"
+      },
+      {
+        "text": " visible ",
+        "semantic": "other"
+      },
+      {
+        "text": "in",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " the background.",
+        "semantic": "other"
+      }
+    ]
+  },
+  {
+    "id": "spatial_relation_001",
+    "prompt": "A mug is to the left of a coffee pot, with both objects separated and visible from the front on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "spatial_relation",
+    "segments": [
+      {
+        "text": "A ",
+        "semantic": "other"
+      },
+      {
+        "text": "mug",
+        "semantic": "object"
+      },
+      {
+        "text": " is ",
+        "semantic": "other"
+      },
+      {
+        "text": "to the left of",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " a ",
+        "semantic": "other"
+      },
+      {
+        "text": "coffee pot",
+        "semantic": "object"
+      },
+      {
+        "text": ", with both objects separated and visible from the front ",
+        "semantic": "other"
+      },
+      {
+        "text": "on",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " a wooden ",
+        "semantic": "other"
+      },
+      {
+        "text": "cafe table",
+        "semantic": "object"
+      },
+      {
+        "text": ", with empty ",
+        "semantic": "other"
+      },
+      {
+        "text": "chairs",
+        "semantic": "object"
+      },
+      {
+        "text": " and a softly lit ",
+        "semantic": "other"
+      },
+      {
+        "text": "window",
+        "semantic": "object"
+      },
+      {
+        "text": " visible ",
+        "semantic": "other"
+      },
+      {
+        "text": "in the",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " background.",
+        "semantic": "other"
+      }
+    ]
+  },
+  {
+    "id": "spatial_relation_021",
+    "prompt": "A picture frame is mounted above a wall clock, with both objects fully visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "target_semantic": "spatial_relation",
+    "segments": [
+      {
+        "text": "A ",
+        "semantic": "other"
+      },
+      {
+        "text": "picture frame",
+        "semantic": "object"
+      },
+      {
+        "text": " is mounted ",
+        "semantic": "other"
+      },
+      {
+        "text": "above",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " a ",
+        "semantic": "other"
+      },
+      {
+        "text": "wall clock",
+        "semantic": "object"
+      },
+      {
+        "text": ", with both objects fully visible ",
+        "semantic": "other"
+      },
+      {
+        "text": "in",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " a quiet library, with ",
+        "semantic": "other"
+      },
+      {
+        "text": "bookshelves",
+        "semantic": "object"
+      },
+      {
+        "text": " ",
+        "semantic": "other"
+      },
+      {
+        "text": "along",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " the walls and daylight entering ",
+        "semantic": "other"
+      },
+      {
+        "text": "through",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " a large ",
+        "semantic": "other"
+      },
+      {
+        "text": "window",
+        "semantic": "object"
+      },
+      {
+        "text": ".",
+        "semantic": "other"
+      }
+    ]
+  },
+  {
+    "id": "spatial_relation_031",
+    "prompt": "A mug is in front of a coffee pot, with both objects visible from an oblique viewing angle on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "target_semantic": "spatial_relation",
+    "segments": [
+      {
+        "text": "A ",
+        "semantic": "other"
+      },
+      {
+        "text": "mug",
+        "semantic": "object"
+      },
+      {
+        "text": " is ",
+        "semantic": "other"
+      },
+      {
+        "text": "in front of",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " a ",
+        "semantic": "other"
+      },
+      {
+        "text": "coffee pot",
+        "semantic": "object"
+      },
+      {
+        "text": ", with ",
+        "semantic": "other"
+      },
+      {
+        "text": "both",
+        "semantic": "count"
+      },
+      {
+        "text": " objects visible from an oblique viewing angle ",
+        "semantic": "other"
+      },
+      {
+        "text": "on",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " a wooden ",
+        "semantic": "other"
+      },
+      {
+        "text": "cafe table",
+        "semantic": "object"
+      },
+      {
+        "text": ", with empty ",
+        "semantic": "other"
+      },
+      {
+        "text": "chairs",
+        "semantic": "object"
+      },
+      {
+        "text": " and a softly lit ",
+        "semantic": "other"
+      },
+      {
+        "text": "window",
+        "semantic": "object"
+      },
+      {
+        "text": " visible ",
+        "semantic": "other"
+      },
+      {
+        "text": "in the",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " background.",
+        "semantic": "other"
+      }
+    ]
+  },
+  {
+    "id": "spatial_relation_041",
+    "prompt": "A ball is inside a basket, with the object and container clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "target_semantic": "spatial_relation",
+    "segments": [
+      {
+        "text": "A ",
+        "semantic": "other"
+      },
+      {
+        "text": "ball",
+        "semantic": "object"
+      },
+      {
+        "text": " is ",
+        "semantic": "other"
+      },
+      {
+        "text": "inside",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " a ",
+        "semantic": "other"
+      },
+      {
+        "text": "basket",
+        "semantic": "object"
+      },
+      {
+        "text": ", with the object and container clearly visible ",
+        "semantic": "other"
+      },
+      {
+        "text": "beside",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " a ",
+        "semantic": "other"
+      },
+      {
+        "text": "garden path",
+        "semantic": "object"
+      },
+      {
+        "text": ", with tall ",
+        "semantic": "other"
+      },
+      {
+        "text": "reeds",
+        "semantic": "object"
+      },
+      {
+        "text": " and distant ",
+        "semantic": "other"
+      },
+      {
+        "text": "trees",
+        "semantic": "object"
+      },
+      {
+        "text": " ",
+        "semantic": "other"
+      },
+      {
+        "text": "beneath",
+        "semantic": "spatial_relation"
+      },
+      {
+        "text": " a lightly clouded ",
+        "semantic": "other"
+      },
+      {
+        "text": "sky",
+        "semantic": "object"
+      },
+      {
+        "text": ".",
+        "semantic": "other"
+      }
+    ]
+  }
+]

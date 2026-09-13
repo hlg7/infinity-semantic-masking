@@ -1,0 +1,35 @@
+{
+  "id": "shape_048__s42__shape__prefix_02--shape_048__check",
+  "input_digest": "b7ae563a12ec369d8a5b4437eacca2ce8ca0dc5190ce514483643c220e49cfce",
+  "image_sha256": "ee767c48881380d61c09ce08f2c29739cb81055139ed76d9744acb98fde87bae",
+  "semantic": "shape",
+  "subtype": "outline",
+  "tool": "qwen_vlm",
+  "metadata": {
+    "backbone": "Infinity",
+    "prompt_id": "shape_048",
+    "check_id": "shape_048__check",
+    "seed": 42,
+    "condition": "prefix_02",
+    "aliases": [
+      {
+        "direction": "prefix",
+        "boundary": 2
+      }
+    ],
+    "masked_scales": [
+      1,
+      2
+    ]
+  },
+  "baseline_id": "shape_048__s42__baseline--shape_048__check",
+  "status": "evaluation_error",
+  "success": null,
+  "absolute_error": null,
+  "error": "Invalid answer category",
+  "raw": "{\n  \"identity_status\": \"present\",\n  \"status\": \"ok\",\n  \"answer\": \"octagonal\",\n  \"evidence\": \"The wall clock has an octagonal outer frame, with eight distinct straight sides and eight corners, visible from the perspective in the image.\"\n}",
+  "attempts": [
+    "{\n  \"identity_status\": \"present\",\n  \"status\": \"ok\",\n  \"answer\": \"octagonal\",\n  \"evidence\": \"The wall clock has an octagonal outer frame, with eight distinct straight sides and eight corners, visible from the frontal perspective.\"\n}",
+    "{\n  \"identity_status\": \"present\",\n  \"status\": \"ok\",\n  \"answer\": \"octagonal\",\n  \"evidence\": \"The wall clock has an octagonal outer frame, with eight distinct straight sides and eight corners, visible from the perspective in the image.\"\n}"
+  ]
+}

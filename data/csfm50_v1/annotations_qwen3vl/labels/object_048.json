@@ -1,0 +1,32 @@
+{
+  "id": "object_048",
+  "labels": [
+    "other",
+    "object",
+    "other",
+    "other",
+    "other",
+    "spatial_relation",
+    "other",
+    "other",
+    "object",
+    "other",
+    "other",
+    "other",
+    "other",
+    "object",
+    "other",
+    "other",
+    "other",
+    "object",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other"
+  ],
+  "origin": "/workspace/infinity_semantic_experiment/data/csfm50_v1/annotations_qwen3vl_serial_v3/labels/object_048.json",
+  "corrections": [],
+  "index_repairs": [],
+  "policy_version": "csfm50_semantics_v2"
+}

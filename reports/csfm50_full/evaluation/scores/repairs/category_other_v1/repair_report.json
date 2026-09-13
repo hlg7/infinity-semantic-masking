@@ -1,0 +1,57 @@
+{
+  "mode": "apply",
+  "changed_count": 6,
+  "note": "Post-hoc category normalization; raw Qwen answers preserved, no new model inference.",
+  "changes": [
+    {
+      "id": "color_008__s42__color__prefix_05--color_008__check",
+      "method": "reviewed_category_to_existing_other_v1",
+      "original_answer": "silver",
+      "normalized_answer": "other",
+      "reason": "Named color/shape outside enumerated vocabulary; existing other category applies.",
+      "original_prediction_sha256": "9b2e0813d0a18ac0ecf520e9de6a659a0cbcdf0b1e32cda74515e6fa38baa918"
+    },
+    {
+      "id": "color_008__s42__color__prefix_12--color_008__check",
+      "method": "reviewed_category_to_existing_other_v1",
+      "original_answer": "silver",
+      "normalized_answer": "other",
+      "reason": "Named color/shape outside enumerated vocabulary; existing other category applies.",
+      "original_prediction_sha256": "4f2fe2e0b12bd7864ee353012b8ea4d63a4139b1dd2b80d7279abdd531394aa9"
+    },
+    {
+      "id": "color_008__s42__color__full_mask--color_008__check",
+      "method": "reviewed_category_to_existing_other_v1",
+      "original_answer": "silver",
+      "normalized_answer": "other",
+      "reason": "Named color/shape outside enumerated vocabulary; existing other category applies.",
+      "original_prediction_sha256": "473e0e69f42918c97e5294939da1de3ab8c66b9bfebbd67d61f30111e055c682"
+    },
+    {
+      "id": "color_023__s42__color__prefix_05--color_023__check",
+      "method": "reviewed_category_to_existing_other_v1",
+      "original_answer": "gray",
+      "normalized_answer": "other",
+      "reason": "Named color/shape outside enumerated vocabulary; existing other category applies.",
+      "original_prediction_sha256": "463dc55a78b262172e01b3be55b936743f18bab8e4c71a92ffac6590f44bd0d0"
+    },
+    {
+      "id": "color_023__s42__color__prefix_06--color_023__check",
+      "method": "reviewed_category_to_existing_other_v1",
+      "original_answer": "gray",
+      "normalized_answer": "other",
+      "reason": "Named color/shape outside enumerated vocabulary; existing other category applies.",
+      "original_prediction_sha256": "14f7f4a9c9adb55a3b7e04b4cf546cdd0fe7b1f111a97456e6f6d4409fd1f7dd"
+    },
+    {
+      "id": "shape_048__s42__shape__prefix_02--shape_048__check",
+      "method": "reviewed_category_to_existing_other_v1",
+      "original_answer": "octagonal",
+      "normalized_answer": "other",
+      "reason": "Named color/shape outside enumerated vocabulary; existing other category applies.",
+      "original_prediction_sha256": "246cb95b889c311d2cebb0c83da760621dac75e021c2abf21f74bf9b16120ff4"
+    }
+  ],
+  "unchanged_predictions_verified": 7794,
+  "utc": "2026-09-13T23:29:07.076619+00:00"
+}

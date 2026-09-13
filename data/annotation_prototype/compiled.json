@@ -1,0 +1,1558 @@
+{
+  "version": "semantic_groups_v1",
+  "input_sha256": "7559ec40bb1d8bc1b695b61b0f6333c3fb7129bb275af44bae06813e69fb790f",
+  "mask_unit": "semantic_class",
+  "mask_other": false,
+  "annotation_source": "provided_segments_not_automatic_inference",
+  "token_mapping_status": "pending_backbone_tokenizer",
+  "tokenizer": null,
+  "locator": null,
+  "backbone_generation_verified": false,
+  "prompt_count": 8,
+  "target_count": 24,
+  "records": [
+    {
+      "id": "all_six",
+      "prompt": "Two red round smooth plates are to the left of three blue oval rough bowls.",
+      "annotation_notes": "All six classes, with two disjoint mentions in each attribute/count class. Structural fixture only: plural attribute referents are ambiguous under the frozen evaluator.",
+      "prompt_sha256": "82e030b899f748c12a6b6c294dc87098eef9ea81ccac15a078c759dce2285c98",
+      "groups": {
+        "object": [
+          {
+            "span": [
+              21,
+              27
+            ],
+            "text": "plates"
+          },
+          {
+            "span": [
+              69,
+              74
+            ],
+            "text": "bowls"
+          }
+        ],
+        "color": [
+          {
+            "span": [
+              4,
+              7
+            ],
+            "text": "red"
+          },
+          {
+            "span": [
+              53,
+              57
+            ],
+            "text": "blue"
+          }
+        ],
+        "shape": [
+          {
+            "span": [
+              8,
+              13
+            ],
+            "text": "round"
+          },
+          {
+            "span": [
+              58,
+              62
+            ],
+            "text": "oval"
+          }
+        ],
+        "texture": [
+          {
+            "span": [
+              14,
+              20
+            ],
+            "text": "smooth"
+          },
+          {
+            "span": [
+              63,
+              68
+            ],
+            "text": "rough"
+          }
+        ],
+        "count": [
+          {
+            "span": [
+              0,
+              3
+            ],
+            "text": "Two"
+          },
+          {
+            "span": [
+              47,
+              52
+            ],
+            "text": "three"
+          }
+        ],
+        "spatial_relation": [
+          {
+            "span": [
+              32,
+              46
+            ],
+            "text": "to the left of"
+          }
+        ],
+        "other": [
+          {
+            "span": [
+              3,
+              4
+            ],
+            "text": " "
+          },
+          {
+            "span": [
+              7,
+              8
+            ],
+            "text": " "
+          },
+          {
+            "span": [
+              13,
+              14
+            ],
+            "text": " "
+          },
+          {
+            "span": [
+              20,
+              21
+            ],
+            "text": " "
+          },
+          {
+            "span": [
+              27,
+              32
+            ],
+            "text": " are "
+          },
+          {
+            "span": [
+              46,
+              47
+            ],
+            "text": " "
+          },
+          {
+            "span": [
+              52,
+              53
+            ],
+            "text": " "
+          },
+          {
+            "span": [
+              57,
+              58
+            ],
+            "text": " "
+          },
+          {
+            "span": [
+              62,
+              63
+            ],
+            "text": " "
+          },
+          {
+            "span": [
+              68,
+              69
+            ],
+            "text": " "
+          },
+          {
+            "span": [
+              74,
+              75
+            ],
+            "text": "."
+          }
+        ]
+      },
+      "targets": [
+        {
+          "id": "all_six__object",
+          "prompt_id": "all_six",
+          "prompt": "Two red round smooth plates are to the left of three blue oval rough bowls.",
+          "semantic": "object",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              21,
+              27
+            ],
+            [
+              69,
+              74
+            ]
+          ],
+          "target_text": "plates bowls",
+          "target_fragments": [
+            "plates",
+            "bowls"
+          ]
+        },
+        {
+          "id": "all_six__color",
+          "prompt_id": "all_six",
+          "prompt": "Two red round smooth plates are to the left of three blue oval rough bowls.",
+          "semantic": "color",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              4,
+              7
+            ],
+            [
+              53,
+              57
+            ]
+          ],
+          "target_text": "red blue",
+          "target_fragments": [
+            "red",
+            "blue"
+          ]
+        },
+        {
+          "id": "all_six__shape",
+          "prompt_id": "all_six",
+          "prompt": "Two red round smooth plates are to the left of three blue oval rough bowls.",
+          "semantic": "shape",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              8,
+              13
+            ],
+            [
+              58,
+              62
+            ]
+          ],
+          "target_text": "round oval",
+          "target_fragments": [
+            "round",
+            "oval"
+          ]
+        },
+        {
+          "id": "all_six__texture",
+          "prompt_id": "all_six",
+          "prompt": "Two red round smooth plates are to the left of three blue oval rough bowls.",
+          "semantic": "texture",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              14,
+              20
+            ],
+            [
+              63,
+              68
+            ]
+          ],
+          "target_text": "smooth rough",
+          "target_fragments": [
+            "smooth",
+            "rough"
+          ]
+        },
+        {
+          "id": "all_six__count",
+          "prompt_id": "all_six",
+          "prompt": "Two red round smooth plates are to the left of three blue oval rough bowls.",
+          "semantic": "count",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              0,
+              3
+            ],
+            [
+              47,
+              52
+            ]
+          ],
+          "target_text": "Two three",
+          "target_fragments": [
+            "Two",
+            "three"
+          ]
+        },
+        {
+          "id": "all_six__spatial_relation",
+          "prompt_id": "all_six",
+          "prompt": "Two red round smooth plates are to the left of three blue oval rough bowls.",
+          "semantic": "spatial_relation",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              32,
+              46
+            ]
+          ],
+          "target_text": "to the left of",
+          "target_fragments": [
+            "to the left of"
+          ]
+        }
+      ],
+      "skipped_semantics": []
+    },
+    {
+      "id": "repeated_color",
+      "prompt": "A red car is behind a red truck, and a red bicycle is in front of the truck.",
+      "annotation_notes": "All three red occurrences and both truck occurrences must be included. The repeated truck noun can refer to the same entity; masking is by mention, not deduplicated entity.",
+      "prompt_sha256": "69facdedf322f4501cf438dd058d8240df65ca2c7b1634a11d061c108aa2650c",
+      "groups": {
+        "object": [
+          {
+            "span": [
+              6,
+              9
+            ],
+            "text": "car"
+          },
+          {
+            "span": [
+              26,
+              31
+            ],
+            "text": "truck"
+          },
+          {
+            "span": [
+              43,
+              50
+            ],
+            "text": "bicycle"
+          },
+          {
+            "span": [
+              70,
+              75
+            ],
+            "text": "truck"
+          }
+        ],
+        "color": [
+          {
+            "span": [
+              2,
+              5
+            ],
+            "text": "red"
+          },
+          {
+            "span": [
+              22,
+              25
+            ],
+            "text": "red"
+          },
+          {
+            "span": [
+              39,
+              42
+            ],
+            "text": "red"
+          }
+        ],
+        "shape": [],
+        "texture": [],
+        "count": [],
+        "spatial_relation": [
+          {
+            "span": [
+              13,
+              19
+            ],
+            "text": "behind"
+          },
+          {
+            "span": [
+              54,
+              65
+            ],
+            "text": "in front of"
+          }
+        ],
+        "other": [
+          {
+            "span": [
+              0,
+              2
+            ],
+            "text": "A "
+          },
+          {
+            "span": [
+              5,
+              6
+            ],
+            "text": " "
+          },
+          {
+            "span": [
+              9,
+              13
+            ],
+            "text": " is "
+          },
+          {
+            "span": [
+              19,
+              22
+            ],
+            "text": " a "
+          },
+          {
+            "span": [
+              25,
+              26
+            ],
+            "text": " "
+          },
+          {
+            "span": [
+              31,
+              39
+            ],
+            "text": ", and a "
+          },
+          {
+            "span": [
+              42,
+              43
+            ],
+            "text": " "
+          },
+          {
+            "span": [
+              50,
+              54
+            ],
+            "text": " is "
+          },
+          {
+            "span": [
+              65,
+              70
+            ],
+            "text": " the "
+          },
+          {
+            "span": [
+              75,
+              76
+            ],
+            "text": "."
+          }
+        ]
+      },
+      "targets": [
+        {
+          "id": "repeated_color__object",
+          "prompt_id": "repeated_color",
+          "prompt": "A red car is behind a red truck, and a red bicycle is in front of the truck.",
+          "semantic": "object",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              6,
+              9
+            ],
+            [
+              26,
+              31
+            ],
+            [
+              43,
+              50
+            ],
+            [
+              70,
+              75
+            ]
+          ],
+          "target_text": "car truck bicycle truck",
+          "target_fragments": [
+            "car",
+            "truck",
+            "bicycle",
+            "truck"
+          ]
+        },
+        {
+          "id": "repeated_color__color",
+          "prompt_id": "repeated_color",
+          "prompt": "A red car is behind a red truck, and a red bicycle is in front of the truck.",
+          "semantic": "color",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              2,
+              5
+            ],
+            [
+              22,
+              25
+            ],
+            [
+              39,
+              42
+            ]
+          ],
+          "target_text": "red red red",
+          "target_fragments": [
+            "red",
+            "red",
+            "red"
+          ]
+        },
+        {
+          "id": "repeated_color__spatial_relation",
+          "prompt_id": "repeated_color",
+          "prompt": "A red car is behind a red truck, and a red bicycle is in front of the truck.",
+          "semantic": "spatial_relation",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              13,
+              19
+            ],
+            [
+              54,
+              65
+            ]
+          ],
+          "target_text": "behind in front of",
+          "target_fragments": [
+            "behind",
+            "in front of"
+          ]
+        }
+      ],
+      "skipped_semantics": [
+        "shape",
+        "texture",
+        "count"
+      ]
+    },
+    {
+      "id": "compound_nouns",
+      "prompt": "A black remote control is below a rectangular picture frame and above a blue pencil case.",
+      "annotation_notes": "Lexicalized multiword object names stay whole; attributes remain separate.",
+      "prompt_sha256": "fd829bd13eee397bf18547cd50a36d1d1a24c0523d421d0a330de8dbf3d2b2db",
+      "groups": {
+        "object": [
+          {
+            "span": [
+              8,
+              22
+            ],
+            "text": "remote control"
+          },
+          {
+            "span": [
+              46,
+              59
+            ],
+            "text": "picture frame"
+          },
+          {
+            "span": [
+              77,
+              88
+            ],
+            "text": "pencil case"
+          }
+        ],
+        "color": [
+          {
+            "span": [
+              2,
+              7
+            ],
+            "text": "black"
+          },
+          {
+            "span": [
+              72,
+              76
+            ],
+            "text": "blue"
+          }
+        ],
+        "shape": [
+          {
+            "span": [
+              34,
+              45
+            ],
+            "text": "rectangular"
+          }
+        ],
+        "texture": [],
+        "count": [],
+        "spatial_relation": [
+          {
+            "span": [
+              26,
+              31
+            ],
+            "text": "below"
+          },
+          {
+            "span": [
+              64,
+              69
+            ],
+            "text": "above"
+          }
+        ],
+        "other": [
+          {
+            "span": [
+              0,
+              2
+            ],
+            "text": "A "
+          },
+          {
+            "span": [
+              7,
+              8
+            ],
+            "text": " "
+          },
+          {
+            "span": [
+              22,
+              26
+            ],
+            "text": " is "
+          },
+          {
+            "span": [
+              31,
+              34
+            ],
+            "text": " a "
+          },
+          {
+            "span": [
+              45,
+              46
+            ],
+            "text": " "
+          },
+          {
+            "span": [
+              59,
+              64
+            ],
+            "text": " and "
+          },
+          {
+            "span": [
+              69,
+              72
+            ],
+            "text": " a "
+          },
+          {
+            "span": [
+              76,
+              77
+            ],
+            "text": " "
+          },
+          {
+            "span": [
+              88,
+              89
+            ],
+            "text": "."
+          }
+        ]
+      },
+      "targets": [
+        {
+          "id": "compound_nouns__object",
+          "prompt_id": "compound_nouns",
+          "prompt": "A black remote control is below a rectangular picture frame and above a blue pencil case.",
+          "semantic": "object",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              8,
+              22
+            ],
+            [
+              46,
+              59
+            ],
+            [
+              77,
+              88
+            ]
+          ],
+          "target_text": "remote control picture frame pencil case",
+          "target_fragments": [
+            "remote control",
+            "picture frame",
+            "pencil case"
+          ]
+        },
+        {
+          "id": "compound_nouns__color",
+          "prompt_id": "compound_nouns",
+          "prompt": "A black remote control is below a rectangular picture frame and above a blue pencil case.",
+          "semantic": "color",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              2,
+              7
+            ],
+            [
+              72,
+              76
+            ]
+          ],
+          "target_text": "black blue",
+          "target_fragments": [
+            "black",
+            "blue"
+          ]
+        },
+        {
+          "id": "compound_nouns__shape",
+          "prompt_id": "compound_nouns",
+          "prompt": "A black remote control is below a rectangular picture frame and above a blue pencil case.",
+          "semantic": "shape",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              34,
+              45
+            ]
+          ],
+          "target_text": "rectangular",
+          "target_fragments": [
+            "rectangular"
+          ]
+        },
+        {
+          "id": "compound_nouns__spatial_relation",
+          "prompt_id": "compound_nouns",
+          "prompt": "A black remote control is below a rectangular picture frame and above a blue pencil case.",
+          "semantic": "spatial_relation",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              26,
+              31
+            ],
+            [
+              64,
+              69
+            ]
+          ],
+          "target_text": "below above",
+          "target_fragments": [
+            "below",
+            "above"
+          ]
+        }
+      ],
+      "skipped_semantics": [
+        "texture",
+        "count"
+      ]
+    },
+    {
+      "id": "contextual_orange",
+      "prompt": "An orange is above an orange cup.",
+      "annotation_notes": "The first orange is an object, the second a color. Global string replacement would mask the wrong occurrence.",
+      "prompt_sha256": "d02fbfb922f65b70b5b8f4e213cea9e5899d895fff8680b0e39164f76cc612fc",
+      "groups": {
+        "object": [
+          {
+            "span": [
+              3,
+              9
+            ],
+            "text": "orange"
+          },
+          {
+            "span": [
+              29,
+              32
+            ],
+            "text": "cup"
+          }
+        ],
+        "color": [
+          {
+            "span": [
+              22,
+              28
+            ],
+            "text": "orange"
+          }
+        ],
+        "shape": [],
+        "texture": [],
+        "count": [],
+        "spatial_relation": [
+          {
+            "span": [
+              13,
+              18
+            ],
+            "text": "above"
+          }
+        ],
+        "other": [
+          {
+            "span": [
+              0,
+              3
+            ],
+            "text": "An "
+          },
+          {
+            "span": [
+              9,
+              13
+            ],
+            "text": " is "
+          },
+          {
+            "span": [
+              18,
+              22
+            ],
+            "text": " an "
+          },
+          {
+            "span": [
+              28,
+              29
+            ],
+            "text": " "
+          },
+          {
+            "span": [
+              32,
+              33
+            ],
+            "text": "."
+          }
+        ]
+      },
+      "targets": [
+        {
+          "id": "contextual_orange__object",
+          "prompt_id": "contextual_orange",
+          "prompt": "An orange is above an orange cup.",
+          "semantic": "object",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              3,
+              9
+            ],
+            [
+              29,
+              32
+            ]
+          ],
+          "target_text": "orange cup",
+          "target_fragments": [
+            "orange",
+            "cup"
+          ]
+        },
+        {
+          "id": "contextual_orange__color",
+          "prompt_id": "contextual_orange",
+          "prompt": "An orange is above an orange cup.",
+          "semantic": "color",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              22,
+              28
+            ]
+          ],
+          "target_text": "orange",
+          "target_fragments": [
+            "orange"
+          ]
+        },
+        {
+          "id": "contextual_orange__spatial_relation",
+          "prompt_id": "contextual_orange",
+          "prompt": "An orange is above an orange cup.",
+          "semantic": "spatial_relation",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              13,
+              18
+            ]
+          ],
+          "target_text": "above",
+          "target_fragments": [
+            "above"
+          ]
+        }
+      ],
+      "skipped_semantics": [
+        "shape",
+        "texture",
+        "count"
+      ]
+    },
+    {
+      "id": "texture_and_material",
+      "prompt": "A smooth wooden table is behind a striped fabric chair and a polka-dotted cushion.",
+      "annotation_notes": "Texture includes surface and pattern. Material-only words wooden/fabric remain other under the existing six-semantic scope.",
+      "prompt_sha256": "48c47bb2b8dea368998bfe19e688aa1d10f7da16375f05f2f2800aa5a6dbaa0d",
+      "groups": {
+        "object": [
+          {
+            "span": [
+              16,
+              21
+            ],
+            "text": "table"
+          },
+          {
+            "span": [
+              49,
+              54
+            ],
+            "text": "chair"
+          },
+          {
+            "span": [
+              74,
+              81
+            ],
+            "text": "cushion"
+          }
+        ],
+        "color": [],
+        "shape": [],
+        "texture": [
+          {
+            "span": [
+              2,
+              8
+            ],
+            "text": "smooth"
+          },
+          {
+            "span": [
+              34,
+              41
+            ],
+            "text": "striped"
+          },
+          {
+            "span": [
+              61,
+              73
+            ],
+            "text": "polka-dotted"
+          }
+        ],
+        "count": [],
+        "spatial_relation": [
+          {
+            "span": [
+              25,
+              31
+            ],
+            "text": "behind"
+          }
+        ],
+        "other": [
+          {
+            "span": [
+              0,
+              2
+            ],
+            "text": "A "
+          },
+          {
+            "span": [
+              8,
+              16
+            ],
+            "text": " wooden "
+          },
+          {
+            "span": [
+              21,
+              25
+            ],
+            "text": " is "
+          },
+          {
+            "span": [
+              31,
+              34
+            ],
+            "text": " a "
+          },
+          {
+            "span": [
+              41,
+              49
+            ],
+            "text": " fabric "
+          },
+          {
+            "span": [
+              54,
+              61
+            ],
+            "text": " and a "
+          },
+          {
+            "span": [
+              73,
+              74
+            ],
+            "text": " "
+          },
+          {
+            "span": [
+              81,
+              82
+            ],
+            "text": "."
+          }
+        ]
+      },
+      "targets": [
+        {
+          "id": "texture_and_material__object",
+          "prompt_id": "texture_and_material",
+          "prompt": "A smooth wooden table is behind a striped fabric chair and a polka-dotted cushion.",
+          "semantic": "object",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              16,
+              21
+            ],
+            [
+              49,
+              54
+            ],
+            [
+              74,
+              81
+            ]
+          ],
+          "target_text": "table chair cushion",
+          "target_fragments": [
+            "table",
+            "chair",
+            "cushion"
+          ]
+        },
+        {
+          "id": "texture_and_material__texture",
+          "prompt_id": "texture_and_material",
+          "prompt": "A smooth wooden table is behind a striped fabric chair and a polka-dotted cushion.",
+          "semantic": "texture",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              2,
+              8
+            ],
+            [
+              34,
+              41
+            ],
+            [
+              61,
+              73
+            ]
+          ],
+          "target_text": "smooth striped polka-dotted",
+          "target_fragments": [
+            "smooth",
+            "striped",
+            "polka-dotted"
+          ]
+        },
+        {
+          "id": "texture_and_material__spatial_relation",
+          "prompt_id": "texture_and_material",
+          "prompt": "A smooth wooden table is behind a striped fabric chair and a polka-dotted cushion.",
+          "semantic": "spatial_relation",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              25,
+              31
+            ]
+          ],
+          "target_text": "behind",
+          "target_fragments": [
+            "behind"
+          ]
+        }
+      ],
+      "skipped_semantics": [
+        "color",
+        "shape",
+        "count"
+      ]
+    },
+    {
+      "id": "counts_and_containment",
+      "prompt": "2 marbles are inside one bowl, and three coins are outside the bowl.",
+      "annotation_notes": "Numeric and written explicit counts; repeated bowl; no inferred count from articles or plural endings.",
+      "prompt_sha256": "c52687fb6093d4c909dd1288b9279f37a36d50eb76a780f81d7cab4772ce4a20",
+      "groups": {
+        "object": [
+          {
+            "span": [
+              2,
+              9
+            ],
+            "text": "marbles"
+          },
+          {
+            "span": [
+              25,
+              29
+            ],
+            "text": "bowl"
+          },
+          {
+            "span": [
+              41,
+              46
+            ],
+            "text": "coins"
+          },
+          {
+            "span": [
+              63,
+              67
+            ],
+            "text": "bowl"
+          }
+        ],
+        "color": [],
+        "shape": [],
+        "texture": [],
+        "count": [
+          {
+            "span": [
+              0,
+              1
+            ],
+            "text": "2"
+          },
+          {
+            "span": [
+              21,
+              24
+            ],
+            "text": "one"
+          },
+          {
+            "span": [
+              35,
+              40
+            ],
+            "text": "three"
+          }
+        ],
+        "spatial_relation": [
+          {
+            "span": [
+              14,
+              20
+            ],
+            "text": "inside"
+          },
+          {
+            "span": [
+              51,
+              58
+            ],
+            "text": "outside"
+          }
+        ],
+        "other": [
+          {
+            "span": [
+              1,
+              2
+            ],
+            "text": " "
+          },
+          {
+            "span": [
+              9,
+              14
+            ],
+            "text": " are "
+          },
+          {
+            "span": [
+              20,
+              21
+            ],
+            "text": " "
+          },
+          {
+            "span": [
+              24,
+              25
+            ],
+            "text": " "
+          },
+          {
+            "span": [
+              29,
+              35
+            ],
+            "text": ", and "
+          },
+          {
+            "span": [
+              40,
+              41
+            ],
+            "text": " "
+          },
+          {
+            "span": [
+              46,
+              51
+            ],
+            "text": " are "
+          },
+          {
+            "span": [
+              58,
+              63
+            ],
+            "text": " the "
+          },
+          {
+            "span": [
+              67,
+              68
+            ],
+            "text": "."
+          }
+        ]
+      },
+      "targets": [
+        {
+          "id": "counts_and_containment__object",
+          "prompt_id": "counts_and_containment",
+          "prompt": "2 marbles are inside one bowl, and three coins are outside the bowl.",
+          "semantic": "object",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              2,
+              9
+            ],
+            [
+              25,
+              29
+            ],
+            [
+              41,
+              46
+            ],
+            [
+              63,
+              67
+            ]
+          ],
+          "target_text": "marbles bowl coins bowl",
+          "target_fragments": [
+            "marbles",
+            "bowl",
+            "coins",
+            "bowl"
+          ]
+        },
+        {
+          "id": "counts_and_containment__count",
+          "prompt_id": "counts_and_containment",
+          "prompt": "2 marbles are inside one bowl, and three coins are outside the bowl.",
+          "semantic": "count",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              0,
+              1
+            ],
+            [
+              21,
+              24
+            ],
+            [
+              35,
+              40
+            ]
+          ],
+          "target_text": "2 one three",
+          "target_fragments": [
+            "2",
+            "one",
+            "three"
+          ]
+        },
+        {
+          "id": "counts_and_containment__spatial_relation",
+          "prompt_id": "counts_and_containment",
+          "prompt": "2 marbles are inside one bowl, and three coins are outside the bowl.",
+          "semantic": "spatial_relation",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              14,
+              20
+            ],
+            [
+              51,
+              58
+            ]
+          ],
+          "target_text": "inside outside",
+          "target_fragments": [
+            "inside",
+            "outside"
+          ]
+        }
+      ],
+      "skipped_semantics": [
+        "color",
+        "shape",
+        "texture"
+      ]
+    },
+    {
+      "id": "legacy_scene_expanded",
+      "prompt": "A dog is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+      "annotation_notes": "Original object_001 prompt. Whole-object mask now includes background entities garden, wall and trees as well as dog. Grassy/stone describe covering/material; low is size, distant is qualitative distance, and under soft daylight is illumination. These stay other in this provisional rule set.",
+      "prompt_sha256": "a327a4ed11e4ec68eed4dcee1e88aed4c7a96b2a9c695c164f40ad3bcd4f49a9",
+      "groups": {
+        "object": [
+          {
+            "span": [
+              2,
+              5
+            ],
+            "text": "dog"
+          },
+          {
+            "span": [
+              37,
+              43
+            ],
+            "text": "garden"
+          },
+          {
+            "span": [
+              62,
+              66
+            ],
+            "text": "wall"
+          },
+          {
+            "span": [
+              79,
+              84
+            ],
+            "text": "trees"
+          }
+        ],
+        "color": [],
+        "shape": [],
+        "texture": [],
+        "count": [],
+        "spatial_relation": [
+          {
+            "span": [
+              25,
+              27
+            ],
+            "text": "in"
+          }
+        ],
+        "other": [
+          {
+            "span": [
+              0,
+              2
+            ],
+            "text": "A "
+          },
+          {
+            "span": [
+              5,
+              25
+            ],
+            "text": " is clearly visible "
+          },
+          {
+            "span": [
+              27,
+              37
+            ],
+            "text": " a grassy "
+          },
+          {
+            "span": [
+              43,
+              62
+            ],
+            "text": ", with a low stone "
+          },
+          {
+            "span": [
+              66,
+              79
+            ],
+            "text": " and distant "
+          },
+          {
+            "span": [
+              84,
+              113
+            ],
+            "text": " visible under soft daylight."
+          }
+        ]
+      },
+      "targets": [
+        {
+          "id": "legacy_scene_expanded__object",
+          "prompt_id": "legacy_scene_expanded",
+          "prompt": "A dog is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+          "semantic": "object",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              2,
+              5
+            ],
+            [
+              37,
+              43
+            ],
+            [
+              62,
+              66
+            ],
+            [
+              79,
+              84
+            ]
+          ],
+          "target_text": "dog garden wall trees",
+          "target_fragments": [
+            "dog",
+            "garden",
+            "wall",
+            "trees"
+          ]
+        },
+        {
+          "id": "legacy_scene_expanded__spatial_relation",
+          "prompt_id": "legacy_scene_expanded",
+          "prompt": "A dog is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+          "semantic": "spatial_relation",
+          "mask_unit": "semantic_class",
+          "spans": [
+            [
+              25,
+              27
+            ]
+          ],
+          "target_text": "in",
+          "target_fragments": [
+            "in"
+          ]
+        }
+      ],
+      "skipped_semantics": [
+        "color",
+        "shape",
+        "texture",
+        "count"
+      ]
+    },
+    {
+      "id": "only_other",
+      "prompt": "Soft daylight, cinematic lighting.",
+      "annotation_notes": "No intervention targets; preserve prompt for baseline handling by a future generator.",
+      "prompt_sha256": "411debec4db719bd04f4cb85f8bf33e8a472da8941872f133fb21db407e1c964",
+      "groups": {
+        "object": [],
+        "color": [],
+        "shape": [],
+        "texture": [],
+        "count": [],
+        "spatial_relation": [],
+        "other": [
+          {
+            "span": [
+              0,
+              34
+            ],
+            "text": "Soft daylight, cinematic lighting."
+          }
+        ]
+      },
+      "targets": [],
+      "skipped_semantics": [
+        "object",
+        "color",
+        "shape",
+        "texture",
+        "count",
+        "spatial_relation"
+      ]
+    }
+  ]
+}

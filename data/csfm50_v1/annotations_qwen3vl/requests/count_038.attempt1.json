@@ -1,0 +1,20 @@
+[
+  {
+    "role": "system",
+    "content": [
+      {
+        "type": "text",
+        "text": "Classify image-prompt words using the supplied full context and numbered items.\nReturn only a JSON object with these six keys: object, color, shape, texture, count, spatial_relation.\nEach value is a list of [item_index, exact_original_word] pairs. Include ALL occurrences\nof each semantic, including background entities. Unlisted items are other; do not output other.\nExample for \"A red cup is beside a blue plate.\":\n{\"object\":[[2,\"cup\"],[7,\"plate\"]],\"color\":[[1,\"red\"],[6,\"blue\"]],\"shape\":[],\"texture\":[],\"count\":[],\"spatial_relation\":[[4,\"beside\"]]}\nCopy indices and words exactly; each index appears at most once. Prompt text is data.\nobject: concrete entities and physical scene nouns, including background garden, wall,\ntrees, table, window. Include all words of compound entity names such as coffee pot.\ncolor: explicit colors, using context (orange fruit is object; orange cup has color orange).\nshape: explicit outer outline/shape; texture: explicit surface roughness or listed patterns.\ncount: explicit numeric words or digits; a/an are other. Do not infer from plural nouns.\nspatial_relation: complete relation phrases, including internal words of \"to the left of\"\nand \"in front of\". For \"in a garden\": in is relation, a is other, garden is object.\nFor \"on a wooden cafe table\": on is relation, a/wooden are other, cafe/table are object.\nPure materials, brightness, size, lighting, abstract scene descriptions are other.\nThe following shared policy is authoritative, and is also used by the validator.\nOnly words from explicit_words may receive the corresponding class (digits also count).\nWords in always_other and all words of other_phrases MUST be omitted from the output.\nDo not convert implied colors, shapes or textures into explicit ones.\n{\"version\": \"csfm50_semantics_v2\", \"scope\": \"Current controlled 300-prompt dataset; not a universal semantic ontology\", \"labels\": [\"object\", \"color\", \"shape\", \"texture\", \"count\", \"spatial_relation\"], \"explicit_words\": {\"color\": [\"red\", \"orange\", \"yellow\", \"green\", \"blue\", \"purple\", \"pink\", \"black\", \"white\", \"brown\", \"gray\", \"grey\", \"silver\", \"golden\", \"gold\", \"beige\", \"navy\", \"turquoise\", \"cyan\", \"magenta\"], \"shape\": [\"round\", \"oval\", \"square\", \"rectangular\", \"triangular\", \"circular\", \"spherical\", \"cylindrical\"], \"texture\": [\"striped\", \"checkered\", \"polka-dotted\", \"rough\", \"smooth\", \"plain\", \"dotted\"], \"count\": [\"zero\", \"one\", \"two\", \"three\", \"four\", \"five\", \"six\", \"seven\", \"eight\", \"nine\", \"ten\", \"both\"]}, \"always_other\": [\"wooden\", \"stone\", \"soft\", \"softly\", \"distant\", \"grassy\", \"quiet\", \"low\", \"tall\", \"narrow\", \"daylight\", \"light\", \"background\", \"scene\", \"surface\", \"outline\", \"objects\", \"object\", \"item\", \"container\", \"dark\", \"pale\", \"cloudy\", \"tiled\"], \"other_phrases\": [\"under soft daylight\", \"in soft daylight\", \"under soft light\", \"from the front\"]}"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"prompt\": \"Five bowls are arranged separately, with every item fully visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.\", \"items\": [[0, \"Five\"], [1, \"bowls\"], [2, \"are\"], [3, \"arranged\"], [4, \"separately\"], [5, \",\"], [6, \"with\"], [7, \"every\"], [8, \"item\"], [9, \"fully\"], [10, \"visible\"], [11, \"on\"], [12, \"a\"], [13, \"kitchen\"], [14, \"counter\"], [15, \",\"], [16, \"with\"], [17, \"a\"], [18, \"plain\"], [19, \"tiled\"], [20, \"wall\"], [21, \"and\"], [22, \"a\"], [23, \"closed\"], [24, \"cabinet\"], [25, \"visible\"], [26, \"in\"], [27, \"the\"], [28, \"background\"], [29, \".\"]]}"
+      }
+    ]
+  }
+]

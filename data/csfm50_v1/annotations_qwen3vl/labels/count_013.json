@@ -1,0 +1,46 @@
+{
+  "id": "count_013",
+  "labels": [
+    "count",
+    "object",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other",
+    "spatial_relation",
+    "other",
+    "other",
+    "other",
+    "object",
+    "other",
+    "other",
+    "other",
+    "other",
+    "object",
+    "other",
+    "other",
+    "other",
+    "other",
+    "object",
+    "other",
+    "other",
+    "other",
+    "other",
+    "other"
+  ],
+  "origin": "batch_model_attempt1",
+  "corrections": [],
+  "index_repairs": [
+    {
+      "text": "cabinet",
+      "model_index": 24,
+      "resolved_index": 25
+    }
+  ],
+  "policy_version": "csfm50_semantics_v2"
+}
