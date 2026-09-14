@@ -1,6 +1,6 @@
 # Infinity Semantic-Class Masking
 
-研究 **Infinity 在不同生成 scale 对六类 semantic 的直接 cross-attention 输入有多依赖**。本实验从 STAR 的“单词 mask”扩展为“整类 semantic mask”，使用独立的 Infinity 代码与实验目录。
+研究 **Infinity 在不同生成 scale 对六类 semantic 的直接 cross-attention 输入有多依赖**。这是本项目的**首次实验（实验 01）**：使用 Infinity 对整类 semantic 进行 mask，实验代码与结果保存在独立目录。
 
 **当前状态（2026-09-14）：300 个 prompt、seed 42、7,800 张图片已生成；全部评分和曲线已完成。** 仓库包含实验代码、冻结标注、逐图评分、完整曲线、代表性图片和修正记录。模型权重、虚拟环境、云端访问配置与全部原始图片不随 Git 分发。
 
@@ -64,7 +64,7 @@
 
 ## 数据与已完成阶段
 
-数据来自既有 CSFM 衍生受控 prompt 集，六类各 50 条，共 300 条，包含十个场景家族；不声称是独立标准 benchmark。原文、历史单词 spans 和元数据保存在 [source_prompts.json](data/csfm50_v1/source_prompts.json)。
+数据来自既有 CSFM 衍生受控 prompt 集，六类各 50 条，共 300 条，包含十个场景家族；不声称是独立标准 benchmark。原文、目标词 spans 和元数据保存在 [source_prompts.json](data/csfm50_v1/source_prompts.json)。
 
 Qwen3-VL-8B-Instruct 仅用文本进行分组，每批 8 条；共享规则在 [annotation_policy.json](configs/annotation_policy.json)。检查原文、索引、完整分段、重复位置和已知目标，再映射到真实 T5 token。286 条自动接受、14 条人工修正，300 条均通过 T5 校验；修正有独立记录。规则是当前数据集的有限策略，仍可优化。
 
@@ -108,7 +108,7 @@ Qwen3-VL-8B-Instruct 仅用文本进行分组，每批 8 条；共享规则在 [
 
 原评分器有 6 项 `Invalid answer category`：3 次 `silver`、2 次 `gray`、1 次 `octagonal`。这些是明确但未列举的类别，经审核归入协议已有的 `other`，按原函数重算，六项均为 incorrect。它是**显式记录的事后结果归一化**，不是重新推理，也不是把任意解析失败统一计为错误。原始回答、两次尝试、原始错误和 SHA256 均保留；其他 7,794 项文件哈希未变。[修复记录](reports/csfm50_full/evaluation/scores/repairs/category_other_v1/repair_report.json)
 
-评分答案的 `other` 与 prompt 标注的 `other` 是不同概念。评分器源码保持冻结，修复作为独立脚本提供。
+评分答案的 `other` 与 prompt 标注的 `other` 是不同概念。评分核心、规则与模型配置保持冻结，修复作为独立脚本提供。当前仓库仅整理过评分包文档与 CLI 入口；运行时源码哈希仍按原样保存在评分 manifest 中。
 
 本结果仅是单 seed、受控 prompt 集的探索性自动评分。预实验发现红/橙边界、粗糙/光滑判断有歧义，DINO 可能误检；完整 7,800 张尚未逐张人工复核。Shape、count、spatial 的 baseline 较低，retention 有效分母须同时报告。
 

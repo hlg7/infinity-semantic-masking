@@ -1,6 +1,7 @@
 {
-  "source_path": "star_baseline/data/semantic_eval_v3/checks.json (historical source; frozen copy included)",
-  "sha256": "2e2e39d44705bec3ef20ae15d3fbfc5a66bc21389839495b25264b2921d9e6ce",
+  "source_path": "data/csfm50_v1/checks.json",
+  "sha256": "e3dbe89554407e6f91b2a16c45e3fd9417c0359fdacee12edbb41a0a5dfec433",
   "count": 300,
-  "policy": "Compiled checks copied verbatim; evaluator_input and scoring_only unchanged"
+  "policy": "Frozen compiled checks; evaluator_input and scoring_only unchanged. compiled_source_sha256 retains the source digest before packaging.",
+  "compiled_source_sha256": "2e2e39d44705bec3ef20ae15d3fbfc5a66bc21389839495b25264b2921d9e6ce"
 }

@@ -59,7 +59,6 @@
 - `runpod_deployment.json`、`runpod_deployment_previous.json`、`runpod_known_hosts`：当前及历史部署/连接信息。
 - `csfm50_full_launch.md`：正式实验启动记录。
 - `local_checks.log`、`local_status.json`：早期本地验证记录，不能当成当前实验状态。
-- `runpod_bundle.tar.gz`、`dataset_pilot_update.tar`、`batch_annotation_update.tar`：历史传输包，暂保留。
 - `readme_example_sources/`：README 六类样例的 156 张完整实验原始 PNG 与下载清单；排版后的对照图和来源清单收录于 `csfm50_full_review/examples/`。
 - `organization_cleanup_20260914.json`：本次重复压缩包清理的校验记录。
 

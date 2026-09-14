@@ -1,5 +1,5 @@
 {
-  "source_path": "star_baseline/data/csfm50_v1/prompts.json (historical source; not a runtime dependency)",
+  "source_path": "data/csfm50_v1/source_prompts.json",
   "sha256": "127b7d8e6b34c1577c61e52513d4eaff4119d141359aba0b9f4140a388e8de9b",
   "counts": {
     "object": 50,

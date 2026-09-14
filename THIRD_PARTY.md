@@ -16,7 +16,7 @@ Text encoder: `google/flan-t5-xl` at `7d6315df2c2fb742f0f5b556879d730926ca9001`.
 
 Source: https://github.com/hlg7/semantic-evaluators
 
-Pinned revision: `55dd2cd614748b5962b5bc4c186d7865efef6285`. The vendored package is a self-contained frozen copy with its original README and provenance documents. This repository does not relicense that code.
+Pinned revision: `55dd2cd614748b5962b5bc4c186d7865efef6285`. The vendored package is self-contained. Its scoring core, rules and model defaults remain frozen at this revision; documentation and CLI packaging were cleaned for experiment 01 after the run. The unused generator-specific import command was removed. Saved run manifests retain the exact code hashes from execution. This repository does not relicense that code.
 
 Detector: `IDEA-Research/grounding-dino-base`, revision `12bdfa3120f3e7ec7b434d90674b3396eccf88eb`.
 

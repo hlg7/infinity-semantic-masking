@@ -71,7 +71,7 @@ def main():
     load_manifest(path)  # Validate baseline pairing, questions and actual image files.
     print(f'Validated {len(rows)} evaluation checks')
     if not args.manifest_only:
-        # Vendored package is self-contained; no ../STAR or external checkout needed.
+        # Vendored package is self-contained; no external evaluator checkout needed.
         import os
         env = dict(os.environ, PYTHONPATH=str(ROOT/'vendor/semantic-evaluators'),
                    HF_HOME=str(ROOT/'assets/hf-cache'))

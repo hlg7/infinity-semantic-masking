@@ -6,6 +6,6 @@
   "semantic-evaluators": {
     "url": "https://github.com/hlg7/semantic-evaluators",
     "revision": "55dd2cd614748b5962b5bc4c186d7865efef6285",
-    "source": "local package copied unchanged; no runtime dependency on sibling folders"
+    "source": "Self-contained copy based on the pinned revision; documentation and CLI packaging cleaned for experiment 01. Scoring core, rules and model defaults unchanged; no runtime dependency on sibling folders."
   }
 }
