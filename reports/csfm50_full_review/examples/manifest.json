@@ -1,0 +1,4604 @@
+{
+  "source": "reports/csfm50_full/generation/runs.jsonl",
+  "selection_rule": "For each semantic, select the lexicographically first prompt ID whose seed-42 baseline has status correct in the frozen scores. No masked-condition scores are used for selection.",
+  "seed": 42,
+  "unique_source_images": 156,
+  "displayed_panels": 168,
+  "samples": [
+    {
+      "semantic": "object",
+      "prompt_id": "object_001",
+      "prompt": "A dog is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+      "masked_spans": [
+        "dog",
+        "garden",
+        "wall",
+        "trees"
+      ],
+      "figure": "object_all_scales.jpg",
+      "sources": [
+        {
+          "id": "object_001__s42__baseline",
+          "condition": "baseline",
+          "image_filename": "object_001__s42__baseline.png",
+          "image_sha256": "e8d812bf3109a1346c27501e838f0acd0591c19cfdc1a5f2a83c5ea13a0529e3",
+          "masked_scales": []
+        },
+        {
+          "id": "object_001__s42__object__prefix_01",
+          "condition": "prefix_01",
+          "image_filename": "object_001__s42__object__prefix_01.png",
+          "image_sha256": "0c1433a61ed95b16b574e218d976813fa842641c342e81766845cda6cf8cf191",
+          "masked_scales": [
+            1
+          ]
+        },
+        {
+          "id": "object_001__s42__object__prefix_02",
+          "condition": "prefix_02",
+          "image_filename": "object_001__s42__object__prefix_02.png",
+          "image_sha256": "a1060a865083988e6ac84aed5d863b047125f9122368dbb6415bfc0eed1f5cad",
+          "masked_scales": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "object_001__s42__object__prefix_03",
+          "condition": "prefix_03",
+          "image_filename": "object_001__s42__object__prefix_03.png",
+          "image_sha256": "026ef2ff5fe3d581ee92d092f25c29d58e65df5a64a1aa46e08dc36a542315b1",
+          "masked_scales": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "object_001__s42__object__prefix_04",
+          "condition": "prefix_04",
+          "image_filename": "object_001__s42__object__prefix_04.png",
+          "image_sha256": "d3d4ec3f1f0cb1f4561adfcf03687f6669d21f78626030c5fd283757b6dd5f3b",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": "object_001__s42__object__prefix_05",
+          "condition": "prefix_05",
+          "image_filename": "object_001__s42__object__prefix_05.png",
+          "image_sha256": "81ed1c3751d2f103ce8f4712d524298c2a48d6fa1f39e269e485445244e63e78",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "id": "object_001__s42__object__prefix_06",
+          "condition": "prefix_06",
+          "image_filename": "object_001__s42__object__prefix_06.png",
+          "image_sha256": "2e5adf2c9dd5701e2f825762f5784c10c8e289e73594c8b36c3a9413f4e55992",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "id": "object_001__s42__object__prefix_07",
+          "condition": "prefix_07",
+          "image_filename": "object_001__s42__object__prefix_07.png",
+          "image_sha256": "01c9ddda227a70c2cc4be680bb7c2be4448be0deeac6c255b3120a562d0372ce",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "id": "object_001__s42__object__prefix_08",
+          "condition": "prefix_08",
+          "image_filename": "object_001__s42__object__prefix_08.png",
+          "image_sha256": "ce1217a156384cc97d43cda171446fdf60d70c833247b8ec377216bd3b52fd25",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "id": "object_001__s42__object__prefix_09",
+          "condition": "prefix_09",
+          "image_filename": "object_001__s42__object__prefix_09.png",
+          "image_sha256": "56db88cd0f8f7673ca109e1a9e76556bf30390881160c9fba6edaed1d8e4a727",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "id": "object_001__s42__object__prefix_10",
+          "condition": "prefix_10",
+          "image_filename": "object_001__s42__object__prefix_10.png",
+          "image_sha256": "cef6442784f2ae141c7cb573ee3acc48f9fd5f8d25a2401d8dc7fddc22b999cb",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "id": "object_001__s42__object__prefix_11",
+          "condition": "prefix_11",
+          "image_filename": "object_001__s42__object__prefix_11.png",
+          "image_sha256": "2db9991c264e21156041439f9573bfa57645b824e04f9aea8298c41448dd57fa",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "id": "object_001__s42__object__prefix_12",
+          "condition": "prefix_12",
+          "image_filename": "object_001__s42__object__prefix_12.png",
+          "image_sha256": "ea72a78ece36a54b70ba6829240def19ddd4879de4f5a922f7984d65e9596eef",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "id": "object_001__s42__object__full_mask",
+          "condition": "full_mask",
+          "image_filename": "object_001__s42__object__full_mask.png",
+          "image_sha256": "07876e3300f58853a90c5017f556681bdee73bfc811e61c5b6d9f84c68f3e56e",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "object_001__s42__object__suffix_01",
+          "condition": "suffix_01",
+          "image_filename": "object_001__s42__object__suffix_01.png",
+          "image_sha256": "fdd93e1eb1a588c6990560821c0fd49d682f9ae13e44c34f1dff373d28159ca1",
+          "masked_scales": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "object_001__s42__object__suffix_02",
+          "condition": "suffix_02",
+          "image_filename": "object_001__s42__object__suffix_02.png",
+          "image_sha256": "a1ad6700122d20bdbfe4b1c0011637ba359ea925260165e31b24d298be3ea455",
+          "masked_scales": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "object_001__s42__object__suffix_03",
+          "condition": "suffix_03",
+          "image_filename": "object_001__s42__object__suffix_03.png",
+          "image_sha256": "7fb1d3de270e46bc47e7cb2c4a4bbec7208510be18e1e5925dd618bfd5699a7d",
+          "masked_scales": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "object_001__s42__object__suffix_04",
+          "condition": "suffix_04",
+          "image_filename": "object_001__s42__object__suffix_04.png",
+          "image_sha256": "3e424528dd73b42ee69af561c1a72977f4a0d7056dc4f383a1d7af5c6ebc57da",
+          "masked_scales": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "object_001__s42__object__suffix_05",
+          "condition": "suffix_05",
+          "image_filename": "object_001__s42__object__suffix_05.png",
+          "image_sha256": "8935475e2d5eec8e4387c0f00dcc7bb3f8c17fc73fb094c9aaf6afae6bc6873a",
+          "masked_scales": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "object_001__s42__object__suffix_06",
+          "condition": "suffix_06",
+          "image_filename": "object_001__s42__object__suffix_06.png",
+          "image_sha256": "bff6dd4cc67d774ee19f229825fed450f140c6c4f63eab5d44e1275ff93ff6c1",
+          "masked_scales": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "object_001__s42__object__suffix_07",
+          "condition": "suffix_07",
+          "image_filename": "object_001__s42__object__suffix_07.png",
+          "image_sha256": "92a24723ca1b6b69af4a027af7bfb4d1d05b3f61f207a8773e3935be93999207",
+          "masked_scales": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "object_001__s42__object__suffix_08",
+          "condition": "suffix_08",
+          "image_filename": "object_001__s42__object__suffix_08.png",
+          "image_sha256": "5d87afa78cc967cceba67df22378fd88f711f40a11b0806f6eeb8a9b0b49b5be",
+          "masked_scales": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "object_001__s42__object__suffix_09",
+          "condition": "suffix_09",
+          "image_filename": "object_001__s42__object__suffix_09.png",
+          "image_sha256": "fc3b34b672cebd94f07b4aa1f3644a42e72659027cd311110aac214d0f86fcea",
+          "masked_scales": [
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "object_001__s42__object__suffix_10",
+          "condition": "suffix_10",
+          "image_filename": "object_001__s42__object__suffix_10.png",
+          "image_sha256": "ff3192c5a8fd1863127b712a2d8eea4c4838a729cc5fb3ddd4c7062aee85747a",
+          "masked_scales": [
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "object_001__s42__object__suffix_11",
+          "condition": "suffix_11",
+          "image_filename": "object_001__s42__object__suffix_11.png",
+          "image_sha256": "97aeba02990ae8ef094ccaa8cb209c049667dd0ab5e41f1cb4dcd045646ee2db",
+          "masked_scales": [
+            12,
+            13
+          ]
+        },
+        {
+          "id": "object_001__s42__object__suffix_12",
+          "condition": "suffix_12",
+          "image_filename": "object_001__s42__object__suffix_12.png",
+          "image_sha256": "057884f4a1c4ea0555a574f38bfe8548ae88b7e0f327397c099f90685223ea3d",
+          "masked_scales": [
+            13
+          ]
+        }
+      ],
+      "panels": [
+        {
+          "direction": "prefix",
+          "boundary": 0,
+          "source_id": "object_001__s42__baseline",
+          "masked_scales": []
+        },
+        {
+          "direction": "prefix",
+          "boundary": 1,
+          "source_id": "object_001__s42__object__prefix_01",
+          "masked_scales": [
+            1
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 2,
+          "source_id": "object_001__s42__object__prefix_02",
+          "masked_scales": [
+            1,
+            2
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 3,
+          "source_id": "object_001__s42__object__prefix_03",
+          "masked_scales": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 4,
+          "source_id": "object_001__s42__object__prefix_04",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 5,
+          "source_id": "object_001__s42__object__prefix_05",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 6,
+          "source_id": "object_001__s42__object__prefix_06",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 7,
+          "source_id": "object_001__s42__object__prefix_07",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 8,
+          "source_id": "object_001__s42__object__prefix_08",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 9,
+          "source_id": "object_001__s42__object__prefix_09",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 10,
+          "source_id": "object_001__s42__object__prefix_10",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 11,
+          "source_id": "object_001__s42__object__prefix_11",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 12,
+          "source_id": "object_001__s42__object__prefix_12",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 13,
+          "source_id": "object_001__s42__object__full_mask",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 0,
+          "source_id": "object_001__s42__object__full_mask",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 1,
+          "source_id": "object_001__s42__object__suffix_01",
+          "masked_scales": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 2,
+          "source_id": "object_001__s42__object__suffix_02",
+          "masked_scales": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 3,
+          "source_id": "object_001__s42__object__suffix_03",
+          "masked_scales": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 4,
+          "source_id": "object_001__s42__object__suffix_04",
+          "masked_scales": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 5,
+          "source_id": "object_001__s42__object__suffix_05",
+          "masked_scales": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 6,
+          "source_id": "object_001__s42__object__suffix_06",
+          "masked_scales": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 7,
+          "source_id": "object_001__s42__object__suffix_07",
+          "masked_scales": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 8,
+          "source_id": "object_001__s42__object__suffix_08",
+          "masked_scales": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 9,
+          "source_id": "object_001__s42__object__suffix_09",
+          "masked_scales": [
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 10,
+          "source_id": "object_001__s42__object__suffix_10",
+          "masked_scales": [
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 11,
+          "source_id": "object_001__s42__object__suffix_11",
+          "masked_scales": [
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 12,
+          "source_id": "object_001__s42__object__suffix_12",
+          "masked_scales": [
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 13,
+          "source_id": "object_001__s42__baseline",
+          "masked_scales": []
+        }
+      ]
+    },
+    {
+      "semantic": "color",
+      "prompt_id": "color_002",
+      "prompt": "A green cat is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+      "masked_spans": [
+        "green"
+      ],
+      "figure": "color_all_scales.jpg",
+      "sources": [
+        {
+          "id": "color_002__s42__baseline",
+          "condition": "baseline",
+          "image_filename": "color_002__s42__baseline.png",
+          "image_sha256": "c5ff787f02526774303ca3c0fd0e73427e2d2d5852fef5c551bf80ddb4b489e3",
+          "masked_scales": []
+        },
+        {
+          "id": "color_002__s42__color__prefix_01",
+          "condition": "prefix_01",
+          "image_filename": "color_002__s42__color__prefix_01.png",
+          "image_sha256": "b3d1a365f0d633d85a79c5e69823ac59d932657e8a9eb66d92435eca0b3f89ff",
+          "masked_scales": [
+            1
+          ]
+        },
+        {
+          "id": "color_002__s42__color__prefix_02",
+          "condition": "prefix_02",
+          "image_filename": "color_002__s42__color__prefix_02.png",
+          "image_sha256": "38fe603abcdc64d3370f462788bddf3439e807b307acf4ba8d3a8ce3fa23986f",
+          "masked_scales": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "color_002__s42__color__prefix_03",
+          "condition": "prefix_03",
+          "image_filename": "color_002__s42__color__prefix_03.png",
+          "image_sha256": "d5716442bc94ce48779e424e3e33021b30183236da972bfd56ef46e113acbbfc",
+          "masked_scales": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "color_002__s42__color__prefix_04",
+          "condition": "prefix_04",
+          "image_filename": "color_002__s42__color__prefix_04.png",
+          "image_sha256": "82b508985b787265327600580af818b98cd308bb54e29a019e744471c900dc26",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": "color_002__s42__color__prefix_05",
+          "condition": "prefix_05",
+          "image_filename": "color_002__s42__color__prefix_05.png",
+          "image_sha256": "131d6e2d65f8b6d33d0471c5e7cf7548a688335b5f5f3e46cd7dce608d5cb929",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "id": "color_002__s42__color__prefix_06",
+          "condition": "prefix_06",
+          "image_filename": "color_002__s42__color__prefix_06.png",
+          "image_sha256": "7daad47fef35180551a7a21c34283482c9629e26acf8ea3e69863dca5ea91493",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "id": "color_002__s42__color__prefix_07",
+          "condition": "prefix_07",
+          "image_filename": "color_002__s42__color__prefix_07.png",
+          "image_sha256": "900719cf131a636ae791a32e5f4b98cee93ab6842d0525424786c41cf1c58380",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "id": "color_002__s42__color__prefix_08",
+          "condition": "prefix_08",
+          "image_filename": "color_002__s42__color__prefix_08.png",
+          "image_sha256": "042b55fd9795ba675944365fcddbbba4a3ea8cf2ab9a34b9c005b6e223afdf16",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "id": "color_002__s42__color__prefix_09",
+          "condition": "prefix_09",
+          "image_filename": "color_002__s42__color__prefix_09.png",
+          "image_sha256": "716aff341b144a77c24f332443c0538899fd7d18da94fbb21c7992a990165a4d",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "id": "color_002__s42__color__prefix_10",
+          "condition": "prefix_10",
+          "image_filename": "color_002__s42__color__prefix_10.png",
+          "image_sha256": "f1dececeebe7c7c4eb4eb0405d237c851b96edb8d6bb91c0b4993d7c677f1469",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "id": "color_002__s42__color__prefix_11",
+          "condition": "prefix_11",
+          "image_filename": "color_002__s42__color__prefix_11.png",
+          "image_sha256": "a2bfb20a787248764e70b3c53bb07c79b3bcc75b0b1b9da68d473f8578596024",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "id": "color_002__s42__color__prefix_12",
+          "condition": "prefix_12",
+          "image_filename": "color_002__s42__color__prefix_12.png",
+          "image_sha256": "43dee443a2a32ec404ca8851c89b01c343a2c58226a1b36174dc5c24eae205b2",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "id": "color_002__s42__color__full_mask",
+          "condition": "full_mask",
+          "image_filename": "color_002__s42__color__full_mask.png",
+          "image_sha256": "9838453dca7be52feaf102de43d4e0a367042f7a4eca57f9e76fc4b61c074605",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "color_002__s42__color__suffix_01",
+          "condition": "suffix_01",
+          "image_filename": "color_002__s42__color__suffix_01.png",
+          "image_sha256": "4c2daad7e1cdf37b8eec1059410be87a4291e5f178c763e48186e818fdde6993",
+          "masked_scales": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "color_002__s42__color__suffix_02",
+          "condition": "suffix_02",
+          "image_filename": "color_002__s42__color__suffix_02.png",
+          "image_sha256": "ef6c8c29d6b13152f5a55edca4b5c64a47fb395d5f502edd5da4f0f519ff6695",
+          "masked_scales": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "color_002__s42__color__suffix_03",
+          "condition": "suffix_03",
+          "image_filename": "color_002__s42__color__suffix_03.png",
+          "image_sha256": "6bafa356e7bef4f1b98aa08743733aff317ae8f6e6552bab992ea8f1374a4607",
+          "masked_scales": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "color_002__s42__color__suffix_04",
+          "condition": "suffix_04",
+          "image_filename": "color_002__s42__color__suffix_04.png",
+          "image_sha256": "606be704c87b49e2f26ab583e71cc4dd10dc5992ce7ba1b9e4fccabd7b798d80",
+          "masked_scales": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "color_002__s42__color__suffix_05",
+          "condition": "suffix_05",
+          "image_filename": "color_002__s42__color__suffix_05.png",
+          "image_sha256": "4865293b6dad700296f11d8d36f17594fbc9b92d75faf4c572e99e5bcc235493",
+          "masked_scales": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "color_002__s42__color__suffix_06",
+          "condition": "suffix_06",
+          "image_filename": "color_002__s42__color__suffix_06.png",
+          "image_sha256": "f05231a0948d7a3d503ca4800a83bf762bf2b11165ba9f8b4d9419931ccccd8e",
+          "masked_scales": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "color_002__s42__color__suffix_07",
+          "condition": "suffix_07",
+          "image_filename": "color_002__s42__color__suffix_07.png",
+          "image_sha256": "df32013ca2d9b6218c4b20c4cf3562356cee3adb09128333a1518c1f0e5eb43b",
+          "masked_scales": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "color_002__s42__color__suffix_08",
+          "condition": "suffix_08",
+          "image_filename": "color_002__s42__color__suffix_08.png",
+          "image_sha256": "cf39d619731a191dfe667a0d5dd9ff7ecdb9012bace600acfedd9d9b910ed499",
+          "masked_scales": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "color_002__s42__color__suffix_09",
+          "condition": "suffix_09",
+          "image_filename": "color_002__s42__color__suffix_09.png",
+          "image_sha256": "822813183ee100260f6d6e96eee62bab8c6da7f8429581bbc78fe8180603b681",
+          "masked_scales": [
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "color_002__s42__color__suffix_10",
+          "condition": "suffix_10",
+          "image_filename": "color_002__s42__color__suffix_10.png",
+          "image_sha256": "149497272feb6e2719c6013463433654dae7e53b16ac4ce698a15af75e6dd67c",
+          "masked_scales": [
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "color_002__s42__color__suffix_11",
+          "condition": "suffix_11",
+          "image_filename": "color_002__s42__color__suffix_11.png",
+          "image_sha256": "72bbf9b3b3bcb966ed8002bc96a5a345849637553dc32aaed645ca632b7e7f65",
+          "masked_scales": [
+            12,
+            13
+          ]
+        },
+        {
+          "id": "color_002__s42__color__suffix_12",
+          "condition": "suffix_12",
+          "image_filename": "color_002__s42__color__suffix_12.png",
+          "image_sha256": "633976b3d92a92ea5e153760b5f60cb0300fa284ad2f290720aac63f8aa32ff7",
+          "masked_scales": [
+            13
+          ]
+        }
+      ],
+      "panels": [
+        {
+          "direction": "prefix",
+          "boundary": 0,
+          "source_id": "color_002__s42__baseline",
+          "masked_scales": []
+        },
+        {
+          "direction": "prefix",
+          "boundary": 1,
+          "source_id": "color_002__s42__color__prefix_01",
+          "masked_scales": [
+            1
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 2,
+          "source_id": "color_002__s42__color__prefix_02",
+          "masked_scales": [
+            1,
+            2
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 3,
+          "source_id": "color_002__s42__color__prefix_03",
+          "masked_scales": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 4,
+          "source_id": "color_002__s42__color__prefix_04",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 5,
+          "source_id": "color_002__s42__color__prefix_05",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 6,
+          "source_id": "color_002__s42__color__prefix_06",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 7,
+          "source_id": "color_002__s42__color__prefix_07",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 8,
+          "source_id": "color_002__s42__color__prefix_08",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 9,
+          "source_id": "color_002__s42__color__prefix_09",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 10,
+          "source_id": "color_002__s42__color__prefix_10",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 11,
+          "source_id": "color_002__s42__color__prefix_11",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 12,
+          "source_id": "color_002__s42__color__prefix_12",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 13,
+          "source_id": "color_002__s42__color__full_mask",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 0,
+          "source_id": "color_002__s42__color__full_mask",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 1,
+          "source_id": "color_002__s42__color__suffix_01",
+          "masked_scales": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 2,
+          "source_id": "color_002__s42__color__suffix_02",
+          "masked_scales": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 3,
+          "source_id": "color_002__s42__color__suffix_03",
+          "masked_scales": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 4,
+          "source_id": "color_002__s42__color__suffix_04",
+          "masked_scales": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 5,
+          "source_id": "color_002__s42__color__suffix_05",
+          "masked_scales": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 6,
+          "source_id": "color_002__s42__color__suffix_06",
+          "masked_scales": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 7,
+          "source_id": "color_002__s42__color__suffix_07",
+          "masked_scales": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 8,
+          "source_id": "color_002__s42__color__suffix_08",
+          "masked_scales": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 9,
+          "source_id": "color_002__s42__color__suffix_09",
+          "masked_scales": [
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 10,
+          "source_id": "color_002__s42__color__suffix_10",
+          "masked_scales": [
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 11,
+          "source_id": "color_002__s42__color__suffix_11",
+          "masked_scales": [
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 12,
+          "source_id": "color_002__s42__color__suffix_12",
+          "masked_scales": [
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 13,
+          "source_id": "color_002__s42__baseline",
+          "masked_scales": []
+        }
+      ]
+    },
+    {
+      "semantic": "shape",
+      "prompt_id": "shape_001",
+      "prompt": "A round plate is shown with its outer outline clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+      "masked_spans": [
+        "round"
+      ],
+      "figure": "shape_all_scales.jpg",
+      "sources": [
+        {
+          "id": "shape_001__s42__baseline",
+          "condition": "baseline",
+          "image_filename": "shape_001__s42__baseline.png",
+          "image_sha256": "f0c8ecbcdbcb57baaba2388c6e8ce2cd858637b0b0328f5c4aed9f797391aacb",
+          "masked_scales": []
+        },
+        {
+          "id": "shape_001__s42__shape__prefix_01",
+          "condition": "prefix_01",
+          "image_filename": "shape_001__s42__shape__prefix_01.png",
+          "image_sha256": "b8d5f21371e231280787799b6a91578b1c1f31253cfc2176fd67574a33816f3a",
+          "masked_scales": [
+            1
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__prefix_02",
+          "condition": "prefix_02",
+          "image_filename": "shape_001__s42__shape__prefix_02.png",
+          "image_sha256": "996ff50fad8d305b018ecd17b3673484f4c3d440ab70c1ffbf7e4f3ac667da73",
+          "masked_scales": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__prefix_03",
+          "condition": "prefix_03",
+          "image_filename": "shape_001__s42__shape__prefix_03.png",
+          "image_sha256": "a741bc9e0279de13efb4c213d47ea20bd32d3d509148a93748667faff33ed0aa",
+          "masked_scales": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__prefix_04",
+          "condition": "prefix_04",
+          "image_filename": "shape_001__s42__shape__prefix_04.png",
+          "image_sha256": "b36f850a4283429ede595df41ad459a016acd6dc57a58056e01d8aa1c826be1f",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__prefix_05",
+          "condition": "prefix_05",
+          "image_filename": "shape_001__s42__shape__prefix_05.png",
+          "image_sha256": "3e1003a9f4f83d5870a68ece08ac372439afaf3966c6d4de8de8b38a190493c1",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__prefix_06",
+          "condition": "prefix_06",
+          "image_filename": "shape_001__s42__shape__prefix_06.png",
+          "image_sha256": "2e717597d324cfc138138d82837e5d5991c21501e8889db6fda62d2148e60b20",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__prefix_07",
+          "condition": "prefix_07",
+          "image_filename": "shape_001__s42__shape__prefix_07.png",
+          "image_sha256": "8d0de3d42799f35131f673721eff7afaf83647a4ebde7b435138aff63718b0ce",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__prefix_08",
+          "condition": "prefix_08",
+          "image_filename": "shape_001__s42__shape__prefix_08.png",
+          "image_sha256": "ce4d6b43a1833a36f6171e251f6453f8d3cc4eb07629955e58b0ce17f39dce25",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__prefix_09",
+          "condition": "prefix_09",
+          "image_filename": "shape_001__s42__shape__prefix_09.png",
+          "image_sha256": "b52127aac699eddaf976c64ab4eb15ac7940188a165e3a941b1e020a55d357b6",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__prefix_10",
+          "condition": "prefix_10",
+          "image_filename": "shape_001__s42__shape__prefix_10.png",
+          "image_sha256": "487d81a5c50066085e7548ca86017abc86611032a9fa0d3128de066e9349d00e",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__prefix_11",
+          "condition": "prefix_11",
+          "image_filename": "shape_001__s42__shape__prefix_11.png",
+          "image_sha256": "289f5f1848aac0ce8e54645ea12c73dc1be038daffe3c32c682aabb6ca14d9b4",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__prefix_12",
+          "condition": "prefix_12",
+          "image_filename": "shape_001__s42__shape__prefix_12.png",
+          "image_sha256": "0d4202169fbef8f4091fe0bb4f5c79c9d9e1e0de75f0d8e33d28b035c7ded9a4",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__full_mask",
+          "condition": "full_mask",
+          "image_filename": "shape_001__s42__shape__full_mask.png",
+          "image_sha256": "0f553dfeedef8dbc557b29bd2601c784ae658f9790aa8e2978ae61cf58744f27",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__suffix_01",
+          "condition": "suffix_01",
+          "image_filename": "shape_001__s42__shape__suffix_01.png",
+          "image_sha256": "fe28da79bb546a29800c5a0171d76786c62ccfa88519b48f0ae626ad61987583",
+          "masked_scales": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__suffix_02",
+          "condition": "suffix_02",
+          "image_filename": "shape_001__s42__shape__suffix_02.png",
+          "image_sha256": "63447a6962744bb8ec7d40650102a3fdc272e1401e0f732ae3ecbc6c6c13484a",
+          "masked_scales": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__suffix_03",
+          "condition": "suffix_03",
+          "image_filename": "shape_001__s42__shape__suffix_03.png",
+          "image_sha256": "be7f865f114ec5f5296f085893971a070f5e7aa80e1c56f951726aeea129b652",
+          "masked_scales": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__suffix_04",
+          "condition": "suffix_04",
+          "image_filename": "shape_001__s42__shape__suffix_04.png",
+          "image_sha256": "f6f1eaefc316b0ab14420e603cfb339b4e8515d53e3ef539a565eaef41a75b32",
+          "masked_scales": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__suffix_05",
+          "condition": "suffix_05",
+          "image_filename": "shape_001__s42__shape__suffix_05.png",
+          "image_sha256": "80ddc7e6a9b63c4a03a66aef217e8817e01ee6c27b883528d2c4d3dc6f7a6549",
+          "masked_scales": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__suffix_06",
+          "condition": "suffix_06",
+          "image_filename": "shape_001__s42__shape__suffix_06.png",
+          "image_sha256": "9500ff36d2750b964bd943f36cd9a7a5bae807c19dc5df50a9f200824b97b4a9",
+          "masked_scales": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__suffix_07",
+          "condition": "suffix_07",
+          "image_filename": "shape_001__s42__shape__suffix_07.png",
+          "image_sha256": "b226a75373e26aaca554c005af24b11be585cd14f785c31f953c902021fa009b",
+          "masked_scales": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__suffix_08",
+          "condition": "suffix_08",
+          "image_filename": "shape_001__s42__shape__suffix_08.png",
+          "image_sha256": "5ba86259f579ed6a250faeb6a2cdb0591f5eb56fe5779e3e736c3ce3d67701a8",
+          "masked_scales": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__suffix_09",
+          "condition": "suffix_09",
+          "image_filename": "shape_001__s42__shape__suffix_09.png",
+          "image_sha256": "eb898b8f30c3ba6b43438fcfe7f30602f051d1d6d33890d7f3a58ceda6d18e15",
+          "masked_scales": [
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__suffix_10",
+          "condition": "suffix_10",
+          "image_filename": "shape_001__s42__shape__suffix_10.png",
+          "image_sha256": "6839233a0d55413f99e0e0e3c724f0d753617f9a2f3e1439cd89ed1443cc9fac",
+          "masked_scales": [
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__suffix_11",
+          "condition": "suffix_11",
+          "image_filename": "shape_001__s42__shape__suffix_11.png",
+          "image_sha256": "18427c99100ffc95e172518b30bef114ccd17188aaff82565ab40017c8432140",
+          "masked_scales": [
+            12,
+            13
+          ]
+        },
+        {
+          "id": "shape_001__s42__shape__suffix_12",
+          "condition": "suffix_12",
+          "image_filename": "shape_001__s42__shape__suffix_12.png",
+          "image_sha256": "b66f06ae618d127b7a5fbc1507402f47aaec2d3a7923162e47c77813b418088d",
+          "masked_scales": [
+            13
+          ]
+        }
+      ],
+      "panels": [
+        {
+          "direction": "prefix",
+          "boundary": 0,
+          "source_id": "shape_001__s42__baseline",
+          "masked_scales": []
+        },
+        {
+          "direction": "prefix",
+          "boundary": 1,
+          "source_id": "shape_001__s42__shape__prefix_01",
+          "masked_scales": [
+            1
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 2,
+          "source_id": "shape_001__s42__shape__prefix_02",
+          "masked_scales": [
+            1,
+            2
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 3,
+          "source_id": "shape_001__s42__shape__prefix_03",
+          "masked_scales": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 4,
+          "source_id": "shape_001__s42__shape__prefix_04",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 5,
+          "source_id": "shape_001__s42__shape__prefix_05",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 6,
+          "source_id": "shape_001__s42__shape__prefix_06",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 7,
+          "source_id": "shape_001__s42__shape__prefix_07",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 8,
+          "source_id": "shape_001__s42__shape__prefix_08",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 9,
+          "source_id": "shape_001__s42__shape__prefix_09",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 10,
+          "source_id": "shape_001__s42__shape__prefix_10",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 11,
+          "source_id": "shape_001__s42__shape__prefix_11",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 12,
+          "source_id": "shape_001__s42__shape__prefix_12",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 13,
+          "source_id": "shape_001__s42__shape__full_mask",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 0,
+          "source_id": "shape_001__s42__shape__full_mask",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 1,
+          "source_id": "shape_001__s42__shape__suffix_01",
+          "masked_scales": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 2,
+          "source_id": "shape_001__s42__shape__suffix_02",
+          "masked_scales": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 3,
+          "source_id": "shape_001__s42__shape__suffix_03",
+          "masked_scales": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 4,
+          "source_id": "shape_001__s42__shape__suffix_04",
+          "masked_scales": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 5,
+          "source_id": "shape_001__s42__shape__suffix_05",
+          "masked_scales": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 6,
+          "source_id": "shape_001__s42__shape__suffix_06",
+          "masked_scales": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 7,
+          "source_id": "shape_001__s42__shape__suffix_07",
+          "masked_scales": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 8,
+          "source_id": "shape_001__s42__shape__suffix_08",
+          "masked_scales": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 9,
+          "source_id": "shape_001__s42__shape__suffix_09",
+          "masked_scales": [
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 10,
+          "source_id": "shape_001__s42__shape__suffix_10",
+          "masked_scales": [
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 11,
+          "source_id": "shape_001__s42__shape__suffix_11",
+          "masked_scales": [
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 12,
+          "source_id": "shape_001__s42__shape__suffix_12",
+          "masked_scales": [
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 13,
+          "source_id": "shape_001__s42__baseline",
+          "masked_scales": []
+        }
+      ]
+    },
+    {
+      "semantic": "texture",
+      "prompt_id": "texture_001",
+      "prompt": "A striped shirt is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+      "masked_spans": [
+        "striped"
+      ],
+      "figure": "texture_all_scales.jpg",
+      "sources": [
+        {
+          "id": "texture_001__s42__baseline",
+          "condition": "baseline",
+          "image_filename": "texture_001__s42__baseline.png",
+          "image_sha256": "f361451b9037a1672fad775c280bffbf5354f53ec56230176710c8fd1bf4a065",
+          "masked_scales": []
+        },
+        {
+          "id": "texture_001__s42__texture__prefix_01",
+          "condition": "prefix_01",
+          "image_filename": "texture_001__s42__texture__prefix_01.png",
+          "image_sha256": "371abd0049fe0ca2f3e84f8fe711d22b8e07d9f9028f3de194689493bdf0d0ab",
+          "masked_scales": [
+            1
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__prefix_02",
+          "condition": "prefix_02",
+          "image_filename": "texture_001__s42__texture__prefix_02.png",
+          "image_sha256": "70405188ef8c0afb4d2a70a21c81da4b571a45d6df73c763aeba27045ee6e017",
+          "masked_scales": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__prefix_03",
+          "condition": "prefix_03",
+          "image_filename": "texture_001__s42__texture__prefix_03.png",
+          "image_sha256": "5a2383b34ea1973175ca65bf9c777aecc787fb321f595733668b97f8463785d0",
+          "masked_scales": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__prefix_04",
+          "condition": "prefix_04",
+          "image_filename": "texture_001__s42__texture__prefix_04.png",
+          "image_sha256": "5de849b0dccff0e774eea00d0ad47a87791ff5fca616dea889485e82bdde4196",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__prefix_05",
+          "condition": "prefix_05",
+          "image_filename": "texture_001__s42__texture__prefix_05.png",
+          "image_sha256": "20f4cb4b804bb0e70eaafb807415b409583ee8fe6d59da1bf1ba90252139c6d8",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__prefix_06",
+          "condition": "prefix_06",
+          "image_filename": "texture_001__s42__texture__prefix_06.png",
+          "image_sha256": "06696687433b2d95c6955c66b888b50ad2f0aeed94c3cafe26090958aefc9d91",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__prefix_07",
+          "condition": "prefix_07",
+          "image_filename": "texture_001__s42__texture__prefix_07.png",
+          "image_sha256": "077d226d690b2b2c8b9b4d2a0ba2fe7c43e75095b40d63498c7fcf536715d57a",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__prefix_08",
+          "condition": "prefix_08",
+          "image_filename": "texture_001__s42__texture__prefix_08.png",
+          "image_sha256": "006cac700b629aad97436dd9a8e03f242382cda5de3cb7db5be090822ccffba8",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__prefix_09",
+          "condition": "prefix_09",
+          "image_filename": "texture_001__s42__texture__prefix_09.png",
+          "image_sha256": "bca9f40035b094ce72cbabb6d61b21193c35a065236a99aebbcb4fecb64383bf",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__prefix_10",
+          "condition": "prefix_10",
+          "image_filename": "texture_001__s42__texture__prefix_10.png",
+          "image_sha256": "02987e8ea62fe06b8c6239bb643ff95fea4abd0f3b86f1c9c95115fa4004ba2f",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__prefix_11",
+          "condition": "prefix_11",
+          "image_filename": "texture_001__s42__texture__prefix_11.png",
+          "image_sha256": "50860f0959a332f1f60a92509a501e8d6626bec248677764d1cb3cdee176821e",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__prefix_12",
+          "condition": "prefix_12",
+          "image_filename": "texture_001__s42__texture__prefix_12.png",
+          "image_sha256": "b058a1026ab4a1cdd39b8a699beed3fa0f53de44441756a3463949df7b5c06bb",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__full_mask",
+          "condition": "full_mask",
+          "image_filename": "texture_001__s42__texture__full_mask.png",
+          "image_sha256": "7806204d214f30b052c1e545e784a9721bbdb7137f164261c6cb641f3251d4e9",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__suffix_01",
+          "condition": "suffix_01",
+          "image_filename": "texture_001__s42__texture__suffix_01.png",
+          "image_sha256": "df138685ebd9f7cf141867256b1917de9caaff150c84933111249e08a3f4f7bd",
+          "masked_scales": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__suffix_02",
+          "condition": "suffix_02",
+          "image_filename": "texture_001__s42__texture__suffix_02.png",
+          "image_sha256": "8e8df04b101283488d0ce96838caf6ffa561e95bc6d9d9d81fc10a88e3f742d6",
+          "masked_scales": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__suffix_03",
+          "condition": "suffix_03",
+          "image_filename": "texture_001__s42__texture__suffix_03.png",
+          "image_sha256": "7acccbebf0098a8be00b41300e2cc378c33125d98b30fa46a1e6f3638db52dc1",
+          "masked_scales": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__suffix_04",
+          "condition": "suffix_04",
+          "image_filename": "texture_001__s42__texture__suffix_04.png",
+          "image_sha256": "ce1daa268ef77ac344918bcd63fbe1341240aa3ffd3dc0ed8042cf7e8f9eab19",
+          "masked_scales": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__suffix_05",
+          "condition": "suffix_05",
+          "image_filename": "texture_001__s42__texture__suffix_05.png",
+          "image_sha256": "4c03800fd66049dd188ad3ef9aeaaca4804b753dbc2225788cf312a44167f163",
+          "masked_scales": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__suffix_06",
+          "condition": "suffix_06",
+          "image_filename": "texture_001__s42__texture__suffix_06.png",
+          "image_sha256": "4009d6d1ea0901e8d46ba10473cfc3329feb4f85d73ede30ee9cd7bf3f4d4668",
+          "masked_scales": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__suffix_07",
+          "condition": "suffix_07",
+          "image_filename": "texture_001__s42__texture__suffix_07.png",
+          "image_sha256": "75a97293c53493b1c84265be9df159ee1f25c7aaef62a08a7fbb3ea0fefdf9f0",
+          "masked_scales": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__suffix_08",
+          "condition": "suffix_08",
+          "image_filename": "texture_001__s42__texture__suffix_08.png",
+          "image_sha256": "bc40ac33d2d17882a5346084557290a5f16073e58a2f54f4497fe14bf365de91",
+          "masked_scales": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__suffix_09",
+          "condition": "suffix_09",
+          "image_filename": "texture_001__s42__texture__suffix_09.png",
+          "image_sha256": "cac50e5741100c795ede6bf4f2cb1740dd7addc82367d4c1c2036c6b4517c285",
+          "masked_scales": [
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__suffix_10",
+          "condition": "suffix_10",
+          "image_filename": "texture_001__s42__texture__suffix_10.png",
+          "image_sha256": "9b968f9db287eed0a114549c41037a1fda5f07ed7ece5b4984d1e3ea74e66480",
+          "masked_scales": [
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__suffix_11",
+          "condition": "suffix_11",
+          "image_filename": "texture_001__s42__texture__suffix_11.png",
+          "image_sha256": "9633e093e1c81bc988cec2cbeba8ac66c2942836813332afba492c0de4a2dfb3",
+          "masked_scales": [
+            12,
+            13
+          ]
+        },
+        {
+          "id": "texture_001__s42__texture__suffix_12",
+          "condition": "suffix_12",
+          "image_filename": "texture_001__s42__texture__suffix_12.png",
+          "image_sha256": "1dd01317ee4cbc0798044fbdc963d9401bab60e088b60c3fafe3bbe744ca3ced",
+          "masked_scales": [
+            13
+          ]
+        }
+      ],
+      "panels": [
+        {
+          "direction": "prefix",
+          "boundary": 0,
+          "source_id": "texture_001__s42__baseline",
+          "masked_scales": []
+        },
+        {
+          "direction": "prefix",
+          "boundary": 1,
+          "source_id": "texture_001__s42__texture__prefix_01",
+          "masked_scales": [
+            1
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 2,
+          "source_id": "texture_001__s42__texture__prefix_02",
+          "masked_scales": [
+            1,
+            2
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 3,
+          "source_id": "texture_001__s42__texture__prefix_03",
+          "masked_scales": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 4,
+          "source_id": "texture_001__s42__texture__prefix_04",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 5,
+          "source_id": "texture_001__s42__texture__prefix_05",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 6,
+          "source_id": "texture_001__s42__texture__prefix_06",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 7,
+          "source_id": "texture_001__s42__texture__prefix_07",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 8,
+          "source_id": "texture_001__s42__texture__prefix_08",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 9,
+          "source_id": "texture_001__s42__texture__prefix_09",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 10,
+          "source_id": "texture_001__s42__texture__prefix_10",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 11,
+          "source_id": "texture_001__s42__texture__prefix_11",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 12,
+          "source_id": "texture_001__s42__texture__prefix_12",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 13,
+          "source_id": "texture_001__s42__texture__full_mask",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 0,
+          "source_id": "texture_001__s42__texture__full_mask",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 1,
+          "source_id": "texture_001__s42__texture__suffix_01",
+          "masked_scales": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 2,
+          "source_id": "texture_001__s42__texture__suffix_02",
+          "masked_scales": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 3,
+          "source_id": "texture_001__s42__texture__suffix_03",
+          "masked_scales": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 4,
+          "source_id": "texture_001__s42__texture__suffix_04",
+          "masked_scales": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 5,
+          "source_id": "texture_001__s42__texture__suffix_05",
+          "masked_scales": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 6,
+          "source_id": "texture_001__s42__texture__suffix_06",
+          "masked_scales": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 7,
+          "source_id": "texture_001__s42__texture__suffix_07",
+          "masked_scales": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 8,
+          "source_id": "texture_001__s42__texture__suffix_08",
+          "masked_scales": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 9,
+          "source_id": "texture_001__s42__texture__suffix_09",
+          "masked_scales": [
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 10,
+          "source_id": "texture_001__s42__texture__suffix_10",
+          "masked_scales": [
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 11,
+          "source_id": "texture_001__s42__texture__suffix_11",
+          "masked_scales": [
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 12,
+          "source_id": "texture_001__s42__texture__suffix_12",
+          "masked_scales": [
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 13,
+          "source_id": "texture_001__s42__baseline",
+          "masked_scales": []
+        }
+      ]
+    },
+    {
+      "semantic": "count",
+      "prompt_id": "count_001",
+      "prompt": "Two mugs are arranged separately, with every item fully visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+      "masked_spans": [
+        "Two"
+      ],
+      "figure": "count_all_scales.jpg",
+      "sources": [
+        {
+          "id": "count_001__s42__baseline",
+          "condition": "baseline",
+          "image_filename": "count_001__s42__baseline.png",
+          "image_sha256": "52079ca1d08316c16d7d8f3545ca182208c30bc269241144093e582af00327e3",
+          "masked_scales": []
+        },
+        {
+          "id": "count_001__s42__count__prefix_01",
+          "condition": "prefix_01",
+          "image_filename": "count_001__s42__count__prefix_01.png",
+          "image_sha256": "c996854f5c36e8ae52ff744b31a9480a42064166457febc306b93cf29d1fa7cd",
+          "masked_scales": [
+            1
+          ]
+        },
+        {
+          "id": "count_001__s42__count__prefix_02",
+          "condition": "prefix_02",
+          "image_filename": "count_001__s42__count__prefix_02.png",
+          "image_sha256": "22c54f758e5c5e40bcc2d8254b4ccf23420a8c840678f18f6c8fd6eb3a821d85",
+          "masked_scales": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "count_001__s42__count__prefix_03",
+          "condition": "prefix_03",
+          "image_filename": "count_001__s42__count__prefix_03.png",
+          "image_sha256": "66517d56e057e7ad79c6dbb4f710fa0a5c9866d33d3c1439ed83283b1f986f7c",
+          "masked_scales": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "count_001__s42__count__prefix_04",
+          "condition": "prefix_04",
+          "image_filename": "count_001__s42__count__prefix_04.png",
+          "image_sha256": "3a10d905f2fe6c4b918b50f30e65d4f53b8e89de0852b4ce4972fca3dbed11e1",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": "count_001__s42__count__prefix_05",
+          "condition": "prefix_05",
+          "image_filename": "count_001__s42__count__prefix_05.png",
+          "image_sha256": "0b3e3393fac474be661ad322852a9f1bbc7b89ad0693961860407777c9155e57",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "id": "count_001__s42__count__prefix_06",
+          "condition": "prefix_06",
+          "image_filename": "count_001__s42__count__prefix_06.png",
+          "image_sha256": "63b05226484de4e28064e3a9684337ebe682bab9f0bdfd7ee13e724cf39e4690",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "id": "count_001__s42__count__prefix_07",
+          "condition": "prefix_07",
+          "image_filename": "count_001__s42__count__prefix_07.png",
+          "image_sha256": "5d7090277e1a333a24c6baf692792caa18e9efeea6ee06ccdb47d39539013f9a",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "id": "count_001__s42__count__prefix_08",
+          "condition": "prefix_08",
+          "image_filename": "count_001__s42__count__prefix_08.png",
+          "image_sha256": "7e039d2056d3e48b17c2d561010133d47db92162332127815a09a0d72d4a30c2",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "id": "count_001__s42__count__prefix_09",
+          "condition": "prefix_09",
+          "image_filename": "count_001__s42__count__prefix_09.png",
+          "image_sha256": "bb0e357b1960a47f00b2e014e189e125d508f91ad058bddf466e4426e70772c6",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "id": "count_001__s42__count__prefix_10",
+          "condition": "prefix_10",
+          "image_filename": "count_001__s42__count__prefix_10.png",
+          "image_sha256": "3299f2d912259a9e6622db5d56bd483a4befd15451e5b6731d25f2aee6a04518",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "id": "count_001__s42__count__prefix_11",
+          "condition": "prefix_11",
+          "image_filename": "count_001__s42__count__prefix_11.png",
+          "image_sha256": "436255422632d5af77b0ea46572b083725fdce7702cae11587d2026a6a8c1238",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "id": "count_001__s42__count__prefix_12",
+          "condition": "prefix_12",
+          "image_filename": "count_001__s42__count__prefix_12.png",
+          "image_sha256": "1336e74b3c9035e356b685dc6c6c7aa9fad7f1b1d5a6e634b3f40d9d56922ef2",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "id": "count_001__s42__count__full_mask",
+          "condition": "full_mask",
+          "image_filename": "count_001__s42__count__full_mask.png",
+          "image_sha256": "1acb7ef7183443c0d11a8e227137625e95829d38748692d9eeed9ad61f4a9f12",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "count_001__s42__count__suffix_01",
+          "condition": "suffix_01",
+          "image_filename": "count_001__s42__count__suffix_01.png",
+          "image_sha256": "98673a2a39ba02eefeb0aa683b2b7d163c606df77d7b6379a2422953ef7de73f",
+          "masked_scales": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "count_001__s42__count__suffix_02",
+          "condition": "suffix_02",
+          "image_filename": "count_001__s42__count__suffix_02.png",
+          "image_sha256": "37d645ae163c4fa62f42a4c6c962cf73892d14daedcd7424c2cf1a72f3d4c3de",
+          "masked_scales": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "count_001__s42__count__suffix_03",
+          "condition": "suffix_03",
+          "image_filename": "count_001__s42__count__suffix_03.png",
+          "image_sha256": "23bb8fedcdb8b86faf7f5b2855c7aa8bb927ec6eba8aa124925ad39c41c37e22",
+          "masked_scales": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "count_001__s42__count__suffix_04",
+          "condition": "suffix_04",
+          "image_filename": "count_001__s42__count__suffix_04.png",
+          "image_sha256": "6169746cb273f077f00e308ee45a099f62069155687f3f5aee798f2b2f706821",
+          "masked_scales": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "count_001__s42__count__suffix_05",
+          "condition": "suffix_05",
+          "image_filename": "count_001__s42__count__suffix_05.png",
+          "image_sha256": "adfa10b5e774dabbb352b09f3aa929a84a3047e9859f86602b6d1a75867b9ff9",
+          "masked_scales": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "count_001__s42__count__suffix_06",
+          "condition": "suffix_06",
+          "image_filename": "count_001__s42__count__suffix_06.png",
+          "image_sha256": "0d355bcaef7b1f3c6d3fe6c89a15382b6729a8d7b3787da4a87ea5f163e12e1f",
+          "masked_scales": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "count_001__s42__count__suffix_07",
+          "condition": "suffix_07",
+          "image_filename": "count_001__s42__count__suffix_07.png",
+          "image_sha256": "1955304d64411d78261d0bcd64ff938e4807ce443e089d67cd372390c06c193b",
+          "masked_scales": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "count_001__s42__count__suffix_08",
+          "condition": "suffix_08",
+          "image_filename": "count_001__s42__count__suffix_08.png",
+          "image_sha256": "94d8cb30ae62a9699235eb09c46602155ba29a1835ea8867396f09da8a32bb94",
+          "masked_scales": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "count_001__s42__count__suffix_09",
+          "condition": "suffix_09",
+          "image_filename": "count_001__s42__count__suffix_09.png",
+          "image_sha256": "29ce341dfe37bd3988dce15b5eae485449d422e0f1fc1e5760d05f32f4b45989",
+          "masked_scales": [
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "count_001__s42__count__suffix_10",
+          "condition": "suffix_10",
+          "image_filename": "count_001__s42__count__suffix_10.png",
+          "image_sha256": "52b8a54a1e71c4167f3bc95b1e4aeec606ee2de098fcfcd8c0f103f37a326399",
+          "masked_scales": [
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "count_001__s42__count__suffix_11",
+          "condition": "suffix_11",
+          "image_filename": "count_001__s42__count__suffix_11.png",
+          "image_sha256": "dfaaf42a42c95ff9cab344f39e34dbeb3d355905f67739d1f85f558b02736f28",
+          "masked_scales": [
+            12,
+            13
+          ]
+        },
+        {
+          "id": "count_001__s42__count__suffix_12",
+          "condition": "suffix_12",
+          "image_filename": "count_001__s42__count__suffix_12.png",
+          "image_sha256": "5040a17fa0240586e4049cece4d69c70d1492d67ff432601bc400be27515169d",
+          "masked_scales": [
+            13
+          ]
+        }
+      ],
+      "panels": [
+        {
+          "direction": "prefix",
+          "boundary": 0,
+          "source_id": "count_001__s42__baseline",
+          "masked_scales": []
+        },
+        {
+          "direction": "prefix",
+          "boundary": 1,
+          "source_id": "count_001__s42__count__prefix_01",
+          "masked_scales": [
+            1
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 2,
+          "source_id": "count_001__s42__count__prefix_02",
+          "masked_scales": [
+            1,
+            2
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 3,
+          "source_id": "count_001__s42__count__prefix_03",
+          "masked_scales": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 4,
+          "source_id": "count_001__s42__count__prefix_04",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 5,
+          "source_id": "count_001__s42__count__prefix_05",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 6,
+          "source_id": "count_001__s42__count__prefix_06",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 7,
+          "source_id": "count_001__s42__count__prefix_07",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 8,
+          "source_id": "count_001__s42__count__prefix_08",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 9,
+          "source_id": "count_001__s42__count__prefix_09",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 10,
+          "source_id": "count_001__s42__count__prefix_10",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 11,
+          "source_id": "count_001__s42__count__prefix_11",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 12,
+          "source_id": "count_001__s42__count__prefix_12",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 13,
+          "source_id": "count_001__s42__count__full_mask",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 0,
+          "source_id": "count_001__s42__count__full_mask",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 1,
+          "source_id": "count_001__s42__count__suffix_01",
+          "masked_scales": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 2,
+          "source_id": "count_001__s42__count__suffix_02",
+          "masked_scales": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 3,
+          "source_id": "count_001__s42__count__suffix_03",
+          "masked_scales": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 4,
+          "source_id": "count_001__s42__count__suffix_04",
+          "masked_scales": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 5,
+          "source_id": "count_001__s42__count__suffix_05",
+          "masked_scales": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 6,
+          "source_id": "count_001__s42__count__suffix_06",
+          "masked_scales": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 7,
+          "source_id": "count_001__s42__count__suffix_07",
+          "masked_scales": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 8,
+          "source_id": "count_001__s42__count__suffix_08",
+          "masked_scales": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 9,
+          "source_id": "count_001__s42__count__suffix_09",
+          "masked_scales": [
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 10,
+          "source_id": "count_001__s42__count__suffix_10",
+          "masked_scales": [
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 11,
+          "source_id": "count_001__s42__count__suffix_11",
+          "masked_scales": [
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 12,
+          "source_id": "count_001__s42__count__suffix_12",
+          "masked_scales": [
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 13,
+          "source_id": "count_001__s42__baseline",
+          "masked_scales": []
+        }
+      ]
+    },
+    {
+      "semantic": "spatial_relation",
+      "prompt_id": "spatial_relation_001",
+      "prompt": "A mug is to the left of a coffee pot, with both objects separated and visible from the front on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+      "masked_spans": [
+        "to the left of",
+        "on",
+        "in the"
+      ],
+      "figure": "spatial_relation_all_scales.jpg",
+      "sources": [
+        {
+          "id": "spatial_relation_001__s42__baseline",
+          "condition": "baseline",
+          "image_filename": "spatial_relation_001__s42__baseline.png",
+          "image_sha256": "26166381e0452c58df4e39484ec825d96262e560b16519726fcca153debe6608",
+          "masked_scales": []
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__prefix_01",
+          "condition": "prefix_01",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__prefix_01.png",
+          "image_sha256": "94c3eca5e5c7772dbba374a9451a4ea51b77aabf4fede9e65d6e199ec2443516",
+          "masked_scales": [
+            1
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__prefix_02",
+          "condition": "prefix_02",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__prefix_02.png",
+          "image_sha256": "f72e2bfd0ea10f5a45116e1f7ca5a91adbf6a6f1aa93c84ac539ca99e9b63a85",
+          "masked_scales": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__prefix_03",
+          "condition": "prefix_03",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__prefix_03.png",
+          "image_sha256": "4a83455727a279bf886e5e93d937e9c8b0e3d20da14cb9f30ff1df23cb0cc071",
+          "masked_scales": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__prefix_04",
+          "condition": "prefix_04",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__prefix_04.png",
+          "image_sha256": "3f6cb0f97bcb1cd8d74fdeca109b72bcc4ad7aaa0b861d43daf24df990917d98",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__prefix_05",
+          "condition": "prefix_05",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__prefix_05.png",
+          "image_sha256": "ff3c3dabad0d9cfb49a755fb691fa854cff7ac2c43009ac4e670f783ea2e9225",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__prefix_06",
+          "condition": "prefix_06",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__prefix_06.png",
+          "image_sha256": "28c13af7cabd9af6e26a6e114f1ff9cfb1c0c8982aa0f3cdf0db94f971a6b5dd",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__prefix_07",
+          "condition": "prefix_07",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__prefix_07.png",
+          "image_sha256": "35fd8e1b0b7c12b3e47ac30e59aad6e368f8792eef3506746e8eebfbbda418c5",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__prefix_08",
+          "condition": "prefix_08",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__prefix_08.png",
+          "image_sha256": "cd2a404278d68649c26c34c20b074fd6ec43c0fa83b64f05369f0491cdacb0b6",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__prefix_09",
+          "condition": "prefix_09",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__prefix_09.png",
+          "image_sha256": "e52cbcadee980a50faf80b0b2480768986ee9cd8182ba507ea0900296768282c",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__prefix_10",
+          "condition": "prefix_10",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__prefix_10.png",
+          "image_sha256": "3b7653db52e7dc0d844fd8c8bd9908527ef5e21041fcb1e1d1a174ad9f74699b",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__prefix_11",
+          "condition": "prefix_11",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__prefix_11.png",
+          "image_sha256": "97136e8468b1d9c58f5762ce72e7f9ef8ff4debc5cf8c2ccc9b51ab669de2b30",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__prefix_12",
+          "condition": "prefix_12",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__prefix_12.png",
+          "image_sha256": "ec91ebeab024d655d86f6b71c124b54ffa6c7946c136b5f1bc24e0330689d589",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__full_mask",
+          "condition": "full_mask",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__full_mask.png",
+          "image_sha256": "9132bff3b55f140c921c08a96d61ca66e118592bf1061c21d3821da228dd4e41",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__suffix_01",
+          "condition": "suffix_01",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__suffix_01.png",
+          "image_sha256": "f74b68515ec7d13c360f78d630aa861203d9b52992971dcfede9b4c2ab31761c",
+          "masked_scales": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__suffix_02",
+          "condition": "suffix_02",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__suffix_02.png",
+          "image_sha256": "99c51d9f0a1693e554a943c4cc4c28ef38dc62f1ff6e6fe7324e2fee637a2f5d",
+          "masked_scales": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__suffix_03",
+          "condition": "suffix_03",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__suffix_03.png",
+          "image_sha256": "779a00c03ff59f97cdb3b5a0d9ce29bac0fd766b62b7430bd0677603d9927c07",
+          "masked_scales": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__suffix_04",
+          "condition": "suffix_04",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__suffix_04.png",
+          "image_sha256": "25fd444189b802f927218e9d73a9bca6d1069837b6d8bdce0809cfcc7c5e78ed",
+          "masked_scales": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__suffix_05",
+          "condition": "suffix_05",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__suffix_05.png",
+          "image_sha256": "007f0d1af17fde9f7ecd845fa9a3061b07c1d26e7b32ad767307659e531c8f40",
+          "masked_scales": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__suffix_06",
+          "condition": "suffix_06",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__suffix_06.png",
+          "image_sha256": "812bb4cf4381511edaaccabedab74de909932a04bdc0999a4e5c54a6500f6848",
+          "masked_scales": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__suffix_07",
+          "condition": "suffix_07",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__suffix_07.png",
+          "image_sha256": "0a2747897d1bc083155b7864c19bf083f9c3d76f95a8b9e262882bba75efe6b9",
+          "masked_scales": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__suffix_08",
+          "condition": "suffix_08",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__suffix_08.png",
+          "image_sha256": "c28a66045f71cafc1f31ace80b5c245a27f35c6feabd2a8a801f51adc38dd735",
+          "masked_scales": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__suffix_09",
+          "condition": "suffix_09",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__suffix_09.png",
+          "image_sha256": "efe16b12858c99bf15e3afff4f1d3bd33da8149466b441641a6e33991db85b36",
+          "masked_scales": [
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__suffix_10",
+          "condition": "suffix_10",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__suffix_10.png",
+          "image_sha256": "52e7cebb685db423b1920ed24dd5dc1936f22bb905ff0d484a6c3cd8cd237adf",
+          "masked_scales": [
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__suffix_11",
+          "condition": "suffix_11",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__suffix_11.png",
+          "image_sha256": "1584e9ba97b98c327237a79e0cd6254e98f5eb1856c654495236828912c6c74a",
+          "masked_scales": [
+            12,
+            13
+          ]
+        },
+        {
+          "id": "spatial_relation_001__s42__spatial_relation__suffix_12",
+          "condition": "suffix_12",
+          "image_filename": "spatial_relation_001__s42__spatial_relation__suffix_12.png",
+          "image_sha256": "a5ace30c011cb5ee83ea7967115598df01a71472dc8dc1b47b8387266fe97abb",
+          "masked_scales": [
+            13
+          ]
+        }
+      ],
+      "panels": [
+        {
+          "direction": "prefix",
+          "boundary": 0,
+          "source_id": "spatial_relation_001__s42__baseline",
+          "masked_scales": []
+        },
+        {
+          "direction": "prefix",
+          "boundary": 1,
+          "source_id": "spatial_relation_001__s42__spatial_relation__prefix_01",
+          "masked_scales": [
+            1
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 2,
+          "source_id": "spatial_relation_001__s42__spatial_relation__prefix_02",
+          "masked_scales": [
+            1,
+            2
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 3,
+          "source_id": "spatial_relation_001__s42__spatial_relation__prefix_03",
+          "masked_scales": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 4,
+          "source_id": "spatial_relation_001__s42__spatial_relation__prefix_04",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 5,
+          "source_id": "spatial_relation_001__s42__spatial_relation__prefix_05",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 6,
+          "source_id": "spatial_relation_001__s42__spatial_relation__prefix_06",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 7,
+          "source_id": "spatial_relation_001__s42__spatial_relation__prefix_07",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 8,
+          "source_id": "spatial_relation_001__s42__spatial_relation__prefix_08",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 9,
+          "source_id": "spatial_relation_001__s42__spatial_relation__prefix_09",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 10,
+          "source_id": "spatial_relation_001__s42__spatial_relation__prefix_10",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 11,
+          "source_id": "spatial_relation_001__s42__spatial_relation__prefix_11",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 12,
+          "source_id": "spatial_relation_001__s42__spatial_relation__prefix_12",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "direction": "prefix",
+          "boundary": 13,
+          "source_id": "spatial_relation_001__s42__spatial_relation__full_mask",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 0,
+          "source_id": "spatial_relation_001__s42__spatial_relation__full_mask",
+          "masked_scales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 1,
+          "source_id": "spatial_relation_001__s42__spatial_relation__suffix_01",
+          "masked_scales": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 2,
+          "source_id": "spatial_relation_001__s42__spatial_relation__suffix_02",
+          "masked_scales": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 3,
+          "source_id": "spatial_relation_001__s42__spatial_relation__suffix_03",
+          "masked_scales": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 4,
+          "source_id": "spatial_relation_001__s42__spatial_relation__suffix_04",
+          "masked_scales": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 5,
+          "source_id": "spatial_relation_001__s42__spatial_relation__suffix_05",
+          "masked_scales": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 6,
+          "source_id": "spatial_relation_001__s42__spatial_relation__suffix_06",
+          "masked_scales": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 7,
+          "source_id": "spatial_relation_001__s42__spatial_relation__suffix_07",
+          "masked_scales": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 8,
+          "source_id": "spatial_relation_001__s42__spatial_relation__suffix_08",
+          "masked_scales": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 9,
+          "source_id": "spatial_relation_001__s42__spatial_relation__suffix_09",
+          "masked_scales": [
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 10,
+          "source_id": "spatial_relation_001__s42__spatial_relation__suffix_10",
+          "masked_scales": [
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 11,
+          "source_id": "spatial_relation_001__s42__spatial_relation__suffix_11",
+          "masked_scales": [
+            12,
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 12,
+          "source_id": "spatial_relation_001__s42__spatial_relation__suffix_12",
+          "masked_scales": [
+            13
+          ]
+        },
+        {
+          "direction": "suffix",
+          "boundary": 13,
+          "source_id": "spatial_relation_001__s42__baseline",
+          "masked_scales": []
+        }
+      ]
+    }
+  ]
+}

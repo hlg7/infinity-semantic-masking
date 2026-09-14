@@ -11,6 +11,7 @@
 | 入口 | 内容 | 保存位置 |
 |---|---|---|
 | [csfm50_full_review/review.md](csfm50_full_review/review.md) | 正式实验核对报告 | GitHub 已收录 |
+| [六类全 scale 对照图](csfm50_full_review/examples) | 每类一个 prompt，全部 prefix/suffix；156 张原图排成六张对照图，附来源和哈希清单 | GitHub 已收录 |
 | [Retention 曲线](csfm50_full_review/retention.png) | 各类 baseline 正确样本的语义保留率 | GitHub 已收录，另有 PDF |
 | [成功率曲线](csfm50_full_review/success_rate.png) | 全样本成功率与 baseline | GitHub 已收录，另有 PDF |
 | [audit_summary.json](csfm50_full_review/audit_summary.json) | 7,800 项评分和 448 行聚合统计核对 | GitHub 已收录 |
@@ -59,6 +60,7 @@
 - `csfm50_full_launch.md`：正式实验启动记录。
 - `local_checks.log`、`local_status.json`：早期本地验证记录，不能当成当前实验状态。
 - `runpod_bundle.tar.gz`、`dataset_pilot_update.tar`、`batch_annotation_update.tar`：历史传输包，暂保留。
+- `readme_example_sources/`：README 六类样例的 156 张完整实验原始 PNG 与下载清单；排版后的对照图和来源清单收录于 `csfm50_full_review/examples/`。
 - `organization_cleanup_20260914.json`：本次重复压缩包清理的校验记录。
 
 ## 5. 2026-09-14 整理记录

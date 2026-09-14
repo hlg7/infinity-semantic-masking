@@ -112,11 +112,70 @@ Qwen3-VL-8B-Instruct 仅用文本进行分组，每批 8 条；共享规则在 [
 
 本结果仅是单 seed、受控 prompt 集的探索性自动评分。预实验发现红/橙边界、粗糙/光滑判断有歧义，DINO 可能误检；完整 7,800 张尚未逐张人工复核。Shape、count、spatial 的 baseline 较低，retention 有效分母须同时报告。
 
-### 代表性预实验图片
+### 六类 semantic：全部 prefix / suffix 图片
 
-每行从左至右为 baseline、prefix(6)、full mask、suffix(6)。这是 **40 图预实验的选例**，不是全部完整实验图片。
+以下图片来自 **300-prompt 完整实验**，每类选一个 prompt，seed 均为 42。选取规则是：每类按 prompt ID 排序，取首个 baseline 自动评分为 correct 的样本；不按 mask 后的效果筛选。这些是单样本展示，不代替上面的全数据集统计。
 
-![Pilot examples](reports/pilot_review/selected_examples.jpg)
+每张对照图共四行，均从左到右阅读：
+
+1. Prefix(0)～Prefix(6)
+2. Prefix(7)～Prefix(13)
+3. Suffix(0)～Suffix(6)
+4. Suffix(7)～Suffix(13)
+
+每个小图同时标明实际 mask 的 scale 范围。**每类 28 个展示位置对应 26 张不同的原图**：baseline 和 full mask 在两个方向各展示一次。点击对照图可查看大图；仅缩小排版，未重新生成或修改图片内容。
+
+#### Object · `object_001`
+
+> A dog is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.
+
+整类 mask 文本：`dog` + `garden` + `wall` + `trees`。
+
+[![Object: all prefix and suffix boundaries 0–13](reports/csfm50_full_review/examples/object_all_scales.jpg)](reports/csfm50_full_review/examples/object_all_scales.jpg)
+
+#### Color · `color_002`
+
+> A green cat is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.
+
+整类 mask 文本：`green`。
+
+[![Color: all prefix and suffix boundaries 0–13](reports/csfm50_full_review/examples/color_all_scales.jpg)](reports/csfm50_full_review/examples/color_all_scales.jpg)
+
+#### Shape · `shape_001`
+
+> A round plate is shown with its outer outline clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.
+
+整类 mask 文本：`round`。
+
+[![Shape: all prefix and suffix boundaries 0–13](reports/csfm50_full_review/examples/shape_all_scales.jpg)](reports/csfm50_full_review/examples/shape_all_scales.jpg)
+
+#### Texture · `texture_001`
+
+> A striped shirt is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.
+
+整类 mask 文本：`striped`。
+
+[![Texture: all prefix and suffix boundaries 0–13](reports/csfm50_full_review/examples/texture_all_scales.jpg)](reports/csfm50_full_review/examples/texture_all_scales.jpg)
+
+#### Count · `count_001`
+
+> Two mugs are arranged separately, with every item fully visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.
+
+整类 mask 文本：`Two`。
+
+[![Count: all prefix and suffix boundaries 0–13](reports/csfm50_full_review/examples/count_all_scales.jpg)](reports/csfm50_full_review/examples/count_all_scales.jpg)
+
+#### Spatial Relation · `spatial_relation_001`
+
+> A mug is to the left of a coffee pot, with both objects separated and visible from the front on a wooden cafe table, with empty chairs and a softly lit window visible in the background.
+
+整类 mask 文本：`to the left of` + `on` + `in the`。
+
+[![Spatial Relation: all prefix and suffix boundaries 0–13](reports/csfm50_full_review/examples/spatial_relation_all_scales.jpg)](reports/csfm50_full_review/examples/spatial_relation_all_scales.jpg)
+
+六类共 156 张原图，全部与生成记录的 SHA256 校验一致。[选样与逐图来源记录](reports/csfm50_full_review/examples/manifest.json) · [对照图生成脚本](scripts/build_readme_examples.py)。下载对应原图到本地后，可运行 `.venv/bin/python scripts/build_readme_examples.py --images /path/to/generation/images` 重新排版。
+
+早期的四条件预实验图片仍保留在 [pilot_review](reports/pilot_review)，不与本节完整实验样例混用。
 
 ## 文件结构
 
@@ -146,7 +205,7 @@ Qwen3-VL-8B-Instruct 仅用文本进行分组，每批 8 条；共享规则在 [
 │   └── Infinity/                  # setup_sources.py 下载；不纳入 Git
 └── reports/
     ├── csfm50_full/                # 完整输入快照、生成清单、全部评分
-    ├── csfm50_full_review/         # 最终曲线、统计审计、报告
+    ├── csfm50_full_review/         # 最终曲线、统计审计、报告及六类全 scale 对照图
     ├── pilot_review/              # 10 prompt 预实验图片、评分表、曲线
     ├── full_review/               # 早期单 prompt 全 scale 验证报告
     └── infinity_scale_index.patch # baseline/干预共用的上游修正
